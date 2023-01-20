@@ -741,8 +741,8 @@ let jacket = [
         img: '/public-assets/jacket/j61-2.png'
       },
       {
-        id: 'd61-3',
-        img: '/public-assets/jacket/d61-3.png'
+        id: 'j61-3',
+        img: '/public-assets/jacket/j61-3.png'
       }
     ],
     title: '어워드 베이직 싱글버튼 테일러드 자켓',
@@ -975,4 +975,556 @@ let jacket = [
   },
 ];
 
+let coat = [
+  {
+    id: 'c0',
+    mbti: ['estj', 'infj', 'isfj', 'isfp'],
+    mainImg: [
+      {
+        id: 'c01-1',
+        img: '/public-assets/coat/c01-1.png'
+      },
+      {
+        id: 'c01-2',
+        img: '/public-assets/coat/c01-2.png'
+      },
+      {
+        id: 'c01-3',
+        img: '/public-assets/coat/c01-3.png'
+      }
+    ],
+    title: '골드 더블버튼 프리미엄 울코트',
+    cost: '69,300',
+    content: {
+      md: `따뜻하면서도 가볍게 입을 수 있는 
+      고급스러운 코트 소개해드려요:)
+      
+      오피스, 로맨틱, 러블리, 캐쥬얼 등
+      어떤 코디에도 툭 걸쳐주기만 하면
+      멋스러운 스타일링이 완성된답니다!`,
+
+      detail: `블링블링 반짝이며 포인트를 더하는
+      골드 컬러의 더블 버튼 디테일이
+      돋보이는 루즈핏 롱코트 제품이에요.
+      
+      오픈했을 때에는 박시하게 툭 떨어지며
+      클로징하면 넉넉하게 감싸주면서 편안하고
+      따뜻하게 사랑스러운 느낌을 연출해드려요.
+      
+      오버핏으로 제작되어 니트, 맨투맨 등
+      도톰한 이너와도 함께 착용하기 좋답니다-`,
+
+      size: `FREE 사이즈로 준비되었어요;)`
+    },
+    images: {
+      wearing: [
+        '/public-assets/coat/c02-1.png',
+        '/public-assets/coat/c02-2.png'
+      ],
+      detail: '/public-assets/coat/c03.png',
+      material : '/public-assets/dress/flowerM.png',
+      washing: '/public-assets/jacket/j0W.png'
+    }
+  },
+  {
+    id: 'c1',
+    mbti: ['entj', 'estj', 'infj', 'isfj', 'istj'],
+    mainImg: [
+      {
+        id: 'c11-1',
+        img: '/public-assets/coat/c11-1.png'
+      },
+      {
+        id: 'c11-2',
+        img: '/public-assets/coat/c11-2.png'
+      },
+      {
+        id: 'c11-3',
+        img: '/public-assets/coat/c11-3.png'
+      }
+    ],
+    title: '울 롱 코트',
+    cost: '275,000',
+    content: {
+      md: `"매년 오랫동안 함께할 수 있는 롱 코트"
+      보자마자 이거다..! 수많은 샘플 중에 유독 돋보였던 퀄리티로
+      실물이 남달랐던 제품이에요.
+      색감 디테일 소재 하나하나 만족스러워 꼭 보여드리고 싶었어요.
+      
+      단가가 높게 나왔지만 색감 디테일 소재 하나하나
+      만족스러웠던 퀄리티라 믿고 구매해 주셔도 좋아요💙`,
+
+      detail: `흐르듯 가볍고 유연한 실루엣을 연출해 드리며,
+      차르르 고급스러운 질감의 소재를 사용했어요~
+      
+      부해보이는 느낌 없이 전체적으로 루즈한 핏감이
+      여리함을 더해주며 체형에 맞게 핏 조절이 가능한 허리 스트랩!
+      
+      바디를 포근하게 감싸주는
+      롱한 기장감을 갖추고 있어요.`,
+
+      size: `FREE 사이즈로 준비했습니다!`
+    },
+    images: {
+      wearing: [
+        '/public-assets/coat/c12-1.png',
+        '/public-assets/coat/c12-2.png'
+      ],
+      detail: '/public-assets/coat/c13.png',
+      material : '/public-assets/coat/c1M.png',
+      washing: '/public-assets/dress/d2W.png'
+    }
+  },
+  {
+    id: 'c2',
+    mbti: ['entj', 'estj', 'infj', 'isfj', 'istj'],
+    mainImg: [
+      {
+        id: 'c21-1',
+        img: '/public-assets/coat/c21-1.png'
+      },
+      {
+        id: 'c21-2',
+        img: '/public-assets/coat/c21-2.png'
+      },
+      {
+        id: 'c21-3',
+        img: '/public-assets/coat/c21-3.png'
+      }
+    ],
+    title: '헨델 소프트울 싱글 히든버튼 카라 롱코트',
+    cost: '87,500',
+    content: {
+      md: `울 혼방 소재와 도톰한 두께감으로 보온성을 톡톡히 챙긴 겨울용 코트.
+      
+      울이 들어갔지만, 손으로 쓸어봐도
+      부드럽고 톡톡한 조직감이 느껴지며,
+      다른 울코트들 보다 비교적 보풀에 강해
+      오래도록 함께 하실 수 있는 코트입니다!`,
+
+      detail: `체형에 맞춰 흐르는 래글런 어깨라인,
+      걸을 때마다 살짝만 퍼지는 내츄럴 핏을 연출했습니다.
+      
+      단추를 클로징 시, 첫 단추만 보이는 히든단작 디테일 덕분에
+      차림새가 단정해 보이는 싱글 롱 코트~
+      
+      스트랩을 앞으로 묶어 단정한 스타일로,
+      뒤로 자연스럽게 늘어뜨려 데일리한 느낌으로
+      어떻게 연출하는지에 따라 다른 느낌으로 입으실 수 있어요!`,
+
+      size: `FREE 사이즈로 준비되었습니다~`
+    },
+    images: {
+      wearing: [
+        '/public-assets/coat/c22-1.png',
+        '/public-assets/coat/c22-2.png'
+      ],
+      detail: '/public-assets/coat/c23.png',
+      material : '/public-assets/coat/c2M.png',
+      washing: '/public-assets/dress/d2W.png'
+    }
+  },
+  {
+    id: 'c3',
+    mbti: ['enfp', 'entp', 'estj', 'isfj', 'isfp'],
+    mainImg: [
+      {
+        id: 'c31-1',
+        img: '/public-assets/coat/c31-1.png'
+      },
+      {
+        id: 'c31-2',
+        img: '/public-assets/coat/c31-2.png'
+      },
+      {
+        id: 'c31-3',
+        img: '/public-assets/coat/c31-3.png'
+      }
+    ],
+    title: '헤이즐 와이드 세일러 카라 핸드메이드 코트',
+    cost: '259,000',
+    content: {
+      md: `로맨틱한 무드를 선사할 세일러 카라
+      핸드메이드 롱코트 입니다.
+      
+      울 90% 혼방의
+      부드러우면서 따스한 착용감으로
+      매년 고급스럽게 입어지며
+      
+      브랜드 못지 않은 퀄리티와
+      세세한 디테일들로
+      고급스러움이 남다른 제품입니다.`,
+
+      detail: `밑단으로 갈수록 자연스럽게 퍼지는
+      A라인 쉐입이라 체형 커버는 물론
+      드레시하면서도 우아한 핏감을 선사하며,
+
+      허리 라인의 사선 절개 디테일과
+      허리 스트랩으로 부해보임 없는
+      세련된 실루엣을 연출해드립니다.
+      
+      백라인의 긴 슬릿 디테일로
+      활동시에 불편함을 줄였으며
+      
+      프런트 라인의 더블 버튼과 속 단추 디테일로
+      보다 따스하게 착용됩니다.
+      
+      데일리로는 물론이고
+      오피스룩, 격식룩에도
+      착용하기 좋은 아우터로 추천드립니다.`,
+
+      size: `FREE 사이즈로 준비되었어요.
+      키 167CM 이하의 체형을 가지신 분들에게 부담없이 착용가능해 추천해드려요~`
+    },
+    images: {
+      wearing: [
+        '/public-assets/coat/c32-1.png',
+        '/public-assets/coat/c32-2.png'
+      ],
+      detail: '/public-assets/coat/c33.png',
+      material : '/public-assets/coat/c3M.png',
+      washing: '/public-assets/dress/d2W.png'
+    }
+  },
+  {
+    id: 'c4',
+    mbti: ['enfp', 'entp', 'estj', 'isfj', 'isfp'],
+    mainImg: [
+      {
+        id: 'c41-1',
+        img: '/public-assets/coat/c41-1.png'
+      },
+      {
+        id: 'c41-2',
+        img: '/public-assets/coat/c41-2.png'
+      },
+      {
+        id: 'c41-3',
+        img: '/public-assets/coat/c41-3.png'
+      }
+    ],
+    title: '클래시 더블버튼 울 베이직 롱코트',
+    cost: '72,000',
+    content: {
+      md: `정말 많은 코트 제품들이 있었지만
+      고객님들의 가심비를 충족시켜 줄
+      아이템을 찾아 선보이게 되었어요*.*
+      
+      도톰한 두께감과 부드러운 텍스쳐가 매력적인 울소재로
+      제작되어 한겨울까지 활용해보기에 좋은 코트예요-
+      
+      밀도 높게 짜여진 원단이라서
+      어깨에 살짝 걸치기만 해도 안정감있고
+      포근하게 감싸주는 느낌이 매력적이랍니다 ♩
+      
+      군더더기 없이 깔끔하게 떨어지는 실루엣으로 
+      편안한 데일리 캐쥬얼룩부터 오피스룩까지
+      모든 코디에 찰떡 코디가 가능하며,
+      
+      일반적인 롱코트와 견주어보아도
+      핏부터 컬러, 두께감, 착용감, 보온성 등이
+      절대 부족하지 않았기 때문에 자신있게 추천드려요!`,
+
+      detail: `무릎 아래로 여유있게 내려오는 롱한 기장감에
+      너무 루즈하지도, 부담스럽게 핏되지도 않으며
+      깔끔하고 세련된 라인을 만들어주는 일자핏 실루엣.
+      
+      스타일과 유행에 구애 없이 오랜기간 소장하기에도 좋아요-!
+      
+      매끄러운 폴리 안감을 더해 보온성을 높이고 
+      마찰력을 줄여 니트와 함께 착용하셔도
+      필링 현상이 비교적 적답니다.
+      
+      바스트 라인의 페이크 포켓으로
+      밋밋하지 않고 스타일리쉬한 느낌을 더해주며,
+      
+      백라인에서 보아도 밋밋해 보이지 않도록
+      트임 디테일을 추가하여 활동성까지 높여주었어요:-)
+      
+      실용성을 더해준 양쪽 사이드의 사선 포켓으로
+      간단한 소지품 수납이 가능하답니다!`,
+
+      size: `FREE 사이즈로 준비되었어요.
+      키 162CM 이하의 체형을 가지신 분들에게 부담없이 착용가능해 추천해드려요~`
+    },
+    images: {
+      wearing: [
+        '/public-assets/coat/c42-1.png',
+        '/public-assets/coat/c42-2.png'
+      ],
+      detail: '/public-assets/coat/c43.png',
+      material : '/public-assets/coat/c4M.png',
+      washing: '/public-assets/jacket/j6W.png'
+    }
+  },
+  {
+    id: 'c5',
+    mbti: ['enfp', 'entp', 'estj', 'isfj', 'isfp'],
+    mainImg: [
+      {
+        id: 'c51-1',
+        img: '/public-assets/coat/c51-1.png'
+      },
+      {
+        id: 'c51-2',
+        img: '/public-assets/coat/c51-2.png'
+      },
+      {
+        id: 'c51-3',
+        img: '/public-assets/coat/c51-3.png'
+      }
+    ],
+    title: '숄카라 핸드메이드 롱코트',
+    cost: '284,000',
+    content: {
+      md: `울 혼방 소재를 압축가공하여
+      부드럽고 톡톡한 터치감은 물론이며
+      두께에 비해 탁월한 보온성과
+      가볍지만 따뜻하다는 강점이 있어요!
+      
+      누빔 내피까지 덧대져 이렇게 따뜻해도 되나 싶을 정도로 
+      입자마자 잠이 솔솔 올 것 같은 포근함을 느껴보실 수 있어요-
+      
+      아주 도톰한 니트도 충분히 껴입을 수 있는 넉넉한 사이즈에
+      깔끔하게 떨어지는 A라인 핏으로​
+      한겨울 두툼한 레이어드를 도와줄 거예요:)
+      
+      슬림한 핏이 필요할 때는
+      허리에 있는 스트랩을 툭- 둘러 착용할 수 있는
+      우아한 숄 카라 장식의 로브 디자인이랍니다!`,
+
+      detail: `발목 위까지 떨어지는 롱한 기장감으로
+      추운 겨울에 따뜻하게 입기 좋은 오버핏이구요,
+      특별한 디테일 없이 소맷단의 핸드메이드 라벨로
+      심플한 포인트로 플랫한 무드를 선사해드려요.
+      
+      허리 라인의 슬림한 고리 디테일은
+      스트랩을 안정적으로 잡아주며
+      
+      포켓과 팔 라인 안감에는 부드러운 소재가
+      덧대져 맨살에 닿거나 포켓 속에 손을 넣어도
+      까슬거림없이 매끄럽게 착용할 수 있어요-
+      
+      각 잡히지 않고 자연스럽게 떨어지는
+      카라 디자인으로 한층 더 우아하면서
+      고급스러운 무드를 연출해드려요.`,
+
+      size: `FREE 사이즈로 준비되었어요.
+      키 168CM 이하의 체형을 가지신 분들에게 부담없이 착용가능해 추천해드려요~`
+    },
+    images: {
+      wearing: [
+        '/public-assets/coat/c52-1.png',
+        '/public-assets/coat/c52-2.png'
+      ],
+      detail: '/public-assets/coat/c53.png',
+      material : '/public-assets/coat/c3M.png',
+      washing: '/public-assets/dress/d2W.png'
+    }
+  },
+  {
+    id: 'c6',
+    mbti: ['esfp', 'estj', 'isfj', 'istj', 'istp'],
+    mainImg: [
+      {
+        id: 'c61-1',
+        img: '/public-assets/coat/c61-1.png'
+      },
+      {
+        id: 'c61-2',
+        img: '/public-assets/coat/c61-2.png'
+      },
+      {
+        id: 'c61-3',
+        img: '/public-assets/coat/c61-3.png'
+      }
+    ],
+    title: 'A라인핏 핸드메이드 하프코트',
+    cost: '89,000',
+    content: {
+      md: `높은 퀄리티의 울 캐시미어 소재로
+      보온성은 높이고, 포근하고 부드러운 느낌을 더했습니다.
+      여유있는 편안한 착용감으로 일상에서 다양하게 코디할 수 있도록
+      실용성을 높였습니다.`,
+
+      detail: `A라인 핏으로 밋밋하지 않고
+      세련된 느낌을 주며
+      전체적인 색상을 자연스럽게 어우러지도록 하여
+      디테일을 살린 캐주얼한 하프코트 입니다.
+      
+      미니멀한 싱글 버튼 디자인과 넥 칼라 디자인에서
+      유행에 구애 없는 깔끔한 무드가 느껴져요.
+      
+      맨 위 단추 라인 끝 부분에 숨겨져 있는
+      작은 스냅 버튼으로 더욱 깔끔하게 클로징 가능합니다!
+      
+      소매 라인에는 절개선과 오픈 가능한 버튼으로
+      롤업 연출이 가능해요~`,
+
+      size: `FREE 사이즈로 준비되었어요.
+      키 163CM 이하의 체형을 가지신 분들에게 부담없이 착용가능해 추천해드려요~`
+    },
+    images: {
+      wearing: [
+        '/public-assets/coat/c62-1.png',
+        '/public-assets/coat/c62-2.png'
+      ],
+      detail: '/public-assets/coat/c63.png',
+      material : '/public-assets/coat/c6M.png',
+      washing: '/public-assets/jacket/j6W.png'
+    }
+  },
+  {
+    id: 'c7',
+    mbti: ['esfj', 'estj', 'infj', 'isfj'],
+    mainImg: [
+      {
+        id: 'c71-1',
+        img: '/public-assets/coat/c71-1.png'
+      },
+      {
+        id: 'c71-2',
+        img: '/public-assets/coat/c71-2.png'
+      },
+      {
+        id: 'c71-3',
+        img: '/public-assets/coat/c71-3.png'
+      }
+    ],
+    title: '덕다운 패딩 안감의 하프기장 싱글 핸드메이드코트',
+    cost: '100,000',
+    content: {
+      md: `겨울철 예쁜 코트를 위해 늘 입어야 했던
+      경량 패딩, 이젠 따로 챙기지 마세요~
+      
+      폭근한 덕다운 패딩이 등판 안쪽 내장되어있어
+      요 아이템 하나만으로 겨울을 보낼 수 있는
+      든든한 핸드메이드 코트 아이템이랍니다:)
+      
+      실용성과 퀄리티 그리고 예쁜 아웃핏까지
+      모두 섬세하게 신경써서 제작되었으니,
+      올 겨울 맞이 1등 아이템으로 꼭 소장해주시길 바랄게요♥`,
+
+      detail: `데일리하게 입기 좋은 싱글 버튼과 딱 적당한
+      하프 기장으로 제작되어 160부터
+      168까지 모두 예쁜 핏으로 입기 좋구요,
+      숄더라인 패드 삭제로 자연스러운 아웃핏을
+      연출해 드리는 아이템이랍니다.
+      
+      소매라인 실키한 안감을 넣어주어 착용시
+      이너가 밀리지 않도록 제작되었구요,
+      양 사이드 포켓과 백라인 트임으로
+      실용성까지 신경써서 완성했답니다♥`,
+
+      size: `FREE 사이즈로 준비되었어요~`
+    },
+    images: {
+      wearing: [
+        '/public-assets/coat/c72-1.png',
+        '/public-assets/coat/c72-2.png'
+      ],
+      detail: '/public-assets/coat/c73.png',
+      material : '/public-assets/coat/c7M.png',
+      washing: '/public-assets/jacket/j6W.png'
+    }
+  },
+  {
+    id: 'c8',
+    mbti: ['estj', 'infj', 'isfj', 'isfp'],
+    mainImg: [
+      {
+        id: 'c81-1',
+        img: '/public-assets/coat/c81-1.png'
+      },
+      {
+        id: 'c81-2',
+        img: '/public-assets/coat/c81-2.png'
+      },
+      {
+        id: 'c81-3',
+        img: '/public-assets/coat/c81-3.png'
+      }
+    ],
+    title: '누아 싱글 트렌치 코트',
+    cost: '82,000',
+    content: {
+      md: `데일리한 무드의 싱글 카라 트렌치 코트입니다.
+      무릎을 살짝 넘는 미디 기장 제품으로, 체형 상관없이
+      예쁘게 착용됩니다.
+      
+      간절기에 착용하기 좋은 적당한 두께감의 코튼 트렌치 코드입니다.
+      만졌을 때 바삭거리는 탄탄한 코튼 재질이 아닌
+      부드럽고 유연하게 움직이는 재질로 편안한 착용감을 선사합니다.`,
+
+      detail: `깔끔한 느낌의 스탠 카라와 원단 컬러에 맞춘 단추 장식,
+      매력적인 백라인을 연출하는 깊은 절개와 버튼 디테일,
+      생활에 실용성을 더해 줄 사이드 포켓,
+      정전기를 방지하기 위한 안감 라이닝까지!
+      꼭 소장하시길 추천합니다~`,
+
+      size: `FREE 사이즈로 준비되었어요.
+      키 167CM 이하의 체형을 가지신 분들에게 부담없이 착용가능해 추천해드려요~`
+    },
+    images: {
+      wearing: [
+        '/public-assets/coat/c82-1.png',
+        '/public-assets/coat/c82-2.png'
+      ],
+      detail: '/public-assets/coat/c83.png',
+      material : '/public-assets/coat/c8M.png',
+      washing: '/public-assets/coat/c8W.png'
+    }
+  },
+  {
+    id: 'c9',
+    mbti: ['enfp', 'esfp', 'infp', 'isfj', 'istp'],
+    mainImg: [
+      {
+        id: 'c91-1',
+        img: '/public-assets/coat/c91-1.png'
+      },
+      {
+        id: 'c91-2',
+        img: '/public-assets/coat/c91-2.png'
+      },
+      {
+        id: 'c91-3',
+        img: '/public-assets/coat/c91-3.png'
+      }
+    ],
+    title: '배색 소매 체크 핸드메이드 코트',
+    cost: '100,000',
+    content: {
+      md: `순도 높은 메리노 울로
+      저퀄리티가 아닌 직접 보면 확실히 다른 코트입니다!
+      이번 겨울 시즌만 입는게 아닌
+      유행타지 않으면서도 트렌디하게 연출했습니다.
+      소장하실 추천해드릴게요.`,
+
+      detail: `카라는 깔끔하고 세련된
+      테일러드 디자인으로 제작했어요.
+      
+      툭- 가볍게 걸쳐도 슬림하게 연출되는
+      여유있는 루즈한 핏감이에요!
+      
+      부한 느낌없이 떨어지는 롱한 기장감으로 체형커버는 물론,
+      한 겨울까지 따뜻하게 즐겨입기 좋아요.
+      
+      고급스러운 색감으로 염색된 더블 버튼과
+      실용성을 더해준 깔끔한 사이드 포켓까지!`,
+
+      size: `FREE 사이즈로 준비되었어요.
+      키 167CM 이하의 체형을 가지신 분들에게 부담없이 착용가능해 추천해드려요~`
+    },
+    images: {
+      wearing: [
+        '/public-assets/coat/c92-1.png',
+        '/public-assets/coat/c92-2.png'
+      ],
+      detail: '/public-assets/coat/c93.png',
+      material : '/public-assets/coat/c9M.png',
+      washing: '/public-assets/coat/c9W.png'
+    }
+  }
+];
 export {dress};
