@@ -1527,4 +1527,1038 @@ let coat = [
     }
   }
 ];
+
+let shirt = [
+  {
+    id: 's0',
+    mbti: ['entj', 'entp', 'esfj', 'infj', 'isfj', 'isfp'],
+    mainImg: [
+      {
+        id: 's01-1',
+        img: '/public-assets/shirt/s01-1.png'
+      },
+      {
+        id: 's01-2',
+        img: '/public-assets/shirt/s01-2.png'
+      },
+      {
+        id: 's01-3',
+        img: '/public-assets/shirt/s01-3.png'
+      }
+    ],
+    title: '리쉬 스트라이프 워싱 코튼 세미크롭 셔츠',
+    cost: '21,000',
+    content: {
+      md: `적당히 톡톡한 코튼 원단에 바이오워싱으로
+      세탁시의 수축 걱정을 줄여주었고,
+      
+      바스락한 느낌보다는 가볍고 산뜻한 소재감이라
+      피부에 잘 달라붙지 않아 지금부터 봄까지
+      쾌적하게 착용하시기 좋아요-
+      
+      텍스쳐가 소프트한 만큼 생활 주름까지
+      내츄럴하게 느껴지는 매력이 있답니다 :-)
+      
+      크롭 셔츠의 가장 큰 장점은
+      팬츠 위에 툭- 입어줘도 더할나위 없이 깔끔하면서
+      센스있는 데일리룩이 완성된다는 점이지요*.*
+      
+      슬리브리스나 티셔츠와 위에 여름용 아우터로
+      간절기 시즌에는 심플한 셔츠룩으로 활용 가능하며,
+
+      소매를 돌돌돌 말아 입으면 또다른 매력이 느껴져
+      캐주얼부터 여리여리한 무드까지 연출하실 수 있어요!`,
+
+      detail: `골반에 살짝 걸쳐치는 세미 크롭 기장이라
+      하의에 넣어 입지 않아도 깔끔+단정하게 연출되고,
+
+      하이웨스트 팬츠나 허리선이 높은 스커트와
+      매치했을 때 다리가 길어 보이는 핏이랍니다 :)
+
+      적당히 여유로운 품으로 라인 부각 없이 입어지고
+      어깨라인이 실루엣에 맞춰 살짝 드롭된 내츄럴핏으로
+      보다 편안하고 휘뚜루하게 입기 좋아요-!
+
+      패턴감이 얇은 핀스트라이프로 들어가서
+      더욱 깔끔하게 느껴지는 아이템이에요.`,
+
+      size: `FREE 사이즈로 준비되었어요;)
+      162cm 이하 부담없이 착용하실 수 있어요.`
+    },
+    images: {
+      wearing: [
+        '/public-assets/shirt/s02-1.png',
+        '/public-assets/shirt/s02-2.png'
+      ],
+      detail: '/public-assets/shirt/s03.png',
+      material : '/public-assets/shirt/s0M.png',
+      washing: '/public-assets/shirt/s0W.png'
+    }
+  },
+  {
+    id: 's1',
+    mbti: ['esfp', 'infp', 'intp', 'isfp'],
+    mainImg: [
+      {
+        id: 's11-1',
+        img: '/public-assets/shirt/s11-1.png'
+      },
+      {
+        id: 's11-2',
+        img: '/public-assets/shirt/s11-2.png'
+      },
+      {
+        id: 's11-3',
+        img: '/public-assets/shirt/s11-3.png'
+      }
+    ],
+    title: '톤다운된 체크패턴 포인트 루즈핏 긴팔셔츠',
+    cost: '25,600',
+    content: {
+      md: `썸머 아우터로도 활용이 가능하고
+      쌀쌀해지면 자켓안에 이너로 착용도 가능한
+      실용성 100% 제품이에요!
+      
+      라이트한 무게감과 통기성 좋은 코튼 소재로
+      언제 어디서나 입기 좋은 제품이랍니다♥`,
+
+      detail: `데일리 아이템으로 즐기실 수 있는
+      베이직한 무드의 아이템이에요.
+      
+      프론트 포켓 디테일로 포인트를 주었구요.
+      
+      살짝 루즈하게 떨어지는 핏감으로
+      편안한 활동성은 물론이고
+      여리여리한 무드를 연출해드린답니다.
+      
+      프론트 중앙 부분 버튼 디테일로
+      손쉬운 오픈 클로징이 가능하며
+      여러가지 컬러감이 믹스된 체크 패턴으로
+      감각적인 데일리룩 연출해드릴 거에요:)`,
+
+      size: `FREE 사이즈로 준비했습니다!`
+    },
+    images: {
+      wearing: [
+        '/public-assets/shirt/s12-1.png',
+        '/public-assets/shirt/s12-2.png'
+      ],
+      detail: '/public-assets/shirt/s13.png',
+      material : '/public-assets/jacket/j3M.png',
+      washing: '/public-assets/coat/c8W.png'
+    }
+  },
+  {
+    id: 's2',
+    mbti: ['enfp', 'entp', 'estp', 'intp', 'isfp'],
+    mainImg: [
+      {
+        id: 's21-1',
+        img: '/public-assets/shirt/s21-1.png'
+      },
+      {
+        id: 's21-2',
+        img: '/public-assets/shirt/s21-2.png'
+      },
+      {
+        id: 's21-3',
+        img: '/public-assets/shirt/s21-3.png'
+      }
+    ],
+    title: '코지한 무드의 루즈핏 체크 셔츠',
+    cost: '24,000',
+    content: {
+      md: `은은한 비침이 있고 얇고 가벼운 원단으로
+      산뜻하게 착용 가능하며,
+      유연한 소재감으로 부드러운 착용감이 느껴집니다.
+      
+      햇빛이 쨍쨍한 여름 시즌에는 자외선 차단템으로,
+      간절기 시즌에는 가볍게 걸칠 아우터로
+      다양하게 활용 가능합니다.`,
+
+      detail: `여유있는 품과 기장으로
+      여리한 무드를 느낄실 수 있습니다~
+      빈티지하고 차분한 색감의 체크 패턴으로
+      캐주얼하고 감성이 돋보입니다.`,
+
+      size: `FREE 사이즈로 준비되었습니다!`
+    },
+    images: {
+      wearing: [
+        '/public-assets/shirt/s22-1.png',
+        '/public-assets/shirt/s22-2.png'
+      ],
+      detail: '/public-assets/shirt/s23.png',
+      material : '/public-assets/jacket/j3M.png',
+      washing: '/public-assets/jacket/j9W.png'
+    }
+  },
+  {
+    id: 's3',
+    mbti: ['esfj', 'estj', 'infj', 'isfp'],
+    mainImg: [
+      {
+        id: 's31-1',
+        img: '/public-assets/shirt/s31-1.png'
+      },
+      {
+        id: 's31-2',
+        img: '/public-assets/shirt/s31-2.png'
+      },
+      {
+        id: 's31-3',
+        img: '/public-assets/shirt/s31-3.png'
+      }
+    ],
+    title: '모노 윈터 베이직 컬러 기모 셔츠 블라우스',
+    cost: '28,000',
+    content: {
+      md: `겨울 내내 데일리룩으로, 레이어드룩으로
+      활용도 높은 기모 소재감의 베이직 제품이에요.
+      
+      도톰하고 탄탄한 소재감으로 봄,가을,겨울 시즌 동안
+      따뜻하게 입어보실 수 있는 피치기모 패브릭.
+      
+      부드럽고 보온성이 높은 소재감에
+      깔끔한 기본 디자인으로 제작되어
+      레이어드하기에도 좋고 활용도가 정말 높답니다*.*
+      
+      셔츠처럼 깔끔한 무드로 출근룩은 물론이며,
+      왠지 좀더 꾸미고 싶은 날 또는 하객룩으로도 잘 어울려서
+      소장해두시면, 다양한 코디가 가능할 것 같아요!
+      
+      유행을 타지 않는 베이직한 디자인과
+      구김에 강한 톡톡한 소재감으로 완성되었고,
+      
+      적당한 두께감으로 비침이 없으면서 
+      늘어남, 보풀이 생기지 않는 원단이라
+      오래도록 말끔하게 소장해보기 좋답니다♪`,
+
+      detail: `한눈에 보아도 깔끔한 무드가 느껴지는
+      세련된 데일리 블라우스 :~)
+      
+      일반적인 블라우스보다 도톰하지만,
+      실루엣이 벙벙하게 살거나 각지지 않도록
+      유연한 기모 소재로 제작되었어요~
+      
+      은은하게 드롭된 어깨 라인에 낙낙한 품까지 더해져
+      내추럴하고 여성스러운 실루엣을 완성시켜드려요.
+      
+      밑단은 체형커버 효과가 있는 언밸런스 라인으로
+      꺼내 입을 때도 포인트가 되어주는 것은 물론,
+      
+      앞 라인만 하의 속에 살짝 넣어 스타일리쉬하게
+      매치하셔도 좋을 것 같아요♡`,
+
+      size: `FREE 사이즈로 준비되었어요.
+      키 163CM 이하의 체형을 가지신 분들에게 부담없이 착용가능해 추천해드려요~`
+    },
+    images: {
+      wearing: [
+        '/public-assets/shirt/s32-1.png',
+        '/public-assets/shirt/s32-2.png'
+      ],
+      detail: '/public-assets/shirt/s33.png',
+      material : '/public-assets/shirt/s3M.png',
+      washing: '/public-assets/shirt/s3W.png'
+    }
+  },
+  {
+    id: 's4',
+    mbti: ['entj', 'infj', 'istj'],
+    mainImg: [
+      {
+        id: 's41-1',
+        img: '/public-assets/shirt/s41-1.png'
+      },
+      {
+        id: 's41-2',
+        img: '/public-assets/shirt/s41-2.png'
+      },
+      {
+        id: 's41-3',
+        img: '/public-assets/shirt/s41-3.png'
+      }
+    ],
+    title: '베이직 슬림 사방 스판 셔츠 블라우스',
+    cost: '21,000',
+    content: {
+      md: `사계절 내내 쾌적함을 더해주는 코튼 면소재와
+      피부에 부드럽게 닿는 레이온에 편안한 스판까지!
+      내 몸에 닿는 소재니까, 깐깐하게 준비했어요.`,
+
+      detail: `바텀에 넣어입어도 군더더기 없이 깔끔한 슬림핏과
+      적당한 여유분으로 실루엣을 헤치지 않아
+      레이어드로 연출하시기 좋아요!
+      
+      누구에게나 잘 어울리는 컬러로 준비했고
+      계절에 구애없이 매일 손이 가게 된답니다:)`,
+
+      size: `FREE 사이즈로 준비되었어요.
+      키 165CM 이하의 체형을 가지신 분들에게 부담없이 착용가능해 추천해드려요~`
+    },
+    images: {
+      wearing: [
+        '/public-assets/shirt/s42-1.png',
+        '/public-assets/shirt/s42-2.png'
+      ],
+      detail: '/public-assets/shirt/s43.png',
+      material : '/public-assets/shirt/s4M.png',
+      washing: '/public-assets/dress/d2W.png'
+    }
+  },
+  {
+    id: 's5',
+    mbti: ['enfj', 'enfp', 'isfj'],
+    mainImg: [
+      {
+        id: 's51-1',
+        img: '/public-assets/shirt/s51-1.png'
+      },
+      {
+        id: 's51-2',
+        img: '/public-assets/shirt/s51-2.png'
+      },
+      {
+        id: 's51-3',
+        img: '/public-assets/shirt/s51-3.png'
+      }
+    ],
+    title: '샤롤드 오프숄더 블라우스',
+    cost: '44,000',
+    content: {
+      md: `오프숄더 디자인의 숏 블라우스입니다. 
+      고급스러운 오간자 원단에 실키한 폴리 안감을 레이어드한 하이 퀄리티의 블라우스예요.
+      
+      쇄골, 어깨라인이 드러나는 오프숄더에 
+      와이드한 시스루 슬리브로 
+      극강의 여리여리한 무드를 선사해 드려요.`,
+
+      detail: `쇄골라인이 돋보이는 여리여리한 무드의 오프숄더와
+      이중지로 노출 부담 없이 안정감 있게
+      착용되는 드레이핑 탑 라인이에요-
+      
+      은은한 시스루 패브릭 슬리브로
+      고급스러운 무드를 연출 하실 수 있어요.
+      
+      사이드 히든 지퍼를 통해 오픈 클로징을
+      편안하게 도와드려요~`,
+
+      size: `FREE 사이즈로 준비되었어요.
+      키 168CM 이하의 체형을 가지신 분들에게 부담없이 착용가능해 추천해드려요~`
+    },
+    images: {
+      wearing: [
+        '/public-assets/shirt/s52-1.png',
+        '/public-assets/shirt/s52-2.png'
+      ],
+      detail: '/public-assets/shirt/s53.png',
+      material : '/public-assets/dress/flowerM.png',
+      washing: '/public-assets/jacket/j9W.png'
+    }
+  },
+  {
+    id: 's6',
+    mbti: ['entp', 'esfp', 'infp', 'isfp'],
+    mainImg: [
+      {
+        id: 's61-1',
+        img: '/public-assets/shirt/s61-1.png'
+      },
+      {
+        id: 's61-2',
+        img: '/public-assets/shirt/s61-2.png'
+      },
+      {
+        id: 's61-3',
+        img: '/public-assets/shirt/s61-3.png'
+      }
+    ],
+    title: '다즈 스트라이프 셔츠 블라우스',
+    cost: '24,000',
+    content: {
+      md: `데일리하게 즐기기 좋은
+      스트라이프 셔츠 입니다.
+      
+      소프트한 코튼 원단과
+      적당한 두께감으로
+      
+      간절기 내내 입기 좋은 상품입니다.`,
+
+      detail: `여유로운 핏감으로 제작되었으며,
+      
+      스트라이프 배색 패턴으로
+      밋밋하지 않은 포인트를 주었습니다.
+      
+      전면 버튼으로 손쉬운
+      오픈클로징을 도와드리며,
+      
+      슬랙스, 데님팬츠, 쇼츠팬츠
+      등 다양한 룩에 자유롭게
+      활용하시길 추천드립니다.`,
+
+      size: `FREE 사이즈로 준비되었어요.
+      키 163CM 이하의 체형을 가지신 분들에게 부담없이 착용가능해 추천해드려요~`
+    },
+    images: {
+      wearing: [
+        '/public-assets/shirt/s62-1.png',
+        '/public-assets/shirt/s62-2.png'
+      ],
+      detail: '/public-assets/shirt/s63.png',
+      material : '/public-assets/jacket/j3M.png',
+      washing: '/public-assets/jacket/j9W.png'
+    }
+  },
+  {
+    id: 's7',
+    mbti: ['estj', 'isfp', 'istj', 'istp'],
+    mainImg: [
+      {
+        id: 's71-1',
+        img: '/public-assets/shirt/s71-1.png'
+      },
+      {
+        id: 's71-2',
+        img: '/public-assets/shirt/s71-2.png'
+      },
+      {
+        id: 's71-3',
+        img: '/public-assets/shirt/s71-3.png'
+      }
+    ],
+    title: '코듀로이 루즈핏 언발 남방',
+    cost: '38,500',
+    content: {
+      md: `입체감이 돋보이는 코듀로이 패브릭
+      톡톡한 두께감으로 F/W 시즌 즐기기 좋으며,
+      유연함으로 움직임에 편안합니다.`,
+
+      detail: `베이직하게 즐기는 루즈핏 남방이에요~
+      
+      언발 기장과 사이드 트임 디자인으로
+      내어 입을 시, 힙 라인을 가려 부담을 덜어주고
+      넣어 입어 슬림한 스타일링을 즐겨주세요:)`,
+
+      size: `FREE 사이즈로 준비되었어요~`
+    },
+    images: {
+      wearing: [
+        '/public-assets/shirt/s72-1.png',
+        '/public-assets/shirt/s72-2.png'
+      ],
+      detail: '/public-assets/shirt/s73.png',
+      material : '/public-assets/shirt/s7M.png',
+      washing: '/public-assets/shirt/s7W.png'
+    }
+  },
+  {
+    id: 's8',
+    mbti: ['enfj', 'enfp', 'esfp', 'intj', 'istp'],
+    mainImg: [
+      {
+        id: 's81-1',
+        img: '/public-assets/shirt/s81-1.png'
+      },
+      {
+        id: 's81-2',
+        img: '/public-assets/shirt/s81-2.png'
+      },
+      {
+        id: 's81-3',
+        img: '/public-assets/shirt/s81-3.png'
+      }
+    ],
+    title: '이브닝 언발 배색 카라 셔츠 티셔츠',
+    cost: '32,000',
+    content: {
+      md: `쫀쫀하고 찰랑한 신축감 있는 소재에
+      여리한 핏감의 셔츠 배색을 넣어주어
+      트렌디한 무드와 슬림 & 글램한 상체 라인을
+      연출해 드리는 포인트 아이템이랍니다!
+      
+      예쁜 핏감과 포인트 되어주는 디자인을
+      모두 담은 블라우스를 찾으시는 분들은
+      요 아이템, 주목해 주세요♥`,
+
+      detail: `사선으로 떨어지는
+      스판 셔링 라인으로 상체 라인을
+      더욱 슬림 & 글램하게 연출해 드리구요,
+      
+      쫀쫀한 스판이 함유되어있어 오프숄더
+      연출도 보다 안정적으로 가능한 제품이에요.
+      
+      소매라인 퍼프 디자인으로 더욱 여성스럽구요,
+      여성스러운 셔츠 배색감으로 세련미까지♬
+      별도의 오픈클로징이 필요없이
+      손쉬운 풀오버 아이템이랍니다♥`,
+
+      size: `FREE 사이즈로 준비되었어요.
+      키 167CM 이하의 체형을 가지신 분들에게 부담없이 착용가능해 추천해드려요~`
+    },
+    images: {
+      wearing: [
+        '/public-assets/shirt/s82-1.png',
+        '/public-assets/shirt/s82-2.png'
+      ],
+      detail: '/public-assets/shirt/s83.png',
+      material : '/public-assets/shirt/s8M.png',
+      washing: '/public-assets/jacket/j9W.png'
+    }
+  }
+];
+
+let jeans = [
+  {
+    id: 'c0',
+    mbti: ['estj', 'infj', 'isfj', 'isfp'],
+    mainImg: [
+      {
+        id: 'c01-1',
+        img: '/public-assets/coat/c01-1.png'
+      },
+      {
+        id: 'c01-2',
+        img: '/public-assets/coat/c01-2.png'
+      },
+      {
+        id: 'c01-3',
+        img: '/public-assets/coat/c01-3.png'
+      }
+    ],
+    title: '골드 더블버튼 프리미엄 울코트',
+    cost: '69,300',
+    content: {
+      md: `따뜻하면서도 가볍게 입을 수 있는 
+      고급스러운 코트 소개해드려요:)
+      
+      오피스, 로맨틱, 러블리, 캐쥬얼 등
+      어떤 코디에도 툭 걸쳐주기만 하면
+      멋스러운 스타일링이 완성된답니다!`,
+
+      detail: `블링블링 반짝이며 포인트를 더하는
+      골드 컬러의 더블 버튼 디테일이
+      돋보이는 루즈핏 롱코트 제품이에요.
+      
+      오픈했을 때에는 박시하게 툭 떨어지며
+      클로징하면 넉넉하게 감싸주면서 편안하고
+      따뜻하게 사랑스러운 느낌을 연출해드려요.
+      
+      오버핏으로 제작되어 니트, 맨투맨 등
+      도톰한 이너와도 함께 착용하기 좋답니다-`,
+
+      size: `FREE 사이즈로 준비되었어요;)`
+    },
+    images: {
+      wearing: [
+        '/public-assets/coat/c02-1.png',
+        '/public-assets/coat/c02-2.png'
+      ],
+      detail: '/public-assets/coat/c03.png',
+      material : '/public-assets/dress/flowerM.png',
+      washing: '/public-assets/jacket/j0W.png'
+    }
+  },
+  {
+    id: 'c1',
+    mbti: ['entj', 'estj', 'infj', 'isfj', 'istj'],
+    mainImg: [
+      {
+        id: 'c11-1',
+        img: '/public-assets/coat/c11-1.png'
+      },
+      {
+        id: 'c11-2',
+        img: '/public-assets/coat/c11-2.png'
+      },
+      {
+        id: 'c11-3',
+        img: '/public-assets/coat/c11-3.png'
+      }
+    ],
+    title: '울 롱 코트',
+    cost: '275,000',
+    content: {
+      md: `"매년 오랫동안 함께할 수 있는 롱 코트"
+      보자마자 이거다..! 수많은 샘플 중에 유독 돋보였던 퀄리티로
+      실물이 남달랐던 제품이에요.
+      색감 디테일 소재 하나하나 만족스러워 꼭 보여드리고 싶었어요.
+      
+      단가가 높게 나왔지만 색감 디테일 소재 하나하나
+      만족스러웠던 퀄리티라 믿고 구매해 주셔도 좋아요💙`,
+
+      detail: `흐르듯 가볍고 유연한 실루엣을 연출해 드리며,
+      차르르 고급스러운 질감의 소재를 사용했어요~
+      
+      부해보이는 느낌 없이 전체적으로 루즈한 핏감이
+      여리함을 더해주며 체형에 맞게 핏 조절이 가능한 허리 스트랩!
+      
+      바디를 포근하게 감싸주는
+      롱한 기장감을 갖추고 있어요.`,
+
+      size: `FREE 사이즈로 준비했습니다!`
+    },
+    images: {
+      wearing: [
+        '/public-assets/coat/c12-1.png',
+        '/public-assets/coat/c12-2.png'
+      ],
+      detail: '/public-assets/coat/c13.png',
+      material : '/public-assets/coat/c1M.png',
+      washing: '/public-assets/dress/d2W.png'
+    }
+  },
+  {
+    id: 'c2',
+    mbti: ['entj', 'estj', 'infj', 'isfj', 'istj'],
+    mainImg: [
+      {
+        id: 'c21-1',
+        img: '/public-assets/coat/c21-1.png'
+      },
+      {
+        id: 'c21-2',
+        img: '/public-assets/coat/c21-2.png'
+      },
+      {
+        id: 'c21-3',
+        img: '/public-assets/coat/c21-3.png'
+      }
+    ],
+    title: '헨델 소프트울 싱글 히든버튼 카라 롱코트',
+    cost: '87,500',
+    content: {
+      md: `울 혼방 소재와 도톰한 두께감으로 보온성을 톡톡히 챙긴 겨울용 코트.
+      
+      울이 들어갔지만, 손으로 쓸어봐도
+      부드럽고 톡톡한 조직감이 느껴지며,
+      다른 울코트들 보다 비교적 보풀에 강해
+      오래도록 함께 하실 수 있는 코트입니다!`,
+
+      detail: `체형에 맞춰 흐르는 래글런 어깨라인,
+      걸을 때마다 살짝만 퍼지는 내츄럴 핏을 연출했습니다.
+      
+      단추를 클로징 시, 첫 단추만 보이는 히든단작 디테일 덕분에
+      차림새가 단정해 보이는 싱글 롱 코트~
+      
+      스트랩을 앞으로 묶어 단정한 스타일로,
+      뒤로 자연스럽게 늘어뜨려 데일리한 느낌으로
+      어떻게 연출하는지에 따라 다른 느낌으로 입으실 수 있어요!`,
+
+      size: `FREE 사이즈로 준비되었습니다~`
+    },
+    images: {
+      wearing: [
+        '/public-assets/coat/c22-1.png',
+        '/public-assets/coat/c22-2.png'
+      ],
+      detail: '/public-assets/coat/c23.png',
+      material : '/public-assets/coat/c2M.png',
+      washing: '/public-assets/dress/d2W.png'
+    }
+  },
+  {
+    id: 'c3',
+    mbti: ['enfp', 'entp', 'estj', 'isfj', 'isfp'],
+    mainImg: [
+      {
+        id: 'c31-1',
+        img: '/public-assets/coat/c31-1.png'
+      },
+      {
+        id: 'c31-2',
+        img: '/public-assets/coat/c31-2.png'
+      },
+      {
+        id: 'c31-3',
+        img: '/public-assets/coat/c31-3.png'
+      }
+    ],
+    title: '헤이즐 와이드 세일러 카라 핸드메이드 코트',
+    cost: '259,000',
+    content: {
+      md: `로맨틱한 무드를 선사할 세일러 카라
+      핸드메이드 롱코트 입니다.
+      
+      울 90% 혼방의
+      부드러우면서 따스한 착용감으로
+      매년 고급스럽게 입어지며
+      
+      브랜드 못지 않은 퀄리티와
+      세세한 디테일들로
+      고급스러움이 남다른 제품입니다.`,
+
+      detail: `밑단으로 갈수록 자연스럽게 퍼지는
+      A라인 쉐입이라 체형 커버는 물론
+      드레시하면서도 우아한 핏감을 선사하며,
+
+      허리 라인의 사선 절개 디테일과
+      허리 스트랩으로 부해보임 없는
+      세련된 실루엣을 연출해드립니다.
+      
+      백라인의 긴 슬릿 디테일로
+      활동시에 불편함을 줄였으며
+      
+      프런트 라인의 더블 버튼과 속 단추 디테일로
+      보다 따스하게 착용됩니다.
+      
+      데일리로는 물론이고
+      오피스룩, 격식룩에도
+      착용하기 좋은 아우터로 추천드립니다.`,
+
+      size: `FREE 사이즈로 준비되었어요.
+      키 167CM 이하의 체형을 가지신 분들에게 부담없이 착용가능해 추천해드려요~`
+    },
+    images: {
+      wearing: [
+        '/public-assets/coat/c32-1.png',
+        '/public-assets/coat/c32-2.png'
+      ],
+      detail: '/public-assets/coat/c33.png',
+      material : '/public-assets/coat/c3M.png',
+      washing: '/public-assets/dress/d2W.png'
+    }
+  },
+  {
+    id: 'c4',
+    mbti: ['enfp', 'entp', 'estj', 'isfj', 'isfp'],
+    mainImg: [
+      {
+        id: 'c41-1',
+        img: '/public-assets/coat/c41-1.png'
+      },
+      {
+        id: 'c41-2',
+        img: '/public-assets/coat/c41-2.png'
+      },
+      {
+        id: 'c41-3',
+        img: '/public-assets/coat/c41-3.png'
+      }
+    ],
+    title: '클래시 더블버튼 울 베이직 롱코트',
+    cost: '72,000',
+    content: {
+      md: `정말 많은 코트 제품들이 있었지만
+      고객님들의 가심비를 충족시켜 줄
+      아이템을 찾아 선보이게 되었어요*.*
+      
+      도톰한 두께감과 부드러운 텍스쳐가 매력적인 울소재로
+      제작되어 한겨울까지 활용해보기에 좋은 코트예요-
+      
+      밀도 높게 짜여진 원단이라서
+      어깨에 살짝 걸치기만 해도 안정감있고
+      포근하게 감싸주는 느낌이 매력적이랍니다 ♩
+      
+      군더더기 없이 깔끔하게 떨어지는 실루엣으로 
+      편안한 데일리 캐쥬얼룩부터 오피스룩까지
+      모든 코디에 찰떡 코디가 가능하며,
+      
+      일반적인 롱코트와 견주어보아도
+      핏부터 컬러, 두께감, 착용감, 보온성 등이
+      절대 부족하지 않았기 때문에 자신있게 추천드려요!`,
+
+      detail: `무릎 아래로 여유있게 내려오는 롱한 기장감에
+      너무 루즈하지도, 부담스럽게 핏되지도 않으며
+      깔끔하고 세련된 라인을 만들어주는 일자핏 실루엣.
+      
+      스타일과 유행에 구애 없이 오랜기간 소장하기에도 좋아요-!
+      
+      매끄러운 폴리 안감을 더해 보온성을 높이고 
+      마찰력을 줄여 니트와 함께 착용하셔도
+      필링 현상이 비교적 적답니다.
+      
+      바스트 라인의 페이크 포켓으로
+      밋밋하지 않고 스타일리쉬한 느낌을 더해주며,
+      
+      백라인에서 보아도 밋밋해 보이지 않도록
+      트임 디테일을 추가하여 활동성까지 높여주었어요:-)
+      
+      실용성을 더해준 양쪽 사이드의 사선 포켓으로
+      간단한 소지품 수납이 가능하답니다!`,
+
+      size: `FREE 사이즈로 준비되었어요.
+      키 162CM 이하의 체형을 가지신 분들에게 부담없이 착용가능해 추천해드려요~`
+    },
+    images: {
+      wearing: [
+        '/public-assets/coat/c42-1.png',
+        '/public-assets/coat/c42-2.png'
+      ],
+      detail: '/public-assets/coat/c43.png',
+      material : '/public-assets/coat/c4M.png',
+      washing: '/public-assets/jacket/j6W.png'
+    }
+  },
+  {
+    id: 'c5',
+    mbti: ['enfp', 'entp', 'estj', 'isfj', 'isfp'],
+    mainImg: [
+      {
+        id: 'c51-1',
+        img: '/public-assets/coat/c51-1.png'
+      },
+      {
+        id: 'c51-2',
+        img: '/public-assets/coat/c51-2.png'
+      },
+      {
+        id: 'c51-3',
+        img: '/public-assets/coat/c51-3.png'
+      }
+    ],
+    title: '숄카라 핸드메이드 롱코트',
+    cost: '284,000',
+    content: {
+      md: `울 혼방 소재를 압축가공하여
+      부드럽고 톡톡한 터치감은 물론이며
+      두께에 비해 탁월한 보온성과
+      가볍지만 따뜻하다는 강점이 있어요!
+      
+      누빔 내피까지 덧대져 이렇게 따뜻해도 되나 싶을 정도로 
+      입자마자 잠이 솔솔 올 것 같은 포근함을 느껴보실 수 있어요-
+      
+      아주 도톰한 니트도 충분히 껴입을 수 있는 넉넉한 사이즈에
+      깔끔하게 떨어지는 A라인 핏으로​
+      한겨울 두툼한 레이어드를 도와줄 거예요:)
+      
+      슬림한 핏이 필요할 때는
+      허리에 있는 스트랩을 툭- 둘러 착용할 수 있는
+      우아한 숄 카라 장식의 로브 디자인이랍니다!`,
+
+      detail: `발목 위까지 떨어지는 롱한 기장감으로
+      추운 겨울에 따뜻하게 입기 좋은 오버핏이구요,
+      특별한 디테일 없이 소맷단의 핸드메이드 라벨로
+      심플한 포인트로 플랫한 무드를 선사해드려요.
+      
+      허리 라인의 슬림한 고리 디테일은
+      스트랩을 안정적으로 잡아주며
+      
+      포켓과 팔 라인 안감에는 부드러운 소재가
+      덧대져 맨살에 닿거나 포켓 속에 손을 넣어도
+      까슬거림없이 매끄럽게 착용할 수 있어요-
+      
+      각 잡히지 않고 자연스럽게 떨어지는
+      카라 디자인으로 한층 더 우아하면서
+      고급스러운 무드를 연출해드려요.`,
+
+      size: `FREE 사이즈로 준비되었어요.
+      키 168CM 이하의 체형을 가지신 분들에게 부담없이 착용가능해 추천해드려요~`
+    },
+    images: {
+      wearing: [
+        '/public-assets/coat/c52-1.png',
+        '/public-assets/coat/c52-2.png'
+      ],
+      detail: '/public-assets/coat/c53.png',
+      material : '/public-assets/coat/c3M.png',
+      washing: '/public-assets/dress/d2W.png'
+    }
+  },
+  {
+    id: 'c6',
+    mbti: ['esfp', 'estj', 'isfj', 'istj', 'istp'],
+    mainImg: [
+      {
+        id: 'c61-1',
+        img: '/public-assets/coat/c61-1.png'
+      },
+      {
+        id: 'c61-2',
+        img: '/public-assets/coat/c61-2.png'
+      },
+      {
+        id: 'c61-3',
+        img: '/public-assets/coat/c61-3.png'
+      }
+    ],
+    title: 'A라인핏 핸드메이드 하프코트',
+    cost: '89,000',
+    content: {
+      md: `높은 퀄리티의 울 캐시미어 소재로
+      보온성은 높이고, 포근하고 부드러운 느낌을 더했습니다.
+      여유있는 편안한 착용감으로 일상에서 다양하게 코디할 수 있도록
+      실용성을 높였습니다.`,
+
+      detail: `A라인 핏으로 밋밋하지 않고
+      세련된 느낌을 주며
+      전체적인 색상을 자연스럽게 어우러지도록 하여
+      디테일을 살린 캐주얼한 하프코트 입니다.
+      
+      미니멀한 싱글 버튼 디자인과 넥 칼라 디자인에서
+      유행에 구애 없는 깔끔한 무드가 느껴져요.
+      
+      맨 위 단추 라인 끝 부분에 숨겨져 있는
+      작은 스냅 버튼으로 더욱 깔끔하게 클로징 가능합니다!
+      
+      소매 라인에는 절개선과 오픈 가능한 버튼으로
+      롤업 연출이 가능해요~`,
+
+      size: `FREE 사이즈로 준비되었어요.
+      키 163CM 이하의 체형을 가지신 분들에게 부담없이 착용가능해 추천해드려요~`
+    },
+    images: {
+      wearing: [
+        '/public-assets/coat/c62-1.png',
+        '/public-assets/coat/c62-2.png'
+      ],
+      detail: '/public-assets/coat/c63.png',
+      material : '/public-assets/coat/c6M.png',
+      washing: '/public-assets/jacket/j6W.png'
+    }
+  },
+  {
+    id: 'c7',
+    mbti: ['esfj', 'estj', 'infj', 'isfj'],
+    mainImg: [
+      {
+        id: 'c71-1',
+        img: '/public-assets/coat/c71-1.png'
+      },
+      {
+        id: 'c71-2',
+        img: '/public-assets/coat/c71-2.png'
+      },
+      {
+        id: 'c71-3',
+        img: '/public-assets/coat/c71-3.png'
+      }
+    ],
+    title: '덕다운 패딩 안감의 하프기장 싱글 핸드메이드코트',
+    cost: '100,000',
+    content: {
+      md: `겨울철 예쁜 코트를 위해 늘 입어야 했던
+      경량 패딩, 이젠 따로 챙기지 마세요~
+      
+      폭근한 덕다운 패딩이 등판 안쪽 내장되어있어
+      요 아이템 하나만으로 겨울을 보낼 수 있는
+      든든한 핸드메이드 코트 아이템이랍니다:)
+      
+      실용성과 퀄리티 그리고 예쁜 아웃핏까지
+      모두 섬세하게 신경써서 제작되었으니,
+      올 겨울 맞이 1등 아이템으로 꼭 소장해주시길 바랄게요♥`,
+
+      detail: `데일리하게 입기 좋은 싱글 버튼과 딱 적당한
+      하프 기장으로 제작되어 160부터
+      168까지 모두 예쁜 핏으로 입기 좋구요,
+      숄더라인 패드 삭제로 자연스러운 아웃핏을
+      연출해 드리는 아이템이랍니다.
+      
+      소매라인 실키한 안감을 넣어주어 착용시
+      이너가 밀리지 않도록 제작되었구요,
+      양 사이드 포켓과 백라인 트임으로
+      실용성까지 신경써서 완성했답니다♥`,
+
+      size: `FREE 사이즈로 준비되었어요~`
+    },
+    images: {
+      wearing: [
+        '/public-assets/coat/c72-1.png',
+        '/public-assets/coat/c72-2.png'
+      ],
+      detail: '/public-assets/coat/c73.png',
+      material : '/public-assets/coat/c7M.png',
+      washing: '/public-assets/jacket/j6W.png'
+    }
+  },
+  {
+    id: 'c8',
+    mbti: ['estj', 'infj', 'isfj', 'isfp'],
+    mainImg: [
+      {
+        id: 'c81-1',
+        img: '/public-assets/coat/c81-1.png'
+      },
+      {
+        id: 'c81-2',
+        img: '/public-assets/coat/c81-2.png'
+      },
+      {
+        id: 'c81-3',
+        img: '/public-assets/coat/c81-3.png'
+      }
+    ],
+    title: '누아 싱글 트렌치 코트',
+    cost: '82,000',
+    content: {
+      md: `데일리한 무드의 싱글 카라 트렌치 코트입니다.
+      무릎을 살짝 넘는 미디 기장 제품으로, 체형 상관없이
+      예쁘게 착용됩니다.
+      
+      간절기에 착용하기 좋은 적당한 두께감의 코튼 트렌치 코드입니다.
+      만졌을 때 바삭거리는 탄탄한 코튼 재질이 아닌
+      부드럽고 유연하게 움직이는 재질로 편안한 착용감을 선사합니다.`,
+
+      detail: `깔끔한 느낌의 스탠 카라와 원단 컬러에 맞춘 단추 장식,
+      매력적인 백라인을 연출하는 깊은 절개와 버튼 디테일,
+      생활에 실용성을 더해 줄 사이드 포켓,
+      정전기를 방지하기 위한 안감 라이닝까지!
+      꼭 소장하시길 추천합니다~`,
+
+      size: `FREE 사이즈로 준비되었어요.
+      키 167CM 이하의 체형을 가지신 분들에게 부담없이 착용가능해 추천해드려요~`
+    },
+    images: {
+      wearing: [
+        '/public-assets/coat/c82-1.png',
+        '/public-assets/coat/c82-2.png'
+      ],
+      detail: '/public-assets/coat/c83.png',
+      material : '/public-assets/coat/c8M.png',
+      washing: '/public-assets/coat/c8W.png'
+    }
+  },
+  {
+    id: 'c9',
+    mbti: ['enfp', 'esfp', 'infp', 'isfj', 'istp'],
+    mainImg: [
+      {
+        id: 'c91-1',
+        img: '/public-assets/coat/c91-1.png'
+      },
+      {
+        id: 'c91-2',
+        img: '/public-assets/coat/c91-2.png'
+      },
+      {
+        id: 'c91-3',
+        img: '/public-assets/coat/c91-3.png'
+      }
+    ],
+    title: '배색 소매 체크 핸드메이드 코트',
+    cost: '100,000',
+    content: {
+      md: `순도 높은 메리노 울로
+      저퀄리티가 아닌 직접 보면 확실히 다른 코트입니다!
+      이번 겨울 시즌만 입는게 아닌
+      유행타지 않으면서도 트렌디하게 연출했습니다.
+      소장하실 추천해드릴게요.`,
+
+      detail: `카라는 깔끔하고 세련된
+      테일러드 디자인으로 제작했어요.
+      
+      툭- 가볍게 걸쳐도 슬림하게 연출되는
+      여유있는 루즈한 핏감이에요!
+      
+      부한 느낌없이 떨어지는 롱한 기장감으로 체형커버는 물론,
+      한 겨울까지 따뜻하게 즐겨입기 좋아요.
+      
+      고급스러운 색감으로 염색된 더블 버튼과
+      실용성을 더해준 깔끔한 사이드 포켓까지!`,
+
+      size: `FREE 사이즈로 준비되었어요.
+      키 167CM 이하의 체형을 가지신 분들에게 부담없이 착용가능해 추천해드려요~`
+    },
+    images: {
+      wearing: [
+        '/public-assets/coat/c92-1.png',
+        '/public-assets/coat/c92-2.png'
+      ],
+      detail: '/public-assets/coat/c93.png',
+      material : '/public-assets/coat/c9M.png',
+      washing: '/public-assets/coat/c9W.png'
+    }
+  }
+];
+
 export {dress};
