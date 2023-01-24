@@ -2506,4 +2506,438 @@ let jeans = [
   }
 ];
 
+let trouser = [
+  {
+    id: 't0',
+    mbti: ['estj', 'infj', 'intp', 'istj'],
+    mainImg: [
+      {
+        id: 't01-1',
+        img: '/public-assets/trouser/t01-1.png'
+      },
+      {
+        id: 't01-2',
+        img: '/public-assets/trouser/t01-2.png'
+      },
+      {
+        id: 't01-3',
+        img: '/public-assets/trouser/t01-3.png'
+      }
+    ],
+    title: '아우라 기모 세미 와이드 슬랙스',
+    cost: '39,000',
+    content: {
+      md: `포근한 윈터 기모 소재로 더 따뜻하게
+      보온성을 업그레이드 했습니다.
+      
+      까슬거리고 불편한 슬랙스가 아닌,
+      레이온 혼방 소재로 부드럽고 편안함
+      가득한 슬랙스를 연출했어요.
+      
+      데일리부터 오피스룩까지
+      깔끔하게 착용 가능하니까 꼭 소장하길 추천드려요~`,
+
+      detail: `승마살, 허벅지 군살 모두 커버하면서도
+      벙벙함 전혀 없는 세미 와이드핏과
+      도톰한 두께임에도 부해 보이지 않는 핏을 연출했어요.
+      
+      깔끔한 아웃핏을 연출하는 
+      심플 오비와 히든 버튼,
+
+      핏을 해치지 않게 미니멀하게
+      완성된 사이드 슬릿 포캣도 있고
+      
+      백라인 페이크 포켓으로
+      뒷태까지 세련된 마무리!`,
+
+      size: `FREE 사이즈로 준비되었어요;)`
+    },
+    images: {
+      wearing: [
+        '/public-assets/trouser/t02-1.png',
+        '/public-assets/trouser/t02-2.png'
+      ],
+      detail: '/public-assets/trouser/t03.png',
+      material : '/public-assets/trouser/t0M.png',
+      washing: '/public-assets/trouser/t0W.png'
+    }
+  },
+  {
+    id: 't1',
+    mbti: ['entj', 'esfj', 'estj', 'isfj'],
+    mainImg: [
+      {
+        id: 't11-1',
+        img: '/public-assets/trouser/t11-1.png'
+      },
+      {
+        id: 't11-2',
+        img: '/public-assets/trouser/t11-2.png'
+      },
+      {
+        id: 't11-3',
+        img: '/public-assets/trouser/t11-3.png'
+      }
+    ],
+    title: '스판 기모 투핀턱 와이드 슬랙스',
+    cost: '39,000',
+    content: {
+      md: `부드럽고 따뜻한 겨울용 소재를 사용했어요.
+      
+      모찌처럼 쫀쫀해 편안함이 가득하고
+      하체를 완벽 커버해줄 핏감과
+      매일 돌려입을 베이직한 컬러감을 가진
+      무조건 소장용!!! 추천해요~`,
+
+      detail: `하체 군살을 쏙 커버해주는 와이드핏과
+      비율이 좋아보이는 하이웨스트 라인을 연출했어요.
+      
+      부한 느낌 없게 핏을 잡아주는 투핀턱 디테일과
+      깔끔한 실루엣을 연출하는 버클 클로징,
+      안정감 있는 착용이 가능한 벨트 고리와
+      양 사이드 포켓으로 실용성을 더해줬습니다.`,
+
+      size: `FREE 사이즈로 준비했습니다!`
+    },
+    images: {
+      wearing: [
+        '/public-assets/trouser/t12-1.png',
+        '/public-assets/trouser/t12-2.png'
+      ],
+      detail: '/public-assets/trouser/t13.png',
+      material : '/public-assets/trouser/t1M.png',
+      washing: '/public-assets/trouser/t0W.png'
+    }
+  },
+  {
+    id: 't2',
+    mbti: ['enfp', 'entj', 'esfj', 'estj', 'isfj', 'isfp'],
+    mainImg: [
+      {
+        id: 't21-1',
+        img: '/public-assets/trouser/t21-1.png'
+      },
+      {
+        id: 't21-2',
+        img: '/public-assets/trouser/t21-2.png'
+      },
+      {
+        id: 't21-3',
+        img: '/public-assets/trouser/t21-3.png'
+      }
+    ],
+    title: '시그니처 히든밴딩 원핀턱 와이드 슬랙스',
+    cost: '24,900',
+    content: {
+      md: `군더더기 없이 깔끔한 무드에
+      여유있는 와이드 핏 슬랙스입니다.
+      
+      허벅지 군살 걱정이신 분들도 부담없이 착용하실 수 있도록
+      신경써서 핏감을 잡았답니다 :)
+      
+      FW무드에 딱 맞게 러블리한 컬러로
+      구성되었으니 취향에 맞게 소장해보세요.`,
+
+      detail: `롱한 레그라인을 선사하는 하이웨스트 라인과
+      세련된 무드와 함께 톡톡한 체형 커버를 도와드릴
+      여유있는 와이드핏을 연출했습니다.
+      
+      룩에 고급스러움을 더해줄 우아한 원 핀턱 라인!
+      
+      백라인 히든밴딩을 더하여 편안한 착용감을 선사했어요.`,
+
+      size: `FREE 사이즈로 준비되었습니다~`
+    },
+    images: {
+      wearing: [
+        '/public-assets/trouser/t22-1.png',
+        '/public-assets/trouser/t22-2.png'
+      ],
+      detail: '/public-assets/trouser/t23.png',
+      material : '/public-assets/trouser/t2M.png',
+      washing: '/public-assets/trouser/t2W.png'
+    }
+  },
+  {
+    id: 't3',
+    mbti: ['entj', 'entp', 'esfj', 'estj', 'estp', 'isfp', 'istj'],
+    mainImg: [
+      {
+        id: 't31-1',
+        img: '/public-assets/trouser/t31-1.png'
+      },
+      {
+        id: 't31-2',
+        img: '/public-assets/trouser/t31-2.png'
+      },
+      {
+        id: 't31-3',
+        img: '/public-assets/trouser/t31-3.png'
+      }
+    ],
+    title: '스탠드 탄탄 코튼 세미와이드핏 핀턱 슬랙스',
+    cost: '33,600',
+    content: {
+      md: `시중에서 쉽게 볼 수 있는 폴리혼방 슬랙스와 다르게
+      광택 없이 담백한 매력의 코튼 슬랙스예요.
+      
+      광택 없이 매끄러운 터치감이 돋보이는
+      코튼 100% 소재로 탄탄하게 제작되었답니다-
+      
+      밀도 높은 조직감으로 비침이 없고,
+      복원력이 좋아 오래도록 소장하기 좋으실 거예요!
+      
+      흔하지 않은 디자인에 트렌디한 핏으로
+      기본 흰 티와 함께 매치하셔도 톡톡한 포인트♡
+      
+      맨투맨이나 니트랑은 캐쥬얼하게도,
+      또는 셔츠나 블라우스와 성숙한 느낌으로도 어울려
+      소장하시면 다양하게 활용 가능하지요-`,
+
+      detail: `허리 라인은 히든 후크 디테일로
+      클로징 시, 더욱 심플한 아웃핏이 완성된답니다-+
+      
+      허리선이 높게 위치한 반하이 라인으로
+      다리가 훨씬 길어보이는 효과가 있고,
+      편히 앉아도 허리 뒷라인의 노출이 덜해요!
+      
+      허리부터 허벅지까지는 편안히 피팅되며
+      밑단으로 갈수록 살짝 좁아지는 세미와이드핏으로 
+      살짝의 여유감이 남았을 때 예쁜 바지예요:)
+      
+      깔끔하게 더해준 립포켓 디테일은
+      뒷모습이 더욱 멋스럽게 디자인되었으며,
+      
+      페이크 디자인으로 핏을 해치지 않으면서
+      위로 절개선이 들어가 백라인의 실루엣을 깔끔하게 살려줘요-
+      
+      허리 라인에 벨트 고리까지 있어서
+      더 다양한 스타일로 연출 가능해요 :)♥`,
+
+      size: `FREE 사이즈로 준비되었어요.
+      키 168CM 이하의 체형을 가지신 분들에게 부담없이 착용가능해 추천해드려요~`
+    },
+    images: {
+      wearing: [
+        '/public-assets/trouser/t32-1.png',
+        '/public-assets/trouser/t32-2.png'
+      ],
+      detail: '/public-assets/trouser/t33.png',
+      material : '/public-assets/jacket/j3M.png',
+      washing: '/public-assets/trouser/t3W.png'
+    }
+  },
+  {
+    id: 't4',
+    mbti: ['enfj', 'entj', 'entp', 'infj', 'intj', 'isfp', 'istp'],
+    mainImg: [
+      {
+        id: 't41-1',
+        img: '/public-assets/trouser/t41-1.png'
+      },
+      {
+        id: 't41-2',
+        img: '/public-assets/trouser/t41-2.png'
+      },
+      {
+        id: 't41-3',
+        img: '/public-assets/trouser/t41-3.png'
+      }
+    ],
+    title: '크롭 일자핏 슬랙스',
+    cost: '39,000',
+    content: {
+      md: `언제나 편안하게 당신의 일상에 함께 할
+      쫀쫀이 스판 크롭 일자핏 슬랙스 입니다~
+      
+      하체를 완벽 커버해줄 일자핏과
+      한 번 입으면 벗기 싫어지는 편안함을 신경썼습니다.`,
+
+      detail: `체형을 커버해주며
+      데일리부터 오피스룩까지
+      착용 가능한 일자핏을 연출했어요.
+      
+      발목까지 깔끔하게 떨어지는 크롭한 기장.
+      
+      도톰한 두께임에도 부해 보이지 않는 핏!
+      
+      여러분들 옷장에 꼭 소장해야 할 슬랙스로 추천할게요!`,
+
+      size: `FREE 사이즈로 준비되었어요.
+      키 165CM 이하의 체형을 가지신 분들에게 부담없이 착용가능해 추천해드려요~`
+    },
+    images: {
+      wearing: [
+        '/public-assets/trouser/t42-1.png',
+        '/public-assets/trouser/t42-2.png'
+      ],
+      detail: '/public-assets/trouser/t43.png',
+      material : '/public-assets/trouser/t4M.png',
+      washing: '/public-assets/trouser/t4W.png'
+    }
+  },
+  {
+    id: 't5',
+    mbti: ['enfp', 'esfp'],
+    mainImg: [
+      {
+        id: 't51-1',
+        img: '/public-assets/trouser/t51-1.png'
+      },
+      {
+        id: 't51-2',
+        img: '/public-assets/trouser/t51-2.png'
+      },
+      {
+        id: 't51-3',
+        img: '/public-assets/trouser/t51-3.png'
+      }
+    ],
+    title: '셀리앤 슬림 부츠컷 슬랙스',
+    cost: '39,200',
+    content: {
+      md: `
+      프리미엄 폴리 소재로
+      늘어짐 없이 탄탄하게 제작되어
+      
+      고급스러운 퀄리티가 돋보이는 스페셜 아이템입니다.`,
+
+      detail: `과하지 않은 세미 부츠컷과
+      하이웨스트의 슬림한 허리라인이
+      롱한 레그 라인을 연출해 드려요.
+      
+      세련된 오피스룩, 모임룩, 하객룩 또는
+      니트 탑, 티셔츠, 셔츠와 세미 캐주얼룩으로
+      다양한 데일리룩으로 연출해 보세요.`,
+
+      size: `FREE 사이즈로 준비되었어요.
+      키 166CM 이하의 체형을 가지신 분들에게 부담없이 착용가능해 추천해드려요~`
+    },
+    images: {
+      wearing: [
+        '/public-assets/trouser/t52-1.png',
+        '/public-assets/trouser/t52-2.png'
+      ],
+      detail: '/public-assets/trouser/t53.png',
+      material : '/public-assets/trouser/t5M.png',
+      washing: '/public-assets/jacket/j6W.png'
+    }
+  },
+  {
+    id: 't6',
+    mbti: ['entp', 'esfp', 'estj', 'estp', 'istj'],
+    mainImg: [
+      {
+        id: 't61-1',
+        img: '/public-assets/trouser/t61-1.png'
+      },
+      {
+        id: 't61-2',
+        img: '/public-assets/trouser/t61-2.png'
+      },
+      {
+        id: 't61-3',
+        img: '/public-assets/trouser/t61-3.png'
+      }
+    ],
+    title: '마티스 투핀턱 하프밴딩 숏 슬랙스',
+    cost: '24,000',
+    content: {
+      md: `부드럽고 매끈한 폴리 소재에
+      약간의 스판감까지 더해져 일상 속에서도
+      가볍고 편안하게 착용하기 좋은 제품이에요.
+      
+      여름까지 쭉 입을 숏팬츠 아이템이 갖고 싶었던
+      모든 고객님들께 꼭 추천드리고 싶답니다♡
+      
+      부드럽고 안입은 듯 가벼운 폴리 패브릭이라
+      간절기는 물론 여름까지 쭉 착용이 가능해요!
+      
+      몸에 달라 붙지 않고 굉장히 편안하며
+      구김도 잘 생기지 않는 편이라 자주 입게 될거예요.
+      
+      키가 크신 분들도 부담 없이 즐겨보실 수 있으면서
+      허벅지의 가장 두꺼운 라인을 커버해주는
+      3부 정도의 기장감으로 준비했습니다*.*
+      
+      깔끔한 셔츠, 베이직한 티셔츠, 맨투맨, 니트 등
+      스타일에 따라 다양한 룩을 연출해볼 수 있어요♪`,
+
+      detail: `살짝 A라인으로 떨어지는 루즈핏으로
+      실루엣이 갑갑하게 조이지 않고,
+      
+      백라인 하프 밴딩이 허리 핏은 슬림하게 잡아주며
+      허벅지 라인은 낙낙한 핏으로 내려온답니다 *.*
+      
+      덕분에 기존의 흔한 일자핏 쇼츠들보다
+      더욱 캐쥬얼한 느낌으로 연출 가능해요!
+      
+      깔끔한 포인트가 되어주는 투핀턱 디테일 :) 
+      허릿단 아래부터 밑단까지 넣어준 핀턱 디테일 덕분에
+      요척이 생겨 일상 속에서 활동하시기 더욱 편할 거예요-
+      
+      버튼 대신 히든 걸고리로 오픈클로징되어 더욱 깔끔하고
+      벨트 고리가 있어 벨트 코디 연출하기에도 좋답니다.`,
+
+      size: `FREE 사이즈로 준비되었어요.
+      키 168CM 이하의 체형을 가지신 분들에게 부담없이 착용가능해 추천해드려요~`
+    },
+    images: {
+      wearing: [
+        '/public-assets/trouser/t62-1.png',
+        '/public-assets/trouser/t62-2.png'
+      ],
+      detail: '/public-assets/trouser/t63.png',
+      material : '/public-assets/trouser/t5M.png',
+      washing: '/public-assets/trouser/t6W.png'
+    }
+  },
+  {
+    id: 't7',
+    mbti: ['enfj', 'esfj', 'estj', 'infj', 'isfj'],
+    mainImg: [
+      {
+        id: 't71-1',
+        img: '/public-assets/trouser/t71-1.png'
+      },
+      {
+        id: 't71-2',
+        img: '/public-assets/trouser/t71-2.png'
+      },
+      {
+        id: 't71-3',
+        img: '/public-assets/trouser/t71-3.png'
+      }
+    ],
+    title: '미첼 핀턱 와이드 슬랙스',
+    cost: '44,000',
+    content: {
+      md: `데일리로 즐기기 좋은
+      핀턱 디자인의 와이드 팬츠입니다.
+      
+      탄탄하면서도 유연하게 착용되는
+      코튼+스판 블렌딩 원단을 사용했습니다 :)`,
+
+      detail: `하이웨스트 디자인으로
+      롱 & 슬림핏 선사합니다.
+      
+      깔끔한 무드를 더하는 히든 단작!
+      감각적인 투 핀턱 디테일을 연출했어요.
+      
+      백밴딩으로 편안하게 착용하실 수 있어요~`,
+
+      size: `FREE 사이즈로 준비되었어요~`
+    },
+    images: {
+      wearing: [
+        '/public-assets/trouser/t72-1.png',
+        '/public-assets/trouser/t72-2.png'
+      ],
+      detail: '/public-assets/trouser/t73.png',
+      material : '/public-assets/trouser/t0M.png',
+      washing: '/public-assets/shirt/s3W.png'
+    }
+  }
+];
+
 export {dress};
