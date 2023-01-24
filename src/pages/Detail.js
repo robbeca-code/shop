@@ -2,13 +2,15 @@ import React, { useState } from 'react';
 import {dress} from './shop-data.js';
 
 function Detail() {
+  // let items = dress.filter((d) => d.mbti.indexOf('intp'));
   let item;
-  if(dress.findIndex((d) => (d.id === 'd1')) > -1) {
-    let idx = dress.findIndex((d) => (d.id === 'd1'));
+
+  if(dress.findIndex((d) => (d.mbti.indexOf('enfp'))) > -1) {
+    let idx = dress.findIndex((d) => (d.mbti.indexOf('enfp')));
     item = dress[idx];
   }
 
-  let [mainImg, setMainImg] = useState(dress[0].mainImg[0].img);
+  let [mainImg, setMainImg] = useState(item.mainImg[0].img);
 
   return (
     <section>

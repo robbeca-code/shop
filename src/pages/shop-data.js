@@ -1,6 +1,7 @@
 let dress = [
   {
     id: 'd0',
+    url: '/dress/d0',
     mbti: ['enfp', 'esfp', 'infp'],
     mainImg: [
       {
@@ -42,6 +43,7 @@ let dress = [
   },
   {
     id: 'd1',
+    url: '/dress/d1',
     mbti: ['esfj', 'intj', 'istp'],
     mainImg: [
       {
@@ -88,6 +90,7 @@ let dress = [
   },
   {
     id: 'd2',
+    url: '/dress/d2',
     mbti: ['estj', 'infp', 'intj'],
     mainImg: [
       {
@@ -132,6 +135,7 @@ let dress = [
   },
   {
     id: 'd3',
+    url: '/dress/d3',
     mbti: ['esfj', 'istp'],
     mainImg: [
       {
@@ -177,6 +181,7 @@ let dress = [
   },
   {
     id: 'd4',
+    url: '/dress/d4',
     mbti: ['enfj', 'estj', 'infp'],
     mainImg: [
       {
@@ -225,6 +230,7 @@ let dress = [
   },
   {
     id: 'd5',
+    url: '/dress/d5',
     mbti: ['estj', 'istp'],
     mainImg: [
       {
@@ -270,6 +276,7 @@ let dress = [
   },
   {
     id: 'd6',
+    url: '/dress/d6',
     mbti: ['entj', 'estj', 'infp'],
     mainImg: [
       {
@@ -315,6 +322,7 @@ let dress = [
   },
   {
     id: 'd7',
+    url: '/dress/d7',
     mbti: ['esfj', 'esfp', 'infp', 'intj'],
     mainImg: [
       {
@@ -365,6 +373,7 @@ let dress = [
   },
   {
     id: 'd8',
+    url: '/dress/d8',
     mbti: ['esfp', 'infp', 'intp'],
     mainImg: [
       {
@@ -415,6 +424,7 @@ let dress = [
   },
   {
     id: 'd9',
+    url: '/dress/d9',
     mbti: ['enfj', 'enfp', 'estj'],
     mainImg: [
       {
@@ -466,6 +476,7 @@ let dress = [
 let jacket = [
   {
     id: 'j0',
+    url: '/outerwear/jacket/j0',
     mbti: ['esfj', 'istp'],
     mainImg: [
       {
@@ -510,6 +521,7 @@ let jacket = [
   },
   {
     id: 'j1',
+    url: '/outerwear/jacket/j1',
     mbti: ['esfj', 'intj', 'istp'],
     mainImg: [
       {
@@ -552,6 +564,7 @@ let jacket = [
   },
   {
     id: 'j2',
+    url: '/outerwear/jacket/j2',
     mbti: ['estj', 'infp', 'intj'],
     mainImg: [
       {
@@ -595,6 +608,7 @@ let jacket = [
   },
   {
     id: 'j3',
+    url: '/outerwear/jacket/j3',
     mbti: ['enfp', 'estp', 'intp', 'isfp'],
     mainImg: [
       {
@@ -642,6 +656,7 @@ let jacket = [
   },
   {
     id: 'j4',
+    url: '/outerwear/jacket/j4',
     mbti: ['enfj', 'entj', 'estj', 'infp', 'istp'],
     mainImg: [
       {
@@ -686,6 +701,7 @@ let jacket = [
   },
   {
     id: 'j5',
+    url: '/outerwear/jacket/j5',
     mbti: ['enfj', 'esfj', 'estj'],
     mainImg: [
       {
@@ -730,6 +746,7 @@ let jacket = [
   },
   {
     id: 'j6',
+    url: '/outerwear/jacket/j6',
     mbti: ['entj', 'estj', 'infp'],
     mainImg: [
       {
@@ -794,6 +811,7 @@ let jacket = [
   },
   {
     id: 'j7',
+    url: '/outerwear/jacket/j7',
     mbti: ['enfj', 'entj', 'estj', 'infp'],
     mainImg: [
       {
@@ -852,6 +870,7 @@ let jacket = [
   },
   {
     id: 'j8',
+    url: '/outerwear/jacket/j8',
     mbti: ['enfj', 'esfj', 'estj', 'intp', 'isfj'],
     mainImg: [
       {
@@ -915,6 +934,7 @@ let jacket = [
   },
   {
     id: 'j9',
+    url: '/outerwear/jacket/j9',
     mbti: ['enfp', 'isfp', 'istp'],
     mainImg: [
       {
@@ -978,6 +998,7 @@ let jacket = [
 let coat = [
   {
     id: 'c0',
+    url: '/outerwear/coat/c0',
     mbti: ['estj', 'infj', 'isfj', 'isfp'],
     mainImg: [
       {
@@ -1028,6 +1049,7 @@ let coat = [
   },
   {
     id: 'c1',
+    url: '/outerwear/coat/c1',
     mbti: ['entj', 'estj', 'infj', 'isfj', 'istj'],
     mainImg: [
       {
@@ -1077,6 +1099,7 @@ let coat = [
   },
   {
     id: 'c2',
+    url: '/outerwear/coat/c2',
     mbti: ['entj', 'estj', 'infj', 'isfj', 'istj'],
     mainImg: [
       {
@@ -1126,6 +1149,7 @@ let coat = [
   },
   {
     id: 'c3',
+    url: '/outerwear/coat/c3',
     mbti: ['enfp', 'entp', 'estj', 'isfj', 'isfp'],
     mainImg: [
       {
@@ -1188,6 +1212,7 @@ let coat = [
   },
   {
     id: 'c4',
+    url: '/outerwear/coat/c4',
     mbti: ['enfp', 'entp', 'estj', 'isfj', 'isfp'],
     mainImg: [
       {
@@ -1259,6 +1284,7 @@ let coat = [
   },
   {
     id: 'c5',
+    url: '/outerwear/coat/c5',
     mbti: ['enfp', 'entp', 'estj', 'isfj', 'isfp'],
     mainImg: [
       {
@@ -1324,6 +1350,7 @@ let coat = [
   },
   {
     id: 'c6',
+    url: '/outerwear/coat/c6',
     mbti: ['esfp', 'estj', 'isfj', 'istj', 'istp'],
     mainImg: [
       {
@@ -1376,6 +1403,7 @@ let coat = [
   },
   {
     id: 'c7',
+    url: '/outerwear/coat/c7',
     mbti: ['esfj', 'estj', 'infj', 'isfj'],
     mainImg: [
       {
@@ -1430,6 +1458,7 @@ let coat = [
   },
   {
     id: 'c8',
+    url: '/outerwear/coat/c8',
     mbti: ['estj', 'infj', 'isfj', 'isfp'],
     mainImg: [
       {
@@ -1477,6 +1506,7 @@ let coat = [
   },
   {
     id: 'c9',
+    url: '/outerwear/coat/c9',
     mbti: ['enfp', 'esfp', 'infp', 'isfj', 'istp'],
     mainImg: [
       {
@@ -1531,6 +1561,7 @@ let coat = [
 let shirt = [
   {
     id: 's0',
+    url: '/shirt/s0',
     mbti: ['entj', 'entp', 'esfj', 'infj', 'isfj', 'isfp'],
     mainImg: [
       {
@@ -1597,6 +1628,7 @@ let shirt = [
   },
   {
     id: 's1',
+    url: '/shirt/s1',
     mbti: ['esfp', 'infp', 'intp', 'isfp'],
     mainImg: [
       {
@@ -1650,6 +1682,7 @@ let shirt = [
   },
   {
     id: 's2',
+    url: '/shirt/s2',
     mbti: ['enfp', 'entp', 'estp', 'intp', 'isfp'],
     mainImg: [
       {
@@ -1695,6 +1728,7 @@ let shirt = [
   },
   {
     id: 's3',
+    url: '/shirt/s3',
     mbti: ['esfj', 'estj', 'infj', 'isfp'],
     mainImg: [
       {
@@ -1765,6 +1799,7 @@ let shirt = [
   },
   {
     id: 's4',
+    url: '/shirt/s4',
     mbti: ['entj', 'infj', 'istj'],
     mainImg: [
       {
@@ -1809,6 +1844,7 @@ let shirt = [
   },
   {
     id: 's5',
+    url: '/shirt/s5',
     mbti: ['enfj', 'enfp', 'isfj'],
     mainImg: [
       {
@@ -1859,6 +1895,7 @@ let shirt = [
   },
   {
     id: 's6',
+    url: '/shirt/s6',
     mbti: ['entp', 'esfp', 'infp', 'isfp'],
     mainImg: [
       {
@@ -1912,6 +1949,7 @@ let shirt = [
   },
   {
     id: 's7',
+    url: '/shirt/s7',
     mbti: ['estj', 'isfp', 'istj', 'istp'],
     mainImg: [
       {
@@ -1954,6 +1992,7 @@ let shirt = [
   },
   {
     id: 's8',
+    url: '/shirt/s8',
     mbti: ['enfj', 'enfp', 'esfp', 'intj', 'istp'],
     mainImg: [
       {
@@ -2011,6 +2050,7 @@ let shirt = [
 let jeans = [
   {
     id: 'b0',
+    url: '/pants/jeans/b0',
     mbti: ['entj', 'esfj', 'estp', 'infj', 'intp', 'isfj'],
     mainImg: [
       {
@@ -2059,6 +2099,7 @@ let jeans = [
   },
   {
     id: 'b1',
+    url: '/pants/jeans/b1',
     mbti: ['enfp', 'esfj', 'esfp', 'estp', 'intp', 'isfj', 'istp'],
     mainImg: [
       {
@@ -2103,6 +2144,7 @@ let jeans = [
   },
   {
     id: 'b2',
+    url: '/pants/jeans/b2',
     mbti: ['enfj', 'enfp', 'entj', 'esfj', 'esfp', 'estp', 'infj', 'intj', 'intp', 'isfj'],
     mainImg: [
       {
@@ -2149,6 +2191,7 @@ let jeans = [
   },
   {
     id: 'b3',
+    url: '/pants/jeans/b3',
     mbti: ['esfj', 'estp', 'intp', 'isfj'],
     mainImg: [
       {
@@ -2193,6 +2236,7 @@ let jeans = [
   },
   {
     id: 'b4',
+    url: '/pants/jeans/b4',
     mbti: ['enfp', 'esfp', 'estp'],
     mainImg: [
       {
@@ -2244,6 +2288,7 @@ let jeans = [
   },
   {
     id: 'b5',
+    url: '/pants/jeans/b5',
     mbti: ['enfp', 'esfp', 'estp', 'intp', 'istj', 'istp'],
     mainImg: [
       {
@@ -2296,6 +2341,7 @@ let jeans = [
   },
   {
     id: 'b6',
+    url: '/pants/jeans/b6',
     mbti: ['enfp', 'esfp', 'istj', 'istp'],
     mainImg: [
       {
@@ -2347,6 +2393,7 @@ let jeans = [
   },
   {
     id: 'b7',
+    url: '/pants/jeans/b7',
     mbti: ['entp', 'esfp', 'infj', 'intj', 'intp', 'isfp', 'istj', 'istp'],
     mainImg: [
       {
@@ -2392,6 +2439,7 @@ let jeans = [
   },
   {
     id: 'b8',
+    url: '/pants/jeans/b8',
     mbti: ['enfp', 'esfp', 'estp', 'intp'],
     mainImg: [
       {
@@ -2446,6 +2494,7 @@ let jeans = [
   },
   {
     id: 'b9',
+    url: '/pants/jeans/b9',
     mbti: ['entj', 'esfj', 'esfp', 'estp', 'intp', 'isfj', 'isfp'],
     mainImg: [
       {
@@ -2509,6 +2558,7 @@ let jeans = [
 let trouser = [
   {
     id: 't0',
+    url: '/pants/trouser/t0',
     mbti: ['estj', 'infj', 'intp', 'istj'],
     mainImg: [
       {
@@ -2564,6 +2614,7 @@ let trouser = [
   },
   {
     id: 't1',
+    url: '/pants/trouser/t1',
     mbti: ['entj', 'esfj', 'estj', 'isfj'],
     mainImg: [
       {
@@ -2611,6 +2662,7 @@ let trouser = [
   },
   {
     id: 't2',
+    url: '/pants/trouser/t2',
     mbti: ['enfp', 'entj', 'esfj', 'estj', 'isfj', 'isfp'],
     mainImg: [
       {
@@ -2660,6 +2712,7 @@ let trouser = [
   },
   {
     id: 't3',
+    url: '/pants/trouser/t3',
     mbti: ['entj', 'entp', 'esfj', 'estj', 'estp', 'isfp', 'istj'],
     mainImg: [
       {
@@ -2729,6 +2782,7 @@ let trouser = [
   },
   {
     id: 't4',
+    url: '/pants/trouser/t4',
     mbti: ['enfj', 'entj', 'entp', 'infj', 'intj', 'isfp', 'istp'],
     mainImg: [
       {
@@ -2778,6 +2832,7 @@ let trouser = [
   },
   {
     id: 't5',
+    url: '/pants/trouser/t5',
     mbti: ['enfp', 'esfp'],
     mainImg: [
       {
@@ -2825,6 +2880,7 @@ let trouser = [
   },
   {
     id: 't6',
+    url: '/pants/trouser/t6',
     mbti: ['entp', 'esfp', 'estj', 'estp', 'istj'],
     mainImg: [
       {
@@ -2894,6 +2950,7 @@ let trouser = [
   },
   {
     id: 't7',
+    url: '/pants/trouser/t7',
     mbti: ['enfj', 'esfj', 'estj', 'infj', 'isfj'],
     mainImg: [
       {
