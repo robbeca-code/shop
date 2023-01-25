@@ -2997,4 +2997,329 @@ let trouser = [
   }
 ];
 
+let jogger = [
+  {
+    id: 'g0',
+    url: '/pants/jogger/g0',
+    mbti: ['estp', 'intp'],
+    mainImg: [
+      {
+        id: 'g01-1',
+        img: '/public-assets/jogger/g01-1.png'
+      },
+      {
+        id: 'g01-2',
+        img: '/public-assets/jogger/g01-2.png'
+      },
+      {
+        id: 'g01-3',
+        img: '/public-assets/jogger/g01-3.png'
+      }
+    ],
+    title: '도톰 양기모 핀턱라인 윈터 조거팬츠',
+    cost: '30,400',
+    content: {
+      md: `코튼 100% 탄탄한 원단을 사용했습니다.
+      
+      도톰한 양기모 안감으로 따뜻하게
+      벙벙한 핏보다, 깔끔한 내추럴핏을 연출할 수 있습니다.
+      
+      전체 허리 밴딩으로 편안하면서
+      스트링 니켈 마감으로 디테일까지!
+      
+      이번 조거 팬츠는 무조건 추천합니다~`,
+
+      detail: `허리를 탄탄하게 잡아주는 밴딩과
+      스트링은 원단 톤에 맞춰 더욱 센스있게-
+      끝 부분 올 풀림 없도록 실버 팁 장식으로 마감되었어요.
+      
+      양쪽 핀턱 디테일이 다리 라인을 따라 내려와
+      심플한 디자인에도 밋밋한 느낌이 없이,
+      시각적으로 슬림해 보이는 느낌을 주는
+      절개 핀턱 디테일에 신경을 썼습니다.
+
+      간단한 수납을 도와주는 양쪽 깊숙한 포켓도 있고
+      
+      너무 벙벙하지 않고 예쁘게 여유있는 내추럴 핏이 가능합니다.`,
+
+      size: `FREE 사이즈로 준비되었어요;)
+      167cm 이하 부담없이 착용하실 수 있어요.`
+    },
+    images: {
+      wearing: [
+        '/public-assets/jogger/g02-1.png',
+        '/public-assets/jogger/g02-2.png'
+      ],
+      detail: '/public-assets/jogger/g03.png',
+      material : '/public-assets/jogger/g0M.png',
+      washing: '/public-assets/jogger/g0W.png'
+    }
+  },
+  {
+    id: 'g1',
+    url: '/pants/jogger/g1',
+    mbti: ['enfp', 'esfp', 'estp', 'intp', 'istp'],
+    mainImg: [
+      {
+        id: 'g11-1',
+        img: '/public-assets/jogger/g11-1.png'
+      },
+      {
+        id: 'g11-2',
+        img: '/public-assets/jogger/g11-2.png'
+      },
+      {
+        id: 'g11-3',
+        img: '/public-assets/jogger/g11-3.png'
+      }
+    ],
+    title: '프릴밴딩 하이웨스트 투버튼 코튼 배기팬츠',
+    cost: '32,000',
+    content: {
+      md: `체형을 커버해 주는 와이드한 배기핏에 
+      난스판으로 늘어짐이 덜하고 
+      탄탄하게 떨어지는 핏감의 코튼팬츠예요.
+      
+      마치 프릴처럼 표현 되는 와이드한
+      밴드라인이, 인앤아웃시 넣어 입어도 
+      예쁘게 표현 되는 팬츠구요!
+      
+      기본 티셔츠에만 입어도 예쁨 가득한 코디가
+      가능하니까 하나쯤 소장하시길 추천해드려요-♡`,
+
+      detail: `다리가 길어 보이는 하이웨스트라인에 
+      와이드한 프릴밴딩은 인앤아웃시
+      넣어입어도 예쁘고, 내어입어도
+      예쁘게 표현돼요:)
+      
+      바지 전체적으로 들어간 스티치 디테일로
+      밋밋하지 않게 포인트를 주었구요,
+      
+      양 사이드와 백라인 포켓으로
+      실용성까지 더해주었어요~ 
+      
+      프론트 버튼 단추와 지퍼 디테일로
+      손쉬운 오픈 클로징까지 도와드릴게요-♡`,
+
+      size: `FREE 사이즈로 준비했습니다!`
+    },
+    images: {
+      wearing: [
+        '/public-assets/jogger/g12-1.png',
+        '/public-assets/jogger/g12-2.png'
+      ],
+      detail: '/public-assets/jogger/g13.png',
+      material : '/public-assets/jacket/j3M.png',
+      washing: '/public-assets/jogger/g1W.png'
+    }
+  },
+  {
+    id: 'g2',
+    url: '/pants/jogger/g2',
+    mbti: ['estp', 'intp'],
+    mainImg: [
+      {
+        id: 'g21-1',
+        img: '/public-assets/jogger/g21-1.png'
+      },
+      {
+        id: 'g21-2',
+        img: '/public-assets/jogger/g21-2.png'
+      },
+      {
+        id: 'g21-3',
+        img: '/public-assets/jogger/g21-3.png'
+      }
+    ],
+    title: '코지 윈터 조거 기모 팬츠',
+    cost: '23,920',
+    content: {
+      md: `겉면은 탄탄한 코튼 원단으로
+      늘어짐, 변형 없이 오래 착용 가능하며,
+
+      안쪽 면은 도톰하고 부드러운 기모 원단으로
+      한겨울까지 따뜻하게 입어보실 수 있습니다.
+      
+      부하거나 벙벙하지 않고,
+      하체 군살을 자연스레 커버해주는
+      세미 루즈핏을 연출했습니다.
+      
+      밑단을 가볍게 잡아주어
+      센스있는 조거핏으로 완성!`,
+
+      detail: `허리 라인 풀 밴딩으로
+      장시간 착용에도 편안한 착용감과
+      
+      허리 스트랩으로 체형에 맞게
+      사이즈 조절도 가능합니다.
+
+      양 사이드에 달아준 포켓으로
+      더욱 높은 실용성에 신경썼습니다.`,
+
+      size: `FREE 사이즈로 준비되었습니다!`
+    },
+    images: {
+      wearing: [
+        '/public-assets/jogger/g22-1.png',
+        '/public-assets/jogger/g22-2.png'
+      ],
+      detail: '/public-assets/jogger/g23.png',
+      material : '/public-assets/jogger/g2M.png',
+      washing: '/public-assets/jogger/g2W.png'
+    }
+  },
+  {
+    id: 'g3',
+    url: '/pants/jogger/g3',
+    mbti: ['estp', 'intp', 'istp'],
+    mainImg: [
+      {
+        id: 'g31-1',
+        img: '/public-assets/jogger/g31-1.png'
+      },
+      {
+        id: 'g31-2',
+        img: '/public-assets/jogger/g31-2.png'
+      },
+      {
+        id: 'g31-3',
+        img: '/public-assets/jogger/g31-3.png'
+      }
+    ],
+    title: '와이드 트레이닝 팬츠',
+    cost: '28,000',
+    content: {
+      md: `하체 군살을 자연스레 커버해주는 와이드 팬츠핏과
+      롱한 기장감으로 다리가 길어보이는 아웃핏 연출이 가능합니다.`,
+
+      detail: `와이드 밴딩으로 조임 없이 편안한 착용감과
+      허리 스트랩으로 체형에 맞게 사이즈 조절 가능하고
+      양 사이드 포켓으로 실용성에 신경썼습니다.`,
+
+      size: `FREE 사이즈로 준비되었어요.
+      키 165CM 이하의 체형을 가지신 분들에게 부담없이 착용가능해 추천해드려요~`
+    },
+    images: {
+      wearing: [
+        '/public-assets/jogger/g32-1.png',
+        '/public-assets/jogger/g32-2.png'
+      ],
+      detail: '/public-assets/jogger/g33.png',
+      material : '/public-assets/jogger/g3M.png',
+      washing: '/public-assets/shirt/s3W.png'
+    }
+  },
+  {
+    id: 'g4',
+    url: '/pants/jogger/g4',
+    mbti: ['enfp', 'esfp', 'estp', 'intp'],
+    mainImg: [
+      {
+        id: 'g41-1',
+        img: '/public-assets/jogger/g41-1.png'
+      },
+      {
+        id: 'g41-2',
+        img: '/public-assets/jogger/g41-2.png'
+      },
+      {
+        id: 'g41-3',
+        img: '/public-assets/jogger/g41-3.png'
+      }
+    ],
+    title: '풀밴딩 루즈핏 골지 조거팬츠',
+    cost: '17,600',
+    content: {
+      md: `코듀로이 소재 특유의 보들한 터치감과
+      톡톡한 두께감으로 한겨울에도 따뜻하게
+      착용이 가능하세요.
+      
+      맨투맨이나 니트에 가볍게 매치해줘도
+      휘뚜루 마뚜루한 듯 꾸안꾸 매력이 있는
+      팬츠로 추천드릴게요.`,
+
+      detail: `너무 벙벙하지 않게, 적당히 여유있어서
+      더욱 핏이 예뻤던 조거 팬츠 예요.
+      
+      깔끔하고 세련된 실루엣이 특징으로
+      허벅지부터 종아리까지 말끔하게 
+      커버해드린답니다.
+      
+      올 밴딩 디자인으로 하루종일
+      편안한 착용감을 선사해드리며,
+      
+      탄탄한 허리밴딩으로 안정감있는
+      핏을 유지시켜드려요.
+      
+      스트랩 디테일로 체형에 따라
+      알맞게 조절해서 착용이 가능하시며
+      
+      원단감, 핏감, 촉감 모두 빠지지 않는
+      요 조거팬츠를 아뜨랑스에서 만나보세요.`,
+
+      size: `FREE 사이즈로 준비되었어요.
+      키 167CM 이하의 체형을 가지신 분들에게 부담없이 착용가능해 추천해드려요~`
+    },
+    images: {
+      wearing: [
+        '/public-assets/jogger/g42-1.png',
+        '/public-assets/jogger/g42-2.png'
+      ],
+      detail: '/public-assets/jogger/g43.png',
+      material : '/public-assets/jogger/g4M.png',
+      washing: '/public-assets/shirt/s3W.png'
+    }
+  },
+  {
+    id: 'g5',
+    url: '/pants/jogger/g5',
+    mbti: ['enfp', 'esfp', 'estp', 'infp', 'intp'],
+    mainImg: [
+      {
+        id: 'g51-1',
+        img: '/public-assets/jogger/g51-1.png'
+      },
+      {
+        id: 'g51-2',
+        img: '/public-assets/jogger/g51-2.png'
+      },
+      {
+        id: 'g51-3',
+        img: '/public-assets/jogger/g51-3.png'
+      }
+    ],
+    title: '조거 일자핏 밴딩 팬츠',
+    cost: '17,500',
+    content: {
+      md: `다리를 넣는 순간부터 느껴지는 편안함에
+      무조건 소장하고 싶은 조거팬츠라 생각됩니다!`,
+
+      detail: `허리라인에 맞춰 유연하게 늘어나는
+      밴딩 위로 밴딩이 돌아가거나 변형되지 않도록
+      이중 스티치를 더했습니다.
+      
+      원단 톤에 맞춰 염색한 스트링으로
+      퀄리티를 높이고 끝부분은
+      니켈 팁 장식 마감으로 디테일까지
+      꼼꼼하게 챙겼습니다.
+      
+      양쪽 허리 포켓은 사선 라인으로
+      추가되어 손을 가볍게 넣거나
+      간단한 소지품 수납이 가능하답니다.`,
+
+      size: `FREE 사이즈로 준비되었어요.
+      키 168CM 이하의 체형을 가지신 분들에게 부담없이 착용가능해 추천해드려요~`
+    },
+    images: {
+      wearing: [
+        '/public-assets/jogger/g52-1.png',
+        '/public-assets/jogger/g52-2.png'
+      ],
+      detail: '/public-assets/jogger/g53.png',
+      material : '/public-assets/jogger/g5M.png',
+      washing: '/public-assets/shirt/s3W.png'
+    }
+  }
+];
+
 export {dress};
