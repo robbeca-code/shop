@@ -3322,4 +3322,516 @@ let jogger = [
   }
 ];
 
+let pullover = [
+  {
+    id: 'p0',
+    url: '/pullover/p0',
+    mbti: ['entp', 'esfj', 'estp', 'intp', 'istj', 'istp'],
+    mainImg: [
+      {
+        id: 'p01-1',
+        img: '/public-assets/pullover/p01-1.png'
+      },
+      {
+        id: 'p01-2',
+        img: '/public-assets/pullover/p01-2.png'
+      },
+      {
+        id: 'p01-3',
+        img: '/public-assets/pullover/p01-3.png'
+      }
+    ],
+    title: '이지한 레터링 루즈핏 맨투맨',
+    cost: '36,000',
+    content: {
+      md: `톡톡한 두께감의 코튼 쭈리 패브릭으로
+      편안하고 부담 없는 착용감 선사해드리구요,
+      
+      활용도도 높고 가성비도 좋은 맨투맨
+      강력 추천해드릴게요-`,
+
+      detail: `깔끔한 라운드넥 디자인에 영문 레터링으로
+      센스있는 포인트를 더했구요,
+      
+      전체적인 핏감은 루즈하게 떨어져
+      군살 부각없이 편안하게 입기 좋아요 :)
+      
+      데일리룩, 여행룩, 집 앞 마실룩은 물론-
+      친구와 함께 트윈룩으로도 활용해보세요♥`,
+
+      size: `FREE 사이즈로 준비되었어요;)
+      162cm 이하 부담없이 착용하실 수 있어요.`
+    },
+    images: {
+      wearing: [
+        '/public-assets/pullover/p02-1.png',
+        '/public-assets/pullover/p02-2.png'
+      ],
+      detail: '/public-assets/pullover/p03.png',
+      material : '/public-assets/jacket/j3M.png',
+      washing: '/public-assets/pullover/p0W.png'
+    }
+  },
+  {
+    id: 'p1',
+    url: '/pullover/p1',
+    mbti: ['esfj', 'esfp', 'estp', 'infj', 'intp'],
+    mainImg: [
+      {
+        id: 'p11-1',
+        img: '/public-assets/pullover/p11-1.png'
+      },
+      {
+        id: 'p11-2',
+        img: '/public-assets/pullover/p11-2.png'
+      },
+      {
+        id: 'p11-3',
+        img: '/public-assets/pullover/p11-3.png'
+      }
+    ],
+    title: '에드 V넥 세미크롭 벌룬소매 쭈리 맨투맨',
+    cost: '17,600',
+    content: {
+      md: `기모 맨투맨처럼 두터운 두께감이 아니라서
+      아우터 속에도 부담없이 입기 좋으며,
+      
+      더위를 많이 타시거나 두께감 있는 옷을 입었을 때,
+      답답함을 느끼시는 분들께도 추천드리고 싶어요!
+      
+      브이넥 사이로 이너 티셔츠 넥라인이 보이도록
+      레이어드하시면 더욱 캐쥬얼하고 센스있게 연출된답니다~
+      
+      넉넉하게 여유있는 품으로 나와서
+      이너 레이어드에도 구애가 없는 편이라 간절기는 물론이며,
+      
+      추운 겨울에는 패딩 점퍼 또는 오버핏 코트와도
+      코디 가능한 시즌리스 아이템이에요♬`,
+
+      detail: `센스있는 브이넥 & 귀여운 벌룬 소매로
+      디테일을 오밀조밀 담아냈어요 :)
+      
+      노출 걱정없이 쇄골 라인을 딱 예쁘게
+      보여주는 선으로 맞춰 제작된 V넥 라인-
+      
+      넥라인만 조금 바뀌었을 뿐인데도 
+      묘하게 다른 분위기가 느껴져요 *.* 
+      
+      가장 좋은 점은 얼굴 선이 더 트여보이고 
+      다른 맨투맨보다 더 여리여리해보인다는 점 
+      이 작은 차이를 무시할 수 없더라구요 :) 
+      
+      어깨라인이 가오리핏처럼 여유있게 떨어지면서 
+      아방한 핏으로 사랑스럽게 착용되며,
+      
+      소매 라인은 셔링을 하나 하나 잡아
+      포인트 되게 귀여운 벌룬 핏을 연출해드렸으며,
+      오래 입어도 늘어남이 적게 탄탄한 시보리를 더해줬어요-
+      
+      반에 걸쳐지는 세미 크롭 기장감으로
+      다리 라인이 길어보여 아담한 고객님들도
+      자유롭게 입으실 수 있어요!♥`,
+
+      size: `FREE 사이즈로 준비했습니다!`
+    },
+    images: {
+      wearing: [
+        '/public-assets/pullover/p12-1.png',
+        '/public-assets/pullover/p12-2.png'
+      ],
+      detail: '/public-assets/pullover/p13.png',
+      material : '/public-assets/jacket/j3M.png',
+      washing: '/public-assets/trouser/t3W.png'
+    }
+  },
+  {
+    id: 'p2',
+    url: '/pullover/p2',
+    mbti: ['enfp', 'esfj', 'esfp', 'estp', 'infj', 'intp'],
+    mainImg: [
+      {
+        id: 'p21-1',
+        img: '/public-assets/pullover/p21-1.png'
+      },
+      {
+        id: 'p21-2',
+        img: '/public-assets/pullover/p21-2.png'
+      },
+      {
+        id: 'p21-3',
+        img: '/public-assets/pullover/p21-3.png'
+      }
+    ],
+    title: '베를린 자수레터링 카라집업 세미크롭 맨투맨',
+    cost: '26,400',
+    content: {
+      md: `코튼 폴리 혼방으로 겉감이 탄탄하면서도
+      부드럽게 제작된 쭈리 원단입니다.
+      
+      간절기 시즌에 편하고 예쁘게
+      입을 수 있는 캐쥬얼룩이에요.
+      
+      레터링 포인트가 있어서 귀여워요!`,
+
+      detail: `편안하게 착용되는
+      드롭숄더 루즈핏을 연출했어요.
+      
+      너무 짧지 않으면서도,
+      비율이 예뻐 보이는 세미크롭 기장이에요.
+      
+      네크라인 오픈 클로징이 가능한
+      반 집업 디테일에 신경썼습니다!
+      
+      투박하지 않게 귀여운
+      라운드 쉐입의 작은 칼라와
+      매력적인 배색 포인트가 되는
+      BERLIN 레터링 자수도 추가했습니다.`,
+
+      size: `FREE 사이즈로 준비되었습니다!`
+    },
+    images: {
+      wearing: [
+        '/public-assets/pullover/p22-1.png',
+        '/public-assets/pullover/p22-2.png'
+      ],
+      detail: '/public-assets/pullover/p23.png',
+      material : '/public-assets/pullover/p2M.png',
+      washing: '/public-assets/trouser/t3W.png'
+    }
+  },
+  {
+    id: 'p3',
+    url: '/pullover/p3',
+    mbti: ['enfp', 'esfj', 'esfp', 'estp', 'infp', 'intp', 'istp'],
+    mainImg: [
+      {
+        id: 'p31-1',
+        img: '/public-assets/pullover/p31-1.png'
+      },
+      {
+        id: 'p31-2',
+        img: '/public-assets/pullover/p31-2.png'
+      },
+      {
+        id: 'p31-3',
+        img: '/public-assets/pullover/p31-3.png'
+      }
+    ],
+    title: '코어 스트라이프 기모 카라 맨투맨',
+    cost: '45,000',
+    content: {
+      md: `넉넉한 품으로 체형을 커버해 드리는 편안한 루즈핏.
+
+      어깨 부각 없이 내추럴하게 떨어지는 드롭 숄더 라인과
+      골반 위로 깔끔하게 떨어지는 세미 크롭 기장이에요.`,
+
+      detail: `깔끔하게 연출되는 카라넥,
+      반집업 디자인과 레더 팁 디테일에 신경썼습니다.
+
+      각 밑단 쫀쫀 시보리 짜임으로
+      늘어짐 걱정은 안 하셔도 됩니다! `,
+
+      size: `FREE 사이즈로 준비되었어요.
+      키 163CM 이하의 체형을 가지신 분들에게 부담없이 착용가능해 추천해드려요~`
+    },
+    images: {
+      wearing: [
+        '/public-assets/pullover/p32-1.png',
+        '/public-assets/pullover/p32-2.png'
+      ],
+      detail: '/public-assets/pullover/p33.png',
+      material : '/public-assets/jacket/j3M.png',
+      washing: '/public-assets/pullover/p3W.png'
+    }
+  },
+  {
+    id: 'p4',
+    url: '/pullover/p4',
+    mbti: ['enfp', 'entp', 'estp', 'intp', 'isfj'],
+    mainImg: [
+      {
+        id: 'p41-1',
+        img: '/public-assets/pullover/p41-1.png'
+      },
+      {
+        id: 'p41-2',
+        img: '/public-assets/pullover/p41-2.png'
+      },
+      {
+        id: 'p41-3',
+        img: '/public-assets/pullover/p41-3.png'
+      }
+    ],
+    title: '디즈니 달마시안 프린팅 루즈핏 맨투맨',
+    cost: '37,200',
+    content: {
+      md: `바람이 선선하게 부는 계절, 가을
+      우리의 영원한 친구 디즈니 캐릭터들이 
+      포인트인 맨투맨을 가져왔어요.
+      
+      보기만 해도 힐링되는 맨투맨
+      추천합니다!`,
+
+      detail: `네크라인은 쉽게 늘어나지 않도록
+      헤링본 테잎으로 퀄리티있게 마감했습니다:)
+      
+      핏감이 과하지 않게 적당히
+      루즈하게 떨어지고 캐주얼하게 예뻐요.`,
+
+      size: `FREE 사이즈로 준비되었어요.
+      키 165CM 이하의 체형을 가지신 분들에게 부담없이 착용가능해 추천해드려요~`
+    },
+    images: {
+      wearing: [
+        '/public-assets/pullover/p42-1.png',
+        '/public-assets/pullover/p42-2.png'
+      ],
+      detail: '/public-assets/pullover/p43.png',
+      material : '/public-assets/pullover/p4M.png',
+      washing: '/public-assets/pullover/p4W.png'
+    }
+  },
+  {
+    id: 'p5',
+    url: '/pullover/p5',
+    mbti: ['enfp', 'esfj', 'esfp', 'estj', 'estp', 'infj', 'istp'],
+    mainImg: [
+      {
+        id: 'p51-1',
+        img: '/public-assets/pullover/p51-1.png'
+      },
+      {
+        id: 'p51-2',
+        img: '/public-assets/pullover/p51-2.png'
+      },
+      {
+        id: 'p51-3',
+        img: '/public-assets/pullover/p51-3.png'
+      }
+    ],
+    title: '배색카라 맨투맨',
+    cost: '35,200',
+    content: {
+      md: `가볍고 보드라운 느낌으로
+      산뜻하게 입어지는 패브릭을 사용했어요.
+      
+      편안하면서 캐주얼한 룩으로 추천합니다!`,
+
+      detail: `드롭 숄더 라인으로
+      여리한 핏을 연출했습니다.
+      
+      골반라인에 걸쳐지는
+      크롭 디자인이고
+      
+      늘어짐 방지를 위한
+      쫀쫀한 시보리 짜임을 사용했습니다.`,
+
+      size: `FREE 사이즈로 준비되었어요.
+      키 168CM 이하의 체형을 가지신 분들에게 부담없이 착용가능해 추천해드려요~`
+    },
+    images: {
+      wearing: [
+        '/public-assets/pullover/p52-1.png',
+        '/public-assets/pullover/p52-2.png'
+      ],
+      detail: '/public-assets/pullover/p53.png',
+      material : '/public-assets/dress/flowerM.png',
+      washing: '/public-assets/jacket/j9W.png'
+    }
+  },
+  {
+    id: 'p6',
+    url: '/pullover/p6',
+    mbti: ['esfj', 'esfp', 'estp', 'intp', 'isfj'],
+    mainImg: [
+      {
+        id: 'p61-1',
+        img: '/public-assets/pullover/p61-1.png'
+      },
+      {
+        id: 'p61-2',
+        img: '/public-assets/pullover/p61-2.png'
+      },
+      {
+        id: 'p61-3',
+        img: '/public-assets/pullover/p61-3.png'
+      }
+    ],
+    title: '볼디 후리스 반집업 맨투맨',
+    cost: '35,200',
+    content: {
+      md: `맨살에 착용해도 부드러움 가득하며, 
+      기모안감으로 보온성까지 갖추어 
+      한 겨울 내내 착용하기 좋아요.`,
+
+      detail: `깔끔하게 떨어지는 스탠다듯한 핏감
+      살짝 여유있는 핏감이 상체 군살을
+      커버해 은근한 체형 보정 효과에 신경썼습니다.`,
+
+      size: `FREE 사이즈로 준비되었어요.
+      키 163CM 이하의 체형을 가지신 분들에게 부담없이 착용가능해 추천해드려요~`
+    },
+    images: {
+      wearing: [
+        '/public-assets/pullover/p62-1.png',
+        '/public-assets/pullover/p62-2.png'
+      ],
+      detail: '/public-assets/pullover/p63.png',
+      material : '/public-assets/pullover/p6M.png',
+      washing: '/public-assets/pullover/p6W.png'
+    }
+  },
+  {
+    id: 'p7',
+    url: '/pullover/p7',
+    mbti: ['enfp', 'entp', 'esfp', 'estp', 'intp', 'istp'],
+    mainImg: [
+      {
+        id: 'p71-1',
+        img: '/public-assets/pullover/p71-1.png'
+      },
+      {
+        id: 'p71-2',
+        img: '/public-assets/pullover/p71-2.png'
+      },
+      {
+        id: 'p71-3',
+        img: '/public-assets/pullover/p71-3.png'
+      }
+    ],
+    title: '로디 자수 기모안감 아노락 맨투맨',
+    cost: '28,000',
+    content: {
+      md: `폭신폭신한 기모 안감과
+      깔끔한 자수 레터링이 포인트입니다.`,
+
+      detail: `요즘 감성을 담은 반집업 아노락 맨투맨 디자인!
+
+      올려입어도 내려서 카라 디자인으로 입어도
+      정말 예쁜 실루엣을 연출할 수 있습니다.`,
+
+      size: `FREE 사이즈로 준비되었어요~`
+    },
+    images: {
+      wearing: [
+        '/public-assets/pullover/s72-1.png',
+        '/public-assets/pullover/s72-2.png'
+      ],
+      detail: '/public-assets/pullover/p73.png',
+      material : '/public-assets/pullover/p7M.png',
+      washing: '/public-assets/coat/c9W.png'
+    }
+  },
+  {
+    id: 'p8',
+    url: '/pullover/p8',
+    mbti: ['enfj', 'estp', 'intj', 'intp', 'istp'],
+    mainImg: [
+      {
+        id: 'p81-1',
+        img: '/public-assets/pullover/p81-1.png'
+      },
+      {
+        id: 'p81-2',
+        img: '/public-assets/pullover/p81-2.png'
+      },
+      {
+        id: 'p81-3',
+        img: '/public-assets/pullover/p81-3.png'
+      }
+    ],
+    title: '오프숄더 세미 크롭 맨투맨',
+    cost: '20,400',
+    content: {
+      md: `오프숄더 맨투맨을 소장해도
+      후회없을 데일리 맨투맨이 랍니다!
+      
+      부드러운 코튼과 신축성 좋은 스판
+      혼방 소재로 제작되어 편안하게 착용이
+      가능하세요.
+      
+      활용도 높고 가성비도 좋아 추천할게요!`,
+
+      detail: `오프숄더로 넥라인이 넓게 디자인되어
+      여리한 무드로 입을 수 있답니다.
+      
+      세미 크롭 기장으로 레그라인을 더욱
+      길게 연출해주며 여유있는 핏감으로
+      군살 부각없이 편안하게 입기 좋아요.
+      
+      데일리룩, 여행룩, 집 앞 마실룩 등
+      다양하게 즐겨보세요 :)`,
+
+      size: `FREE 사이즈로 준비되었어요.`
+    },
+    images: {
+      wearing: [
+        '/public-assets/pullover/p82-1.png',
+        '/public-assets/pullover/p82-2.png'
+      ],
+      detail: '/public-assets/pullover/p83.png',
+      material : '/public-assets/shirt/s0M.png',
+      washing: '/public-assets/pullover/p0W.png'
+    }
+  },
+  {
+    id: 'p9',
+    url: '/pullover/p9',
+    mbti: ['enfp', 'esfp', 'istj', 'istp'],
+    mainImg: [
+      {
+        id: 'p91-1',
+        img: '/public-assets/pullover/p91-1.png'
+      },
+      {
+        id: 'p91-2',
+        img: '/public-assets/pullover/p91-2.png'
+      },
+      {
+        id: 'p91-3',
+        img: '/public-assets/pullover/p91-3.png'
+      }
+    ],
+    title: '어깨 트임 루즈핏 맨투맨',
+    cost: '35,200',
+    content: {
+      md: `세미 크롭 기장으로
+      다리 라인이 더욱 길어보이면서
+      트렌디한 무드가 돋보이는 아이템이에요.
+      
+      기솔모델처럼 데님 팬츠와 매치해
+      센스있는 데일리룩으로,
+      
+      조거 팬츠, 트레이닝 팬츠와 매치해
+      캐주얼한 무드로,
+      다양하게 코디하는 재미가 쏠쏠하답니다♥`,
+
+      detail: `코튼 100% 소재로 탄탄하면서
+      쾌적한 착용감을 선사해 드리구요.
+      
+      세미 크롭 기장감에
+      여유있는 루즈핏으로 체형에 크게 구애없이
+      편안하게 입어보실 수 있답니다.
+      
+      넥라인과 소매단, 밑단 시보리 디테일로
+      안정적인 아웃핏을 연출해 드리며,
+
+      드롭된 숄더 라인에 오픈 클로징이 가능한
+      트임 디테일이 더해져 센스있는
+      스타일링을 완성해 드려요 *.*`,
+
+      size: `FREE 사이즈로 준비되었어요.`
+    },
+    images: {
+      wearing: [
+        '/public-assets/pullover/p92-1.png',
+        '/public-assets/pullover/p92-2.png'
+      ],
+      detail: '/public-assets/pullover/p93.png',
+      material : '/public-assets/jacket/j3M.png',
+      washing: '/public-assets/pullover/p0W.png'
+    }
+  }
+];
+
 export {dress};
