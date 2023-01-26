@@ -3,6 +3,7 @@ let dress = [
     id: 'd0',
     url: '/dress/d0',
     mbti: ['enfp', 'esfp', 'infp'],
+    theme: ['데이트룩'],
     mainImg: [
       {
         id: 'flower1-1',
@@ -45,6 +46,7 @@ let dress = [
     id: 'd1',
     url: '/dress/d1',
     mbti: ['esfj', 'intj', 'istp'],
+    theme: ['데이트룩', '캠퍼스룩'],
     mainImg: [
       {
         id: 'hip1-1',
@@ -92,6 +94,7 @@ let dress = [
     id: 'd2',
     url: '/dress/d2',
     mbti: ['estj', 'infp', 'intj'],
+    theme: ['데이트룩', '캠퍼스룩', '하객룩'],
     mainImg: [
       {
         id: 'd21-1',
@@ -137,6 +140,7 @@ let dress = [
     id: 'd3',
     url: '/dress/d3',
     mbti: ['esfj', 'istp'],
+    theme: ['데이트룩', '하객룩'],
     mainImg: [
       {
         id: 'd31-1',
@@ -183,6 +187,7 @@ let dress = [
     id: 'd4',
     url: '/dress/d4',
     mbti: ['enfj', 'estj', 'infp'],
+    theme: ['데이트룩', '하객룩'],
     mainImg: [
       {
         id: 'd41-1',
@@ -232,6 +237,7 @@ let dress = [
     id: 'd5',
     url: '/dress/d5',
     mbti: ['estj', 'istp'],
+    theme: ['출근룩', '하객룩'],
     mainImg: [
       {
         id: 'd51-1',
@@ -278,6 +284,7 @@ let dress = [
     id: 'd6',
     url: '/dress/d6',
     mbti: ['entj', 'estj', 'infp'],
+    theme: ['데이트룩', '캠퍼스룩', '하객룩'],
     mainImg: [
       {
         id: 'd61-1',
@@ -324,6 +331,7 @@ let dress = [
     id: 'd7',
     url: '/dress/d7',
     mbti: ['esfj', 'esfp', 'infp', 'intj'],
+    theme: ['데이트룩', '출근룩', '캠퍼스룩', '하객룩'],
     mainImg: [
       {
         id: 'd71-1',
@@ -375,6 +383,7 @@ let dress = [
     id: 'd8',
     url: '/dress/d8',
     mbti: ['esfp', 'infp', 'intp'],
+    theme: ['데이트룩', '출근룩', '캠퍼스룩'],
     mainImg: [
       {
         id: 'd81-1',
@@ -426,6 +435,7 @@ let dress = [
     id: 'd9',
     url: '/dress/d9',
     mbti: ['enfj', 'enfp', 'estj'],
+    theme: ['데이트룩', '출근룩', '캠퍼스룩', '하객룩'],
     mainImg: [
       {
         id: 'd91-1',
@@ -478,6 +488,7 @@ let jacket = [
     id: 'j0',
     url: '/outerwear/jacket/j0',
     mbti: ['esfj', 'istp'],
+    theme: ['데이트룩', '출근룩', '캠퍼스룩', '하객룩'],
     mainImg: [
       {
         id: 'j01-1',
@@ -523,6 +534,7 @@ let jacket = [
     id: 'j1',
     url: '/outerwear/jacket/j1',
     mbti: ['esfj', 'intj', 'istp'],
+    theme: ['데이트룩', '출근룩', '캠퍼스룩'],
     mainImg: [
       {
         id: 'j11-1',
@@ -566,6 +578,7 @@ let jacket = [
     id: 'j2',
     url: '/outerwear/jacket/j2',
     mbti: ['estj', 'infp', 'intj'],
+    theme: ['데이트룩', '출근룩', '캠퍼스룩', '하객룩'],
     mainImg: [
       {
         id: 'j21-1',
@@ -610,6 +623,7 @@ let jacket = [
     id: 'j3',
     url: '/outerwear/jacket/j3',
     mbti: ['enfp', 'estp', 'intp', 'isfp'],
+    theme: ['데이트룩', '캠퍼스룩'],
     mainImg: [
       {
         id: 'j31-1',
@@ -658,6 +672,7 @@ let jacket = [
     id: 'j4',
     url: '/outerwear/jacket/j4',
     mbti: ['enfj', 'entj', 'estj', 'infp', 'istp'],
+    theme: ['데이트룩', '면접프리패스룩', '출근룩', '캠퍼스룩', '하객룩'],
     mainImg: [
       {
         id: 'j41-1',
@@ -703,6 +718,7 @@ let jacket = [
     id: 'j5',
     url: '/outerwear/jacket/j5',
     mbti: ['enfj', 'esfj', 'estj'],
+    theme: ['출근룩', '캠퍼스룩', '하객룩'],
     mainImg: [
       {
         id: 'j51-1',
@@ -748,6 +764,7 @@ let jacket = [
     id: 'j6',
     url: '/outerwear/jacket/j6',
     mbti: ['entj', 'estj', 'infp'],
+    theme: ['출근룩', '캠퍼스룩'],
     mainImg: [
       {
         id: 'j61-1',
@@ -813,6 +830,7 @@ let jacket = [
     id: 'j7',
     url: '/outerwear/jacket/j7',
     mbti: ['enfj', 'entj', 'estj', 'infp'],
+    theme: ['데이트룩', '출근룩', '캠퍼스룩', '하객룩'],
     mainImg: [
       {
         id: 'j71-1',
@@ -872,6 +890,7 @@ let jacket = [
     id: 'j8',
     url: '/outerwear/jacket/j8',
     mbti: ['enfj', 'esfj', 'estj', 'intp', 'isfj'],
+    theme: ['데이트룩', '출근룩', '캠퍼스룩', '하객룩'],
     mainImg: [
       {
         id: 'j81-1',
@@ -936,6 +955,7 @@ let jacket = [
     id: 'j9',
     url: '/outerwear/jacket/j9',
     mbti: ['enfp', 'isfp', 'istp'],
+    theme: ['데이트룩', '캠퍼스룩'],
     mainImg: [
       {
         id: 'j91-1',
@@ -1000,6 +1020,7 @@ let coat = [
     id: 'c0',
     url: '/outerwear/coat/c0',
     mbti: ['estj', 'infj', 'isfj', 'isfp'],
+    theme: ['데이트룩', '출근룩', '캠퍼스룩', '하객룩'],
     mainImg: [
       {
         id: 'c01-1',
@@ -1051,6 +1072,7 @@ let coat = [
     id: 'c1',
     url: '/outerwear/coat/c1',
     mbti: ['entj', 'estj', 'infj', 'isfj', 'istj'],
+    theme: ['데이트룩', '출근룩', '캠퍼스룩', '하객룩'],
     mainImg: [
       {
         id: 'c11-1',
@@ -1101,6 +1123,7 @@ let coat = [
     id: 'c2',
     url: '/outerwear/coat/c2',
     mbti: ['entj', 'estj', 'infj', 'isfj', 'istj'],
+    theme: ['데이트룩', '출근룩', '캠퍼스룩', '하객룩'],
     mainImg: [
       {
         id: 'c21-1',
@@ -1151,6 +1174,7 @@ let coat = [
     id: 'c3',
     url: '/outerwear/coat/c3',
     mbti: ['enfp', 'entp', 'estj', 'isfj', 'isfp'],
+    theme: ['데이트룩', '출근룩', '캠퍼스룩', '하객룩'],
     mainImg: [
       {
         id: 'c31-1',
@@ -1214,6 +1238,7 @@ let coat = [
     id: 'c4',
     url: '/outerwear/coat/c4',
     mbti: ['enfp', 'entp', 'estj', 'isfj', 'isfp'],
+    theme: ['데이트룩', '출근룩', '캠퍼스룩', '하객룩'],
     mainImg: [
       {
         id: 'c41-1',
@@ -1286,6 +1311,7 @@ let coat = [
     id: 'c5',
     url: '/outerwear/coat/c5',
     mbti: ['enfp', 'entp', 'estj', 'isfj', 'isfp'],
+    theme: ['데이트룩', '출근룩', '캠퍼스룩', '하객룩'],
     mainImg: [
       {
         id: 'c51-1',
@@ -1352,6 +1378,7 @@ let coat = [
     id: 'c6',
     url: '/outerwear/coat/c6',
     mbti: ['esfp', 'estj', 'isfj', 'istj', 'istp'],
+    theme: ['데이트룩', '출근룩', '캠퍼스룩'],
     mainImg: [
       {
         id: 'c61-1',
@@ -1405,6 +1432,7 @@ let coat = [
     id: 'c7',
     url: '/outerwear/coat/c7',
     mbti: ['esfj', 'estj', 'infj', 'isfj'],
+    theme: ['출근룩', '캠퍼스룩'],
     mainImg: [
       {
         id: 'c71-1',
@@ -1460,6 +1488,7 @@ let coat = [
     id: 'c8',
     url: '/outerwear/coat/c8',
     mbti: ['estj', 'infj', 'isfj', 'isfp'],
+    theme: ['출근룩', '캠퍼스룩'],
     mainImg: [
       {
         id: 'c81-1',
@@ -1508,6 +1537,7 @@ let coat = [
     id: 'c9',
     url: '/outerwear/coat/c9',
     mbti: ['enfp', 'esfp', 'infp', 'isfj', 'istp'],
+    theme: ['데이트룩', '출근룩', '캠퍼스룩', '하객룩'],
     mainImg: [
       {
         id: 'c91-1',
@@ -1563,6 +1593,7 @@ let shirt = [
     id: 's0',
     url: '/shirt/s0',
     mbti: ['entj', 'entp', 'esfj', 'infj', 'isfj', 'isfp'],
+    theme: ['데이트룩', '캠퍼스룩'],
     mainImg: [
       {
         id: 's01-1',
@@ -1630,6 +1661,7 @@ let shirt = [
     id: 's1',
     url: '/shirt/s1',
     mbti: ['esfp', 'infp', 'intp', 'isfp'],
+    theme: ['데이트룩', '출근룩', '캠퍼스룩', '하객룩'],
     mainImg: [
       {
         id: 's11-1',
@@ -1684,6 +1716,7 @@ let shirt = [
     id: 's2',
     url: '/shirt/s2',
     mbti: ['enfp', 'entp', 'estp', 'intp', 'isfp'],
+    theme: ['데이트룩', '출근룩', '캠퍼스룩'],
     mainImg: [
       {
         id: 's21-1',
@@ -1730,6 +1763,7 @@ let shirt = [
     id: 's3',
     url: '/shirt/s3',
     mbti: ['esfj', 'estj', 'infj', 'isfp'],
+    theme: ['데이트룩', '면접프리패스룩', '출근룩', '캠퍼스룩', '하객룩'],
     mainImg: [
       {
         id: 's31-1',
@@ -1801,6 +1835,7 @@ let shirt = [
     id: 's4',
     url: '/shirt/s4',
     mbti: ['entj', 'infj', 'istj'],
+    theme: ['데이트룩', '면접프리패스룩', '출근룩', '캠퍼스룩'],
     mainImg: [
       {
         id: 's41-1',
@@ -1846,6 +1881,7 @@ let shirt = [
     id: 's5',
     url: '/shirt/s5',
     mbti: ['enfj', 'enfp', 'isfj'],
+    theme: ['데이트룩'],
     mainImg: [
       {
         id: 's51-1',
@@ -1897,6 +1933,7 @@ let shirt = [
     id: 's6',
     url: '/shirt/s6',
     mbti: ['entp', 'esfp', 'infp', 'isfp'],
+    theme: ['데이트룩', '출근룩', '캠퍼스룩'],
     mainImg: [
       {
         id: 's61-1',
@@ -1951,6 +1988,7 @@ let shirt = [
     id: 's7',
     url: '/shirt/s7',
     mbti: ['estj', 'isfp', 'istj', 'istp'],
+    theme: ['데이트룩', '출근룩', '캠퍼스룩'],
     mainImg: [
       {
         id: 's71-1',
@@ -1994,6 +2032,7 @@ let shirt = [
     id: 's8',
     url: '/shirt/s8',
     mbti: ['enfj', 'enfp', 'esfp', 'intj', 'istp'],
+    theme: ['데이트룩', '캠퍼스룩'],
     mainImg: [
       {
         id: 's81-1',
@@ -2052,6 +2091,7 @@ let jeans = [
     id: 'b0',
     url: '/pants/jeans/b0',
     mbti: ['entj', 'esfj', 'estp', 'infj', 'intp', 'isfj'],
+    theme: ['데이트룩', '출근룩', '캠퍼스룩', '하객룩'],
     mainImg: [
       {
         id: 'b01-1',
@@ -2101,6 +2141,7 @@ let jeans = [
     id: 'b1',
     url: '/pants/jeans/b1',
     mbti: ['enfp', 'esfj', 'esfp', 'estp', 'intp', 'isfj', 'istp'],
+    theme: ['데이트룩', '출근룩', '캠퍼스룩'],
     mainImg: [
       {
         id: 'b11-1',
@@ -2146,6 +2187,7 @@ let jeans = [
     id: 'b2',
     url: '/pants/jeans/b2',
     mbti: ['enfj', 'enfp', 'entj', 'esfj', 'esfp', 'estp', 'infj', 'intj', 'intp', 'isfj'],
+    theme: ['데이트룩', '출근룩', '캠퍼스룩', '하객룩'],
     mainImg: [
       {
         id: 'b21-1',
@@ -2193,6 +2235,7 @@ let jeans = [
     id: 'b3',
     url: '/pants/jeans/b3',
     mbti: ['esfj', 'estp', 'intp', 'isfj'],
+    theme: ['데이트룩', '출근룩', '캠퍼스룩'],
     mainImg: [
       {
         id: 'b31-1',
@@ -2238,6 +2281,7 @@ let jeans = [
     id: 'b4',
     url: '/pants/jeans/b4',
     mbti: ['enfp', 'esfp', 'estp'],
+    theme: ['데이트룩', '출근룩', '캠퍼스룩'],
     mainImg: [
       {
         id: 'b41-1',
@@ -2290,6 +2334,7 @@ let jeans = [
     id: 'b5',
     url: '/pants/jeans/b5',
     mbti: ['enfp', 'esfp', 'estp', 'intp', 'istj', 'istp'],
+    theme: ['데이트룩', '캠퍼스룩'],
     mainImg: [
       {
         id: 'b51-1',
@@ -2343,6 +2388,7 @@ let jeans = [
     id: 'b6',
     url: '/pants/jeans/b6',
     mbti: ['enfp', 'esfp', 'istj', 'istp'],
+    theme: ['데이트룩', '출근룩', '캠퍼스룩', '하객룩'],
     mainImg: [
       {
         id: 'b61-1',
@@ -2395,6 +2441,7 @@ let jeans = [
     id: 'b7',
     url: '/pants/jeans/b7',
     mbti: ['entp', 'esfp', 'infj', 'intj', 'intp', 'isfp', 'istj', 'istp'],
+    theme: ['데이트룩', '출근룩', '캠퍼스룩', '하객룩'],
     mainImg: [
       {
         id: 'b71-1',
@@ -2441,6 +2488,7 @@ let jeans = [
     id: 'b8',
     url: '/pants/jeans/b8',
     mbti: ['enfp', 'esfp', 'estp', 'intp'],
+    theme: ['데이트룩', '출근룩', '캠퍼스룩'],
     mainImg: [
       {
         id: 'b81-1',
@@ -2496,6 +2544,7 @@ let jeans = [
     id: 'b9',
     url: '/pants/jeans/b9',
     mbti: ['entj', 'esfj', 'esfp', 'estp', 'intp', 'isfj', 'isfp'],
+    theme: ['데이트룩', '출근룩', '캠퍼스룩', '하객룩'],
     mainImg: [
       {
         id: 'b91-1',
@@ -2560,6 +2609,7 @@ let trouser = [
     id: 't0',
     url: '/pants/trouser/t0',
     mbti: ['estj', 'infj', 'intp', 'istj'],
+    theme: ['데이트룩', '출근룩', '캠퍼스룩', '하객룩'],
     mainImg: [
       {
         id: 't01-1',
@@ -2616,6 +2666,7 @@ let trouser = [
     id: 't1',
     url: '/pants/trouser/t1',
     mbti: ['entj', 'esfj', 'estj', 'isfj'],
+    theme: ['출근룩', '캠퍼스룩'],
     mainImg: [
       {
         id: 't11-1',
@@ -2664,6 +2715,7 @@ let trouser = [
     id: 't2',
     url: '/pants/trouser/t2',
     mbti: ['enfp', 'entj', 'esfj', 'estj', 'isfj', 'isfp'],
+    theme: ['데이트룩', '출근룩', '캠퍼스룩', '하객룩'],
     mainImg: [
       {
         id: 't21-1',
@@ -2714,6 +2766,7 @@ let trouser = [
     id: 't3',
     url: '/pants/trouser/t3',
     mbti: ['entj', 'entp', 'esfj', 'estj', 'estp', 'isfp', 'istj'],
+    theme: ['출근룩', '캠퍼스룩'],
     mainImg: [
       {
         id: 't31-1',
@@ -2784,6 +2837,7 @@ let trouser = [
     id: 't4',
     url: '/pants/trouser/t4',
     mbti: ['enfj', 'entj', 'entp', 'infj', 'intj', 'isfp', 'istp'],
+    theme: ['데이트룩', '면접프리패스룩', '출근룩', '캠퍼스룩', '하객룩'],
     mainImg: [
       {
         id: 't41-1',
@@ -2834,6 +2888,7 @@ let trouser = [
     id: 't5',
     url: '/pants/trouser/t5',
     mbti: ['enfp', 'esfp'],
+    theme: ['출근룩', '하객룩'],
     mainImg: [
       {
         id: 't51-1',
@@ -2882,6 +2937,7 @@ let trouser = [
     id: 't6',
     url: '/pants/trouser/t6',
     mbti: ['entp', 'esfp', 'estj', 'estp', 'istj'],
+    theme: ['데이트룩', '출근룩', '캠퍼스룩'],
     mainImg: [
       {
         id: 't61-1',
@@ -2952,6 +3008,7 @@ let trouser = [
     id: 't7',
     url: '/pants/trouser/t7',
     mbti: ['enfj', 'esfj', 'estj', 'infj', 'isfj'],
+    theme: ['데이트룩', '출근룩', '캠퍼스룩', '하객룩'],
     mainImg: [
       {
         id: 't71-1',
@@ -3002,6 +3059,7 @@ let jogger = [
     id: 'g0',
     url: '/pants/jogger/g0',
     mbti: ['estp', 'intp'],
+    theme: ['집순이룩', '캠퍼스룩'],
     mainImg: [
       {
         id: 'g01-1',
@@ -3059,6 +3117,7 @@ let jogger = [
     id: 'g1',
     url: '/pants/jogger/g1',
     mbti: ['enfp', 'esfp', 'estp', 'intp', 'istp'],
+    theme: ['데이트룩', '집순이룩', '출근룩', '캠퍼스룩'],
     mainImg: [
       {
         id: 'g11-1',
@@ -3117,6 +3176,7 @@ let jogger = [
     id: 'g2',
     url: '/pants/jogger/g2',
     mbti: ['estp', 'intp'],
+    theme: ['집순이룩', '캠퍼스룩'],
     mainImg: [
       {
         id: 'g21-1',
@@ -3172,6 +3232,7 @@ let jogger = [
     id: 'g3',
     url: '/pants/jogger/g3',
     mbti: ['estp', 'intp', 'istp'],
+    theme: ['집순이룩'],
     mainImg: [
       {
         id: 'g31-1',
@@ -3213,6 +3274,7 @@ let jogger = [
     id: 'g4',
     url: '/pants/jogger/g4',
     mbti: ['enfp', 'esfp', 'estp', 'intp'],
+    theme: ['집순이룩', '캠퍼스룩'],
     mainImg: [
       {
         id: 'g41-1',
@@ -3274,6 +3336,7 @@ let jogger = [
     id: 'g5',
     url: '/pants/jogger/g5',
     mbti: ['enfp', 'esfp', 'estp', 'infp', 'intp'],
+    theme: ['집순이룩'],
     mainImg: [
       {
         id: 'g51-1',
@@ -3327,6 +3390,7 @@ let pullover = [
     id: 'p0',
     url: '/pullover/p0',
     mbti: ['entp', 'esfj', 'estp', 'intp', 'istj', 'istp'],
+    theme: ['집순이룩', '출근룩', '캠퍼스룩'],
     mainImg: [
       {
         id: 'p01-1',
@@ -3376,6 +3440,7 @@ let pullover = [
     id: 'p1',
     url: '/pullover/p1',
     mbti: ['esfj', 'esfp', 'estp', 'infj', 'intp'],
+    theme: ['데이트룩', '출근룩', '캠퍼스룩'],
     mainImg: [
       {
         id: 'p11-1',
@@ -3448,6 +3513,7 @@ let pullover = [
     id: 'p2',
     url: '/pullover/p2',
     mbti: ['enfp', 'esfj', 'esfp', 'estp', 'infj', 'intp'],
+    theme: ['데이트룩', '집순이룩', '출근룩', '캠퍼스룩'],
     mainImg: [
       {
         id: 'p21-1',
@@ -3503,6 +3569,7 @@ let pullover = [
     id: 'p3',
     url: '/pullover/p3',
     mbti: ['enfp', 'esfj', 'esfp', 'estp', 'infp', 'intp', 'istp'],
+    theme: ['데이트룩', '캠퍼스룩'],
     mainImg: [
       {
         id: 'p31-1',
@@ -3548,6 +3615,7 @@ let pullover = [
     id: 'p4',
     url: '/pullover/p4',
     mbti: ['enfp', 'entp', 'estp', 'intp', 'isfj'],
+    theme: ['데이트룩', '집순이룩', '출근룩', '캠퍼스룩'],
     mainImg: [
       {
         id: 'p41-1',
@@ -3595,6 +3663,7 @@ let pullover = [
     id: 'p5',
     url: '/pullover/p5',
     mbti: ['enfp', 'esfj', 'esfp', 'estj', 'estp', 'infj', 'istp'],
+    theme: ['데이트룩', '출근룩', '캠퍼스룩'],
     mainImg: [
       {
         id: 'p51-1',
@@ -3643,6 +3712,7 @@ let pullover = [
     id: 'p6',
     url: '/pullover/p6',
     mbti: ['esfj', 'esfp', 'estp', 'intp', 'isfj'],
+    theme: ['집순이룩'],
     mainImg: [
       {
         id: 'p61-1',
@@ -3685,6 +3755,7 @@ let pullover = [
     id: 'p7',
     url: '/pullover/p7',
     mbti: ['enfp', 'entp', 'esfp', 'estp', 'intp', 'istp'],
+    theme: ['데이트룩', '집순이룩', '출근룩', '캠퍼스룩'],
     mainImg: [
       {
         id: 'p71-1',
@@ -3726,6 +3797,7 @@ let pullover = [
     id: 'p8',
     url: '/pullover/p8',
     mbti: ['enfj', 'estp', 'intj', 'intp', 'istp'],
+    theme: ['데이트룩', '캠퍼스룩', '하객룩'],
     mainImg: [
       {
         id: 'p81-1',
@@ -3778,6 +3850,7 @@ let pullover = [
     id: 'p9',
     url: '/pullover/p9',
     mbti: ['enfp', 'esfp', 'istj', 'istp'],
+    theme: ['데이트룩', '캠퍼스룩'],
     mainImg: [
       {
         id: 'p91-1',
