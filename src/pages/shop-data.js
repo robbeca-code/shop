@@ -488,7 +488,7 @@ let jacket = [
     id: 'j0',
     url: '/outerwear/jacket/j0',
     mbti: ['esfj', 'istp'],
-    theme: ['데이트룩', '출근룩', '캠퍼스룩', '하객룩'],
+    theme: ['데이트룩', '출근룩', '캠퍼스룩'],
     mainImg: [
       {
         id: 'j01-1',
@@ -1020,7 +1020,7 @@ let coat = [
     id: 'c0',
     url: '/outerwear/coat/c0',
     mbti: ['estj', 'infj', 'isfj', 'isfp'],
-    theme: ['데이트룩', '출근룩', '캠퍼스룩', '하객룩'],
+    theme: ['데이트룩', '출근룩', '캠퍼스룩'],
     mainImg: [
       {
         id: 'c01-1',
@@ -1661,7 +1661,7 @@ let shirt = [
     id: 's1',
     url: '/shirt/s1',
     mbti: ['esfp', 'infp', 'intp', 'isfp'],
-    theme: ['데이트룩', '출근룩', '캠퍼스룩', '하객룩'],
+    theme: ['데이트룩', '출근룩', '캠퍼스룩'],
     mainImg: [
       {
         id: 's11-1',
@@ -3907,4 +3907,4 @@ let pullover = [
   }
 ];
 
-export {dress};
+export {dress, jacket, coat, shirt, jeans, trouser, jogger, pullover};
