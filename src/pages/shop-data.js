@@ -3,7 +3,7 @@ let dress = [
     id: 'd0',
     url: '/dress/d0',
     mbti: ['enfp', 'esfp', 'infp'],
-    theme: ['데이트룩'],
+    theme: ['데이트룩', '캠퍼스룩'],
     mainImg: [
       {
         id: 'flower1-1',
