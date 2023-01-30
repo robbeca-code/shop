@@ -1,15 +1,16 @@
 import React, { useState } from 'react';
-import { Routes, Route, Link } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import './App.css';
 import Detail from './pages/Detail';
 import Home from './pages/Home';
+import Sidebar from './pages/Sidebar';
 
 
 function App() {
   let [isClick, setIsClick] = useState(false);
 
   return (
-    <section>
+    <section className="relative">
       <article className="container">
         <header className="navContainer">
           <nav className="iconList">
@@ -56,7 +57,7 @@ function App() {
       </article>
 
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Sidebar />} />
       </Routes>
     </section>
     

@@ -1,0 +1,154 @@
+:root {
+  --background-color: #fff;
+  --menu-items-color: #525252;
+}
+
+
+/*   Sidebar   */
+.sidebar {
+  background-color: #BCB6F0;
+  width: 1255px;
+  height: 560px;
+  border-radius: 12px;
+  position: absolute;
+  top: 4px;
+  left: 100px;
+  z-index: 999;
+  padding: 20px;
+}
+
+.closeBtn {
+  width: 30px;
+  height: 30px;
+  margin: 0 10px 20px;
+}
+
+.closeBtn > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.container{
+  width: 297px;
+  height: 462px;
+  background-color: var(--background-color);
+  border-radius: 18px;
+  padding: 40px 20px 0;
+  position: relative;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 297px);
+  column-gap: 10px;
+}
+
+/*   Mypage   */
+.userImgContainer {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto 30px;
+}
+
+.userImgContainer > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.stateContainer {
+  width: 257px;
+  height: auto;
+  margin-top: 50px;
+}
+
+.stateContainer > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.menuList {
+  margin-top: 50px;
+}
+
+.menuItem {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+
+.menuItem > strong {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--menu-items-color);
+}
+
+.menuItem > span {
+  font-size: 13px;
+  color: var(--menu-items-color);
+}
+
+
+/*   View   */
+.container > .title {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+
+/*   Category   */
+.category > .grid {
+  display: grid;
+  grid-template-columns: repeat(3, 70px);
+  row-gap: 40px;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.categoryItem {
+  width: 70px;
+  height: 75px;
+}
+
+.categoryItem > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+
+/*   Theme   */
+.theme {
+  display: grid;
+  grid-template-rows: repeat(2, 240px);
+}
+
+.themeContainer > .title {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.themeContainer > .grid {
+  display: grid;
+  grid-template-columns: repeat(4, 60px);
+  row-gap: 20px;
+  padding-top: 5px;
+}
+
+.themeItem {
+  font-size: 13px;
+  width: 60px;
+  height: auto;
+  background-color: #f4f4f4;
+  padding: 10px 0;
+  border-radius: 8px;
+}
+
+.mbti {
+  font-size: 15px;
+  padding: 5px 0;
+}
