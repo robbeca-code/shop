@@ -1,7 +1,7 @@
 let dress = [
   {
     id: 'd0',
-    url: '/dress/d0',
+    url: '/shop/view/d0',
     mbti: ['enfp', 'esfp', 'infp'],
     theme: ['데이트룩', '캠퍼스룩'],
     mainImg: [
@@ -44,7 +44,7 @@ let dress = [
   },
   {
     id: 'd1',
-    url: '/dress/d1',
+    url: '/shop/view/d1',
     mbti: ['esfj', 'intj', 'istp'],
     theme: ['데이트룩', '캠퍼스룩'],
     mainImg: [
@@ -92,7 +92,7 @@ let dress = [
   },
   {
     id: 'd2',
-    url: '/dress/d2',
+    url: '/shop/view/d2',
     mbti: ['estj', 'infp', 'intj'],
     theme: ['데이트룩', '캠퍼스룩', '하객룩'],
     mainImg: [
@@ -138,7 +138,7 @@ let dress = [
   },
   {
     id: 'd3',
-    url: '/dress/d3',
+    url: '/shop/view/d3',
     mbti: ['esfj', 'istp'],
     theme: ['데이트룩', '하객룩'],
     mainImg: [
@@ -185,7 +185,7 @@ let dress = [
   },
   {
     id: 'd4',
-    url: '/dress/d4',
+    url: '/shop/view/d4',
     mbti: ['enfj', 'estj', 'infp'],
     theme: ['데이트룩', '하객룩'],
     mainImg: [
@@ -235,7 +235,7 @@ let dress = [
   },
   {
     id: 'd5',
-    url: '/dress/d5',
+    url: '/shop/view/d5',
     mbti: ['estj', 'istp'],
     theme: ['출근룩', '하객룩'],
     mainImg: [
@@ -282,7 +282,7 @@ let dress = [
   },
   {
     id: 'd6',
-    url: '/dress/d6',
+    url: '/shop/view/d6',
     mbti: ['entj', 'estj', 'infp'],
     theme: ['데이트룩', '캠퍼스룩', '하객룩'],
     mainImg: [
@@ -329,7 +329,7 @@ let dress = [
   },
   {
     id: 'd7',
-    url: '/dress/d7',
+    url: '/shop/view/d7',
     mbti: ['esfj', 'esfp', 'infp', 'intj'],
     theme: ['데이트룩', '출근룩', '캠퍼스룩', '하객룩'],
     mainImg: [
@@ -381,7 +381,7 @@ let dress = [
   },
   {
     id: 'd8',
-    url: '/dress/d8',
+    url: '/shop/view/d8',
     mbti: ['esfp', 'infp', 'intp'],
     theme: ['데이트룩', '출근룩', '캠퍼스룩'],
     mainImg: [
@@ -433,7 +433,7 @@ let dress = [
   },
   {
     id: 'd9',
-    url: '/dress/d9',
+    url: '/shop/view/d9',
     mbti: ['enfj', 'enfp', 'estj'],
     theme: ['데이트룩', '출근룩', '캠퍼스룩', '하객룩'],
     mainImg: [
@@ -1591,7 +1591,7 @@ let coat = [
 let shirt = [
   {
     id: 's0',
-    url: '/shirt/s0',
+    url: '/shop/view/s0',
     mbti: ['entj', 'entp', 'esfj', 'infj', 'isfj', 'isfp'],
     theme: ['데이트룩', '캠퍼스룩'],
     mainImg: [
@@ -1659,7 +1659,7 @@ let shirt = [
   },
   {
     id: 's1',
-    url: '/shirt/s1',
+    url: '/shop/view/s1',
     mbti: ['esfp', 'infp', 'intp', 'isfp'],
     theme: ['데이트룩', '출근룩', '캠퍼스룩'],
     mainImg: [
@@ -1714,7 +1714,7 @@ let shirt = [
   },
   {
     id: 's2',
-    url: '/shirt/s2',
+    url: '/shop/view/s2',
     mbti: ['enfp', 'entp', 'estp', 'intp', 'isfp'],
     theme: ['데이트룩', '출근룩', '캠퍼스룩'],
     mainImg: [
@@ -1761,7 +1761,7 @@ let shirt = [
   },
   {
     id: 's3',
-    url: '/shirt/s3',
+    url: '/shop/view/s3',
     mbti: ['esfj', 'estj', 'infj', 'isfp'],
     theme: ['데이트룩', '면접프리패스룩', '출근룩', '캠퍼스룩', '하객룩'],
     mainImg: [
@@ -1833,7 +1833,7 @@ let shirt = [
   },
   {
     id: 's4',
-    url: '/shirt/s4',
+    url: '/shop/view/s4',
     mbti: ['entj', 'infj', 'istj'],
     theme: ['데이트룩', '면접프리패스룩', '출근룩', '캠퍼스룩'],
     mainImg: [
@@ -1879,7 +1879,7 @@ let shirt = [
   },
   {
     id: 's5',
-    url: '/shirt/s5',
+    url: '/shop/view/s5',
     mbti: ['enfj', 'enfp', 'isfj'],
     theme: ['데이트룩'],
     mainImg: [
@@ -1931,7 +1931,7 @@ let shirt = [
   },
   {
     id: 's6',
-    url: '/shirt/s6',
+    url: '/shop/view/s6',
     mbti: ['entp', 'esfp', 'infp', 'isfp'],
     theme: ['데이트룩', '출근룩', '캠퍼스룩'],
     mainImg: [
@@ -1986,7 +1986,7 @@ let shirt = [
   },
   {
     id: 's7',
-    url: '/shirt/s7',
+    url: '/shop/view/s7',
     mbti: ['estj', 'isfp', 'istj', 'istp'],
     theme: ['데이트룩', '출근룩', '캠퍼스룩'],
     mainImg: [
@@ -2030,7 +2030,7 @@ let shirt = [
   },
   {
     id: 's8',
-    url: '/shirt/s8',
+    url: '/shop/view/s8',
     mbti: ['enfj', 'enfp', 'esfp', 'intj', 'istp'],
     theme: ['데이트룩', '캠퍼스룩'],
     mainImg: [
@@ -3388,7 +3388,7 @@ let jogger = [
 let pullover = [
   {
     id: 'p0',
-    url: '/pullover/p0',
+    url: '/shop/view/p0',
     mbti: ['entp', 'esfj', 'estp', 'intp', 'istj', 'istp'],
     theme: ['집순이룩', '출근룩', '캠퍼스룩'],
     mainImg: [
@@ -3438,7 +3438,7 @@ let pullover = [
   },
   {
     id: 'p1',
-    url: '/pullover/p1',
+    url: '/shop/view/p1',
     mbti: ['esfj', 'esfp', 'estp', 'infj', 'intp'],
     theme: ['데이트룩', '출근룩', '캠퍼스룩'],
     mainImg: [
@@ -3511,7 +3511,7 @@ let pullover = [
   },
   {
     id: 'p2',
-    url: '/pullover/p2',
+    url: '/shop/view/p2',
     mbti: ['enfp', 'esfj', 'esfp', 'estp', 'infj', 'intp'],
     theme: ['데이트룩', '집순이룩', '출근룩', '캠퍼스룩'],
     mainImg: [
@@ -3567,7 +3567,7 @@ let pullover = [
   },
   {
     id: 'p3',
-    url: '/pullover/p3',
+    url: '/shop/view/p3',
     mbti: ['enfp', 'esfj', 'esfp', 'estp', 'infp', 'intp', 'istp'],
     theme: ['데이트룩', '캠퍼스룩'],
     mainImg: [
@@ -3613,7 +3613,7 @@ let pullover = [
   },
   {
     id: 'p4',
-    url: '/pullover/p4',
+    url: '/shop/view/p4',
     mbti: ['enfp', 'entp', 'estp', 'intp', 'isfj'],
     theme: ['데이트룩', '집순이룩', '출근룩', '캠퍼스룩'],
     mainImg: [
@@ -3661,7 +3661,7 @@ let pullover = [
   },
   {
     id: 'p5',
-    url: '/pullover/p5',
+    url: '/shop/view/p5',
     mbti: ['enfp', 'esfj', 'esfp', 'estj', 'estp', 'infj', 'istp'],
     theme: ['데이트룩', '출근룩', '캠퍼스룩'],
     mainImg: [
@@ -3710,7 +3710,7 @@ let pullover = [
   },
   {
     id: 'p6',
-    url: '/pullover/p6',
+    url: '/shop/view/p6',
     mbti: ['esfj', 'esfp', 'estp', 'intp', 'isfj'],
     theme: ['집순이룩'],
     mainImg: [
@@ -3753,7 +3753,7 @@ let pullover = [
   },
   {
     id: 'p7',
-    url: '/pullover/p7',
+    url: '/shop/view/p7',
     mbti: ['enfp', 'entp', 'esfp', 'estp', 'intp', 'istp'],
     theme: ['데이트룩', '집순이룩', '출근룩', '캠퍼스룩'],
     mainImg: [
@@ -3795,7 +3795,7 @@ let pullover = [
   },
   {
     id: 'p8',
-    url: '/pullover/p8',
+    url: '/shop/view/p8',
     mbti: ['enfj', 'estp', 'intj', 'intp', 'istp'],
     theme: ['데이트룩', '캠퍼스룩', '하객룩'],
     mainImg: [
@@ -3848,7 +3848,7 @@ let pullover = [
   },
   {
     id: 'p9',
-    url: '/pullover/p9',
+    url: '/shop/view/p9',
     mbti: ['enfp', 'esfp', 'istj', 'istp'],
     theme: ['데이트룩', '캠퍼스룩'],
     mainImg: [

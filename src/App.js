@@ -3,7 +3,6 @@ import { Routes, Route } from 'react-router-dom';
 import './App.css';
 import Detail from './pages/Detail';
 import Home from './pages/Home';
-import Sidebar from './pages/Sidebar';
 
 
 function App() {
@@ -14,11 +13,11 @@ function App() {
       <article className="container">
         <header className="navContainer">
           <nav className="iconList">
-            <div className="iconContainer">
-              <img src={process.env.PUBLIC_URL + "public-assets/icons/menu.png"} alt="A menu icon" />
-            </div>
+            <button type="button" className="iconContainer">
+              <img src={process.env.PUBLIC_URL + "/public-assets/icons/menu.png"} alt="A menu icon" />
+            </button>
 
-            <div className="logo"><img src={process.env.PUBLIC_URL + "public-assets/icons/menu.png"} /></div>
+            <button type="button" className="logo"><img src={process.env.PUBLIC_URL + "/public-assets/icons/menu.png"} /></button>
 
             <ul className="sideMenu">
               <li className="login">
@@ -57,7 +56,8 @@ function App() {
       </article>
 
       <Routes>
-        <Route path="/" element={<Sidebar />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/shop/view/d0" element={<Detail />} />
       </Routes>
     </section>
     
