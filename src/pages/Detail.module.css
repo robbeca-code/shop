@@ -1,3 +1,12 @@
+:root {
+  --point-color: #A38568;
+  --dt-color: #666666;
+  --dd-color: #333333;
+  --tab-background-color: #FAFAFA;
+  --tab-border-color: #EEEEEE;
+  --prod-info-color: #595858;
+}
+
 .container {
   width: 1100px;
   padding-top: 100px;
@@ -6,3 +15,255 @@
 
 
 /*   Header   */
+.header {
+  display: flex;
+}
+
+
+/*   Header Left   */
+.mainImgContainer {
+  width: 630px;
+  height: 530px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.mainImgContainer > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.sideImgList {
+  display: grid;
+  grid-template-columns: repeat(3, 120px);
+  column-gap: 7px;
+  justify-content: flex-start;
+  padding-top: 8px;
+}
+
+.sideImgContainer {
+  width: 100%;
+  height: 120px;
+  border-radius: 8px;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+}
+
+.sideImgContainer.click{
+  border: 2px solid var(--point-color);
+}
+
+.sideImgContainer.click::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ffffff70;
+}
+
+.sideImgContainer > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+/*   Header Right   */
+.headerRight {
+  margin-left: 70px;
+  width: 385px;
+}
+
+.headerRight > h1 {
+  font-size: 23px;
+}
+
+.themeList {
+  display: flex;
+  margin-top: 5px;
+}
+
+.themeList > li {
+  padding-right: 8px;
+  color: var(--point-color);
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.headerRight > strong {
+  display: inline-block;
+  padding: 19px 0;
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.infoItem {
+  display: flex;
+  justify-content: flex-start;
+  padding: 17px 0 18px;
+  border-top: 1px solid #F4F4F4;
+}
+
+.infoItem > dt {
+  width: 128px;
+  color: var(--dt-color);
+}
+
+.infoItem > dd {
+  text-align: left;
+  color: var(--dd-color);
+}
+
+.infoItem:last-child {
+  border-bottom: 1px solid #F4F4F4;
+}
+
+.finalCostContainer {
+  text-align: right;
+  margin-top: 50px;
+}
+
+.finalCostContainer > strong {
+  font-size: 30px;
+  letter-spacing: 0.5px;
+  padding-left: 6px;
+}
+
+.btnContainer {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 56px 1fr;
+  column-gap: 4px;
+  justify-content: space-between;
+}
+
+.likeBtn {
+  width: 56px;
+  height: 56px;
+  padding: 15px;
+  background-color: #fff;
+  border: 1px solid #DDDDDD;
+  border-radius: 3px;
+}
+
+.likeBtn > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.saveBtn {
+  width: 100%;
+  height: 56px;
+  background-color: var(--point-color);
+  color: #fff;
+  border-radius: 3px;
+}
+
+
+/*   Tab Btn Container   */
+.tabBtnContainer {
+  width: 960px;
+  height: 59px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+  margin: 100px auto 40px;
+}
+
+.tabBtn {
+  background-color: var(--tab-background-color);
+  color: var(--dt-color);
+  height: 100%;
+  border: 1px solid var(--tab-border-color);
+  font-size: 15px;
+  letter-spacing: 0.4px;
+}
+
+.tabBtn.click {
+  background-color: #fff;
+  color: var(--point-color);
+  font-weight: 600;
+}
+
+
+/*   Description Page   */
+.prodInfoContainer {
+  width: 960px;
+  margin: 50px auto;
+}
+
+.tipContainer {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.tipContainer > h3 {
+  color: var(--prod-info-color);
+  margin-bottom: 5px;
+}
+
+.tipContainer > pre {
+  color: var(--prod-info-color);
+  line-height: 27px;
+}
+
+.wearingImgContainer {
+  width: 960px;
+  height: auto;
+  margin-top: 200px;
+}
+
+.wearingImgContainer > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+
+/*   Point Page   */
+.pointContainer {
+  width: 960px;
+  margin: 0 auto 100px;
+}
+
+.pointContainer > .detail {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid var(--tab-border-color);
+  margin-bottom: 80px;
+}
+
+.detail > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.pointContainer > .material {
+  width: auto;
+  height: 100px;
+  margin-bottom: 50px;
+}
+
+.material > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.pointContainer > .washing {
+  width: auto;
+  height: 75px;
+}
+
+.washing > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
 
 * {
   padding: 0;
@@ -8,12 +8,12 @@
 
 span, strong, pre, p {
   color: #171717;
-  font-family: 'Acme', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
   color: #0d0d0d;
-  font-family: 'Acme', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 ol, ul {
@@ -24,14 +24,14 @@ button {
   background-color: transparent;
   border-style: none;
   cursor: pointer;
-  font-family: 'Acme', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   color: #171717;
 }
 
 .link {
   color: #171717;
   text-decoration: none;
-  font-family: 'Acme', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 .relative {

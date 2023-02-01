@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, Link } from 'react-router-dom';
 import './App.css';
 import Detail from './pages/Detail';
 import Home from './pages/Home';
@@ -17,7 +17,9 @@ function App() {
               <img src={process.env.PUBLIC_URL + "/public-assets/icons/menu.png"} alt="A menu icon" />
             </button>
 
-            <button type="button" className="logo"><img src={process.env.PUBLIC_URL + "/public-assets/icons/menu.png"} /></button>
+            <Link to="/" className="logo">
+              <img src={process.env.PUBLIC_URL + "/public-assets/icons/menu.png"} />
+            </Link>
 
             <ul className="sideMenu">
               <li className="login">
@@ -57,7 +59,7 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/shop/view/d0" element={<Detail />} />
+        <Route path="/shop/view/:id" element={<Detail />} />
       </Routes>
     </section>
     

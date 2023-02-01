@@ -1,4 +1,5 @@
 import React, { useState, useMemo, useEffect } from 'react';
+import { useParams } from 'react-router-dom';
 import {dress, jacket, coat, shirt, jeans, trouser, jogger, pullover} from './shop-data.js';
 import style from './Detail.module.css';
 import cn from 'classnames';
@@ -14,38 +15,33 @@ function Detail() {
 
   const kind = [dress, jacket, coat, shirt, jeans, trouser, jogger, pullover];
   let item = '';
-  let id = 'd1';
+  let {id} = useParams();
+  let [tab, setTab] = useState(0);
+  let [clickImg, setClickImg] = useState(0);
 
   useMemo(() => {
     kind.forEach(k => {
       if(k.findIndex(k => k.id === id) > -1) {
         item = k.find(k => k.id === id);
-        console.log(item);
       }
     });
   }, [kind]);
 
-  console.log(item);
-  let [clickImg, setClickImg] = useState(0);
   let [mainImg, setMainImg] = useState(item.mainImg[0].img);
 
   useEffect(() => {
     switch(clickImg) {
       case 0:
         setMainImg(item.mainImg[0].img);
-        console.log(mainImg);
         break;
       case 1:
         setMainImg(item.mainImg[1].img);
-        console.log(mainImg);
         break;
       case 2:
         setMainImg(item.mainImg[2].img);
         break;
     }
   }, [clickImg]);
-
-  let [tab, setTab] = useState(0);
 
   return (
     <section className={cn(style.container)}>
@@ -59,7 +55,8 @@ function Detail() {
             {
               item.mainImg.map((item, i) => {
                 return(
-                  <li className={cn(style.sideImgContainer)} onClick={() => setClickImg(i)} key={item.id}>
+                  <li onClick={() => setClickImg(i)} key={item.id}
+                  className={mainImg === item.img ? cn(style.sideImgContainer, style.click) : cn(style.sideImgContainer)} >
                     <img src={item.img} alt="img" />
                   </li>
                 );
@@ -70,36 +67,63 @@ function Detail() {
         
         <div className={cn(style.headerRight)}>
           <h1>{item.title}</h1>
-          <strong>{item.cost.concat('원')}</strong>
-          <ul>
-            <li>
-              <span>배송</span>
-              <span>특급배송</span>
-            </li>
-            <li>
-              <span>판매자</span>
-              <span>테마몰</span>
-            </li>
-            <li>
-              <span>포장타입</span>
-              <span>종이포장</span>
-            </li>
-            <li>
-              <span>판매단위</span>
-              <span>1벌</span>
-            </li>
+          <ul className={cn(style.themeList)}>
+          {
+            item.theme.map((item, i) => {
+              return(
+                <li key={i}>{item}</li>
+              );
+            })
+          }
           </ul>
+          
+          <strong>{item.cost.concat('원')}</strong>
+
+          <dl className={cn(style.infoItem)}>
+            <dt>배송</dt>
+            <dd>특급배송</dd>
+          </dl>
+          <dl className={cn(style.infoItem)}>
+            <dt>판매자</dt>
+            <dd>테마몰</dd>
+          </dl>
+          <dl className={cn(style.infoItem)}>
+            <dt>포장타입</dt>
+            <dd>종이포장</dd>
+          </dl>
+          <dl className={cn(style.infoItem)}>
+            <dt>판매단위</dt>
+            <dd>1벌</dd>
+          </dl>
+
+          <div className={cn(style.finalCostContainer)}>
+            <span>총 상품금액: </span>
+            <strong>{item.cost}</strong>
+            <span>원</span>
+          </div>
+
+          <div className={cn(style.btnContainer)}>
+            <button type="button" className={cn(style.likeBtn)}>
+              <img src="/public-assets/icons/likeBtn.png" alt="The Like button" />
+            </button>
+            <button type="button" className={cn(style.saveBtn)}>
+              장바구니 담기
+            </button>
+          </div>
         </div>
       </header>
 
-      <div>
-        <button type="button" className={cn(style.tabBtn)} onClick={() => {setTab(0)}}>
+      <div className={cn(style.tabBtnContainer)}>
+        <button type="button" onClick={() => {setTab(0)}} 
+        className={tab === 0 ? cn(style.tabBtn, style.click) : cn(style.tabBtn)}>
           상품설명
         </button>
-        <button type="button" className={cn(style.tabBtn)} onClick={() => {setTab(1)}}>
+        <button type="button" onClick={() => {setTab(1)}}
+        className={tab === 1 ? cn(style.tabBtn, style.click) : cn(style.tabBtn)}>
           상세설명
         </button>
-        <button type="button" className={cn(style.tabBtn)} onClick={() => {setTab(2)}}>
+        <button type="button" onClick={() => {setTab(2)}}
+        className={tab === 2 ? cn(style.tabBtn, style.click) : cn(style.tabBtn)}>
           후기
         </button>
       </div>
@@ -121,7 +145,7 @@ function TabPage ({tab, item}) {
 
 function DescribePage({item}) {
   return(
-    <article className={cn(style.describeContainer)}>
+    <article className={cn(style.prodInfoContainer)}>
       <div className={cn(style.tipContainer)}>
         <h3>Md Tip</h3>
         <pre>
@@ -144,10 +168,10 @@ function DescribePage({item}) {
       </div>
       
 
-      <div className={cn(style.wearImgContainer)}>
+      <div className={cn(style.wearingImgContainer)}>
         <img src={item.images.wearing[0]} alt="img" />
       </div>
-      <div className={cn(style.wearImgContainer)}>
+      <div className={cn(style.wearingImgContainer)}>
         <img src={item.images.wearing[1]} alt="img" />
       </div>
     </article>
@@ -157,13 +181,13 @@ function DescribePage({item}) {
 function PointPage({item}) {
   return(
     <article className={cn(style.pointContainer)}>
-      <div className={cn(style.pointDContainer)}>
+      <div className={cn(style.detail)}>
         <img src={item.images.detail} alt="img" />
       </div>
-      <div className={cn(style.pointMContainer)}>
+      <div className={cn(style.material)}>
         <img src={item.images.material} alt="img" />
       </div>
-      <div className={cn(style.pointWContainer)}>
+      <div className={cn(style.washing)}>
         <img src={item.images.washing} alt="img" />
       </div>
     </article>
