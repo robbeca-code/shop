@@ -150,7 +150,7 @@ function Sidebar() {
                 <span>면접룩</span>
               </button>
               <button type="button" className={cn(style.themeItem)}>
-                <span>집순이룩</span>
+                <span>집콕룩</span>
               </button>
               <button type="button" className={cn(style.themeItem)}>
                 <span>출근룩</span>

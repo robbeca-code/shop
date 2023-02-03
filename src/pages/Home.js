@@ -5,7 +5,7 @@ import style from './Home.module.css';
 import {dress, jacket, coat, shirt, jeans, trouser, jogger, pullover} from './shop-data';
 
 function Home() {
-  let url = '/theme/mbti/enfp';
+  let url = '/shop/enfp';
 
   return(
     <section className={cn(style.container)}>
@@ -41,7 +41,7 @@ function Home() {
         <div className={cn(style.grid)}>
           <ThemeRecommend kind1={dress} kind2={jacket} kind3={jogger} kind4={pullover} title={'캠퍼스룩'}/>
         </div>
-        <Link to="/campus" className={cn(style.moreBtn)}>추천 상품 더보기</Link>
+        <Link to="/shop/campus" className={cn(style.moreBtn)}>추천 상품 더보기</Link>
 
         <div className={cn(style.header)}>
           <div className={cn(style.imgContainer)}>
@@ -58,7 +58,7 @@ function Home() {
         <div className={cn(style.grid)}>
           <ThemeRecommend kind1={dress} kind2={shirt} kind3={trouser} kind4={pullover} title={'데이트룩'}/>
         </div>
-        <Link to="/date" className={cn(style.moreBtn)}>추천 상품 더보기</Link>
+        <Link to="/shop/date" className={cn(style.moreBtn)}>추천 상품 더보기</Link>
 
         <div className={cn(style.header)}>
           <p className={cn(style.themeInfo)}>
@@ -76,7 +76,7 @@ function Home() {
         <div className={cn(style.grid)}>
           <ThemeRecommend kind1={dress} kind2={coat} kind3={jacket} kind4={shirt} title={'하객룩'}/>
         </div>
-        <Link to="/guest" className={cn(style.moreBtn)}>추천 상품 더보기</Link>
+        <Link to="/shop/guest" className={cn(style.moreBtn)}>추천 상품 더보기</Link>
       </article>
     </section>
   );
