@@ -1,12 +1,17 @@
-import React from "react";
+import React from 'react';
 import style from './Category.module.css';
 import cn from 'classnames';
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
+import Sidebar from './Sidebar';
 
 function Category({data, id}) {
   
   return(
     <section className={cn(style.container)}>
+      <aside>
+        <Sidebar />
+      </aside>
+
       <h1 className={cn(style.headerTitle)}>{id}</h1>
       
       <p className={cn(style.prodCount)}>{data.length + '개 상품'}</p>
@@ -15,7 +20,7 @@ function Category({data, id}) {
         {
           data.map(item => {
             return(
-              <article className={cn(style.prodItem)}>
+              <article className={cn(style.prodItem)} key={item.id}>
                 <Link to={item.url} className="link">
                   <div className={cn(style.imgContainer)}>
                     <img src={item.mainImg[0].img} alt="The main image" />
@@ -40,12 +45,9 @@ function Category({data, id}) {
             );
           })
         }
-        
       </div>
     </section>
   );
 }
-
-
 
 export default Category;

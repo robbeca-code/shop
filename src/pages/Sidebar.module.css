@@ -10,9 +10,9 @@
   width: 1255px;
   height: 560px;
   border-radius: 12px;
-  position: absolute;
-  top: 4px;
-  left: 100px;
+  position: fixed;
+  top: 15px;
+  left: 60px;
   z-index: 999;
   padding: 20px;
 }
@@ -110,14 +110,21 @@
 }
 
 .categoryItem {
+  display: block;
   width: 70px;
-  height: 75px;
+  height: 70px;
+  text-decoration: none;
+  text-align: center;
 }
 
 .categoryItem > img {
   width: 100%;
   height: 100%;
   object-fit: contain;
+}
+
+.categoryItem > span {
+  font-size: 12px;
 }
 
 
@@ -146,6 +153,8 @@
   background-color: #f4f4f4;
   padding: 10px 0;
   border-radius: 8px;
+  text-decoration: none;
+  text-align: center;
 }
 
 .mbti {

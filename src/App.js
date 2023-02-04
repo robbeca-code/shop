@@ -1,5 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Routes, Route, Link } from 'react-router-dom';
+import { useDispatch } from 'react-redux';
+import { setNavMenu } from './store';
 import './App.css';
 import Detail from './pages/Detail';
 import Home from './pages/Home';
@@ -7,7 +9,7 @@ import SelectCategory from './pages/SelectCategory';
 
 
 function App() {
-  let [isClick, setIsClick] = useState(false);
+  let dispatch = useDispatch();
 
   return (
     <section className="relative">
@@ -18,7 +20,9 @@ function App() {
           </Link>
 
           <div className="navItem">
-            <button type="button" className="navMenu">
+            <button type="button" className="navMenu" onClick={() => {
+              dispatch(setNavMenu())
+            }}>
               <img src={process.env.PUBLIC_URL + "/public-assets/icons/menu.png"} alt="A menu icon" />
             </button>
 

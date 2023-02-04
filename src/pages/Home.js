@@ -3,12 +3,16 @@ import { Link } from 'react-router-dom';
 import cn from 'classnames';
 import style from './Home.module.css';
 import {dress, jacket, coat, shirt, jeans, trouser, jogger, pullover} from './shop-data';
+import Sidebar from './Sidebar';
 
 function Home() {
   let url = '/shop/enfp';
 
   return(
     <section className={cn(style.container)}>
+      <aside>
+        <Sidebar />
+      </aside>
       <Slide />
 
       <article className={cn(style.recommend)}>

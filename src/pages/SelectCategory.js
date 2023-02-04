@@ -48,9 +48,7 @@ function MbtiCategory({id, kind}) {
   });
 
   data = inputData(data, list, id);
-
-  console.log(list);
-  console.log(data);
+  
   return(<Category data={data} id={id} />);
 }
 

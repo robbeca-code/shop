@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import {dress, jacket, coat, shirt, jeans, trouser, jogger, pullover} from './shop-data.js';
 import style from './Detail.module.css';
 import cn from 'classnames';
+import Sidebar from './Sidebar.js';
 
 function Detail() {
   // let items = dress.filter((d) => d.mbti.indexOf('intp'));
@@ -45,6 +46,9 @@ function Detail() {
 
   return (
     <section className={cn(style.container)}>
+      <aside>
+        <Sidebar />
+      </aside>
       <header className={cn(style.header)}>
         <div className={cn(style.headerLeft)}>
           <div className={cn(style.mainImgContainer)}>
