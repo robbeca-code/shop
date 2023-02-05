@@ -1,12 +1,14 @@
 import React, { useState, useMemo } from 'react';
 import { Link } from 'react-router-dom';
+import { useSelector } from 'react-redux';
 import cn from 'classnames';
 import style from './Home.module.css';
 import {dress, jacket, coat, shirt, jeans, trouser, jogger, pullover} from './shop-data';
 import Sidebar from './Sidebar';
 
 function Home() {
-  let url = '/shop/enfp';
+  const userMbti = useSelector(state => state.login.mbti);
+  let url = `/shop/${userMbti}`;
 
   return(
     <section className={cn(style.container)}>
@@ -18,7 +20,7 @@ function Home() {
       <article className={cn(style.recommend)}>
         <h1>고객님<span className={cn(style.point)}>의 취향저격 상품</span></h1>
         <div className={cn(style.grid)}>
-          <UserRecommend />
+          <UserRecommend mbti={userMbti} />
         </div>
         <Link to={url} className={cn(style.moreBtn)}>내가 좋아할 상품</Link>
       </article>
@@ -134,22 +136,26 @@ function Slide() {
   );
 }
 
-function UserRecommend() {
+function UserRecommend({mbti}) {
   let list = [];
 
   useMemo(() => {
-    list.push(dress.find(d => d.mbti.indexOf('enfp') > -1));
-    list.push(jacket.find(j => j.mbti.indexOf('enfp') > -1));
-    list.push(coat.find(c => c.mbti.indexOf('enfp') > -1));
-    list.push(shirt.find(d => d.mbti.indexOf('enfp') > -1));
-    list.push(jeans.find(b => b.mbti.indexOf('enfp') > -1));
-    list.push(trouser.find(t => t.mbti.indexOf('enfp') > -1));
-    list.push(jogger.find(g => g.mbti.indexOf('enfp') > -1));
-    list.push(pullover.find(p => p.mbti.indexOf('enfp') > -1));
-  }, []);
+    list.push(dress.find(d => d.mbti.indexOf(mbti) > -1));
+    list.push(jacket.find(j => j.mbti.indexOf(mbti) > -1));
+    list.push(coat.find(c => c.mbti.indexOf(mbti) > -1));
+    list.push(shirt.find(d => d.mbti.indexOf(mbti) > -1));
+    list.push(jeans.find(b => b.mbti.indexOf(mbti) > -1));
+    list.push(trouser.find(t => t.mbti.indexOf(mbti) > -1));
+    list.push(jogger.find(g => g.mbti.indexOf(mbti) > -1));
+    list.push(pullover.find(p => p.mbti.indexOf(mbti) > -1));
+  }, [mbti]);
+  console.log(list);
   
   return(
     list.map((item) => {
+      if(item === undefined) {
+        return null;
+      }
       return(
         <Link to={item.url} className={cn(style.cardContainer)} key={item.id}>
           <div className={cn(style.imgContainer)}>

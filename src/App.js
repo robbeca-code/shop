@@ -1,14 +1,16 @@
 import React from 'react';
 import { Routes, Route, Link } from 'react-router-dom';
-import { useDispatch } from 'react-redux';
-import { setNavMenu } from './store';
+import { useDispatch, useSelector } from 'react-redux';
+import { setNavMenu, setLogout } from './store';
 import './App.css';
 import Detail from './pages/Detail';
 import Home from './pages/Home';
 import SelectCategory from './pages/SelectCategory';
+import Login from './pages/Login';
 
 
 function App() {
+  const login = useSelector(state => state.login.login);
   let dispatch = useDispatch();
 
   return (
@@ -28,9 +30,14 @@ function App() {
 
             <ul className="navSide">
               <li className="login">
-                <button type="button">
-                  로그인
-                </button>
+                {
+                  !login
+                  ? <Link to="/login" className="link loginBtn">로그인</Link>
+                  : <button type="button" className="loginBtn" onClick={() => {
+                      dispatch(setLogout())
+                    }}>로그아웃</button>
+                }
+                
               </li>
               <li>
                 <Link to="/shop/dress" className="link">
@@ -65,6 +72,7 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/login" element={<Login />} />
         <Route path="/shop/:id" element={<SelectCategory />} />
         <Route path="/shop/view/:id" element={<Detail />} />
       </Routes>
