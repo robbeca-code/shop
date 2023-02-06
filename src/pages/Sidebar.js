@@ -6,6 +6,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { setNavMenu } from '../store';
 
 function Sidebar() {
+  const login = useSelector(state => state.login.login);
   const navMenu = useSelector(state => state.navMenu);
   const dispatch = useDispatch();
 
@@ -22,32 +23,14 @@ function Sidebar() {
         </button>
   
         <section className={cn(style.grid)}>
-          <article className={cn(style.container)}>
-            <div className={cn(style.userImgContainer)}>
-              <img src="/public-assets/icons/userImage.png" alt="The user image" />
-            </div>
-            <div className={cn(style.stateContainer)}>
-              <img src="/public-assets/icons/state.png" alt="A state image" />
-            </div>
-  
-            <ul className={cn(style.menuList)}>
-              <li className={cn(style.menuItem)}>
-                <strong>보유쿠폰</strong>
-                <span>0 장</span>
-              </li>
-              <li className={cn(style.menuItem)}>
-                <strong>적립금</strong>
-                <span>0 원</span>
-              </li>
-              <li className={cn(style.menuItem)}>
-                <strong>tm포인트</strong>
-                <span>0 pt</span>
-              </li>
-            </ul>
-          </article>
+          {
+            !login
+            ? <HideMyPage />
+            : <ShowMyPage />
+          }
   
           <article className={cn(style.container, style.view)}>
-          <span className={cn(style.title)}>최근 본 상품</span>
+            <span className={cn(style.title)}>최근 본 상품</span>
           </article>
   
           <article className={cn(style.container, style.category)}>
@@ -178,7 +161,49 @@ function Sidebar() {
       </aside>
     );
   }
-  
+}
+
+function HideMyPage() {
+
+  return(
+    <article className={cn(style.container)}>
+      <h1 className={cn(style.headerTitle)}>
+        로그인 하고<br/>
+        다양한 혜택을 받아보세요!
+      </h1>
+      <Link to="/login" className={cn(style.loginBtn)}>
+        로그인
+      </Link>
+    </article>
+  );
+}
+
+function ShowMyPage() {
+  return(
+    <article className={cn(style.container)}>
+      <div className={cn(style.userImgContainer)}>
+        <img src="/public-assets/icons/userImage.png" alt="The user image" />
+      </div>
+      <div className={cn(style.stateContainer)}>
+        <img src="/public-assets/icons/state.png" alt="A state image" />
+      </div>
+
+      <ul className={cn(style.menuList)}>
+        <li className={cn(style.menuItem)}>
+          <strong>보유쿠폰</strong>
+          <span>0 장</span>
+        </li>
+        <li className={cn(style.menuItem)}>
+          <strong>적립금</strong>
+          <span>0 원</span>
+        </li>
+        <li className={cn(style.menuItem)}>
+          <strong>tm포인트</strong>
+          <span>0 pt</span>
+        </li>
+      </ul>
+    </article>
+  );
 }
 
 export default Sidebar;

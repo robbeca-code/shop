@@ -34,7 +34,7 @@ function Home() {
         <h1>상황별 <span className={cn(style.point)}>스타일 추천</span></h1>
         <div className={cn(style.header)}>
           <p className={cn(style.themeInfo)}>
-            <strong className={cn(style.title)}>캠퍼스룩 추천</strong>
+            <strong className={cn(style.title)}>🏫 캠퍼스룩 추천</strong>
           교복을 벗고 처음으로 만날 새 학기, 신입생에게는 모든 것이 낯설고 새로운 날!<br/><br/>
           교복만 입던 신입생에게는 매일 아침 옷 고르는 것만큼 힘든 일은 없을 거예요.<br/>
           옷장 앞에만 서면 입을 옷이 없는 것 같은 신입생을 위해! 활용하면 좋을 여러가지 스타일을 추천할게요~
@@ -54,7 +54,7 @@ function Home() {
             <img src="/public-assets/theme/date.png" alt="Recommend Date" />
           </div>
           <p className={cn(style.themeInfo)}>
-            <strong className={cn(style.title)}>데이트룩 추천</strong>
+            <strong className={cn(style.title)}>💓 데이트룩 추천</strong>
             소중한 연인과 데이트를 할 때 신경써서 입고 싶은 날!<br/><br/>
             여기서 여러가지 종류의 옷들로 다양한 룩을 연출할 수 있어요.<br/>
             고객님의 취향과 잘 맞는 옷을 찾아 연인과 행복한 시간을 만들어가길 바랄게요♥
@@ -68,7 +68,7 @@ function Home() {
 
         <div className={cn(style.header)}>
           <p className={cn(style.themeInfo)}>
-            <strong className={cn(style.title)}>하객룩 추천</strong>
+            <strong className={cn(style.title)}>💐 하객룩 추천</strong>
             코로나가 서서히 끝을 보이면서 늘어난 지인들의 결혼식!<br/><br/>
             결혼식 때 뭘 입어야 할지 감이 안온다면!<br/>
             고급스러운 퀄리티에 다양한 옷 디자인을 소개할게요.<br/>

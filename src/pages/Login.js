@@ -4,12 +4,16 @@ import { Link } from 'react-router-dom';
 import cn from 'classnames';
 import style from './Login.module.css';
 import { setId, setPass, setMbti, setLogin } from '../store';
+import Sidebar from './Sidebar';
 
 function Login() {
   const dispatch = useDispatch();
 
   return(
     <article className={cn(style.container)}>
+      <aside>
+        <Sidebar />
+      </aside>
       <h1 className={cn(style.headerTitle)}>
         로그인
       </h1>
