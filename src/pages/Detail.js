@@ -1,18 +1,13 @@
 import React, { useState, useMemo, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
+import { useSelector } from 'react-redux';
 import {dress, jacket, coat, shirt, jeans, trouser, jogger, pullover} from './shop-data.js';
 import style from './Detail.module.css';
 import cn from 'classnames';
 import Sidebar from './Sidebar.js';
+import WriteReview from './Review.js';
 
 function Detail() {
-  // let items = dress.filter((d) => d.mbti.indexOf('intp'));
-  // let item;
-
-  // if(dress.findIndex((d) => (d.mbti.indexOf('enfp'))) > -1) {
-  //   let idx = dress.findIndex((d) => (d.mbti.indexOf('enfp')));
-  //   item = dress[idx];
-  // }
 
   const kind = [dress, jacket, coat, shirt, jeans, trouser, jogger, pullover];
   let item = '';
@@ -144,6 +139,8 @@ function TabPage ({tab, item}) {
       return(<DescribePage item={item} />);
     case 1:
       return(<PointPage item={item} />);
+    case 2:
+      return(<ReviewPage item={item} />);
   }
 }
 
@@ -195,6 +192,41 @@ function PointPage({item}) {
         <img src={item.images.washing} alt="img" />
       </div>
     </article>
+  );
+}
+
+function ReviewPage({item}) {
+  const userId = useSelector(state => (state.login.id));
+  let [reviewBtn, setReviewBtn] = useState(false);
+
+  const clickReviewBtn = () => {
+    if(userId === '') {
+      alert('로그인을 해주세요.');
+      return;
+    }
+    else {
+      setReviewBtn(true);
+    }
+  }
+
+  return(
+    <section className={cn(style.reviewContainer)}>
+      {
+        !reviewBtn
+        ? <article className={cn(style.nonReview)}>
+            <div className={cn(style.imgContainer)}>
+              <img src="/public-assets/icons/exclamationMark.png" alt="" />
+            </div>
+            <h1 className={cn(style.headerTitle)}>
+              따뜻한 첫 후기를 기다리고 있어요.
+            </h1>
+            <button type="button" className={cn(style.reviewBtn)} onClick={clickReviewBtn}>
+                후기 작성하기
+            </button>
+          </article>
+        : <WriteReview setReviewBtn={setReviewBtn} item={item} />
+      }
+    </section>
   );
 }
 

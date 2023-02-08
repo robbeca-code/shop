@@ -42,8 +42,10 @@ let login = createSlice({
   }
 });
 
+
 export let { setNavMenu } = navMenu.actions;
 export let { setId, setPass, setMbti, setLogin, setLogout} = login.actions;
+
 
 export default configureStore({
   reducer: {
