@@ -28,7 +28,7 @@ function WriteReview({setReviewBtn, item}) {
                   ? item.title.slice(0, 21).concat('...')
                   : item.title}
                 </h1>
-                <span>{item.cost.concat('원')}</span>
+                <strong>{item.cost.concat('원')}</strong>
               </div>
               
               <button type="button" className={cn(style.closeBtn)} onClick={() => { setReviewBtn(false) }}>
@@ -37,6 +37,7 @@ function WriteReview({setReviewBtn, item}) {
             </header>
 
             <form className={cn(style.formStyle)}>
+              <h2></h2>
               <div className={cn(style.userInfo)}>
                 <input type="text" className={cn(style.inputStyle)} placeholder="키를 입력해주세요" onChange={(e) => {
                   setTall(e.target.value)
@@ -47,34 +48,62 @@ function WriteReview({setReviewBtn, item}) {
               </div>
 
               <div className={cn(style.prodOpinion)}>
-                <span>색상 체크</span>
-                <div className={cn(style.btnContainer)}>
-                  <button type="button" className={cn(style.opinionBtn)} onClick={() => {
-                    setColor('연해요')
-                  }}>연해요</button>
+                <div className={cn(style.opinionItem)}>
+                  <h3>색상 체크</h3>
+                  <div className={cn(style.btnContainer)}>
+                    <button type="button" className={
+                      color === '연해요'
+                      ? cn(style.opinionBtn, style.click)
+                      : cn(style.opinionBtn)
+                    } onClick={() => {
+                      setColor('연해요')
+                    }}>연해요</button>
 
-                  <button type="button" className={cn(style.opinionBtn)} onClick={() => {
-                    setColor('똑같아요')
-                  }}>똑같아요</button>
+                    <button type="button" className={
+                      color === '똑같아요'
+                      ? cn(style.opinionBtn, style.click)
+                      : cn(style.opinionBtn)
+                    } onClick={() => {
+                      setColor('똑같아요')
+                    }}>똑같아요</button>
 
-                  <button type="button" className={cn(style.opinionBtn)} onClick={() => {
-                    setColor('진해요')
-                  }}>진해요</button>
+                    <button type="button" className={
+                      color === '진해요'
+                      ? cn(style.opinionBtn, style.click)
+                      : cn(style.opinionBtn)
+                    } onClick={() => {
+                      setColor('진해요')
+                    }}>진해요</button>
+                  </div>
                 </div>
 
-                <span>사이즈 체크</span>
-                <div className={cn(style.btnContainer)}>
-                  <button type="button" className={cn(style.opinionBtn)} onClick={() => {
-                    setSize('작아요')
-                  }}>작아요</button>
+                <div className={cn(style.opinionItem)}>
+                  <h3>사이즈 체크</h3>
+                  <div className={cn(style.btnContainer)}>
+                    <button type="button" className={
+                      size === '작아요'
+                      ? cn(style.opinionBtn, style.click)
+                      : cn(style.opinionBtn)
+                    } onClick={() => {
+                      setSize('작아요')
+                    }}>작아요</button>
 
-                  <button type="button" className={cn(style.opinionBtn)} onClick={() => {
-                    setSize('잘맞아요')
-                  }}>잘맞아요</button>
+                    <button type="button" className={
+                      size === '잘맞아요'
+                      ? cn(style.opinionBtn, style.click)
+                      : cn(style.opinionBtn)
+                    } onClick={() => {
+                      setSize('잘맞아요')
+                    }}>잘맞아요</button>
 
-                  <button type="button" className={cn(style.opinionBtn)} onClick={() => {
-                    setSize('커요')
-                  }}>커요</button>
+                    <button type="button" className={
+                      size === '커요'
+                      ? cn(style.opinionBtn, style.click)
+                      : cn(style.opinionBtn)
+                    } onClick={() => {
+                      setSize('커요')
+                    }}>커요</button>
+                  </div>
                 </div>
               </div>
 
@@ -159,11 +188,11 @@ function ShowReview({tall, weight, color, size, rate, content}) {
           <h3>{userId.length > 6 ? userId.slice(0, 7) : userId}</h3>
         </div>
         <ol className={cn(style.userInfo)}>
-          <li>
-            <span>키: </span><strong>{tall}</strong><span>cm</span>
+          <li className={cn(style.userInfoItem)}>
+            <span>{tall}cm / </span>
           </li>
-          <li>
-            <span>몸무게: </span><strong>{weight}</strong><span>kg</span>
+          <li className={cn(style.userInfoItem)}>
+            <span>{weight}kg</span>
           </li>
         </ol>
       </header>

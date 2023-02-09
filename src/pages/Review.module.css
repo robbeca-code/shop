@@ -1,0 +1,283 @@
+:root {
+  --point-color: #A38568;
+  --border-color: #e1e1e1;
+  --before-click: #bdbdbd;
+  --side-color: #a1a1a1;
+  --h2-color: #424242;
+  --review-color: #666666;
+}
+
+/*   Input Review Style   */
+.container {
+  width: 600px;
+  height: auto;
+  margin: 0 auto;
+}
+
+
+/*   Header   */
+.headerTitle {
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.headerTitle > .imgContainer {
+  width: 150px;
+  height: 150px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.imgContainer > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.prodInfo {
+  margin-left: 10px;
+}
+
+.prodInfo > h1 {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.prodInfo > strong {
+  font-size: 22px;
+}
+
+.closeBtn {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 10px;
+  right: 15px;
+}
+
+.closeBtn > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+
+/*   Form Style   */
+.formStyle {
+  padding: 40px 20px;
+}
+
+.userInfo {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 10px;
+  margin-bottom: 80px;
+}
+
+.inputStyle {
+  height: 45px;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 10px;
+}
+
+
+/*   ProdOpinion Buttons    */
+.prodOpinion {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+.opinionItem > h3 {
+  font-size: 15px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.btnContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 80px);
+  column-gap: 10px;
+  padding-top: 9px;
+}
+
+.opinionBtn {
+  border: 1px solid var(--before-click);
+  color: var(--before-click);
+  border-radius: 18px;
+  padding: 5px 0;
+  font-size: 14px;
+}
+
+.opinionBtn.click {
+  border-style: none;
+  background-color: var(--point-color);
+  color: #fff;
+}
+
+
+/*   Rate Style   */
+.userRate {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.userRate > span {
+  font-size: 15px;
+}
+
+.rateContainer {
+  display: grid;
+  grid-template-columns: repeat(5, 45px);
+  column-gap: 8px;
+  justify-content: center;
+  margin-top: 9px;
+}
+
+.rateBtn {
+  width: 100%;
+  height: 45px;
+}
+
+.rateBtn > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+
+/*   Write Review Style   */
+.userReview {
+  margin-bottom: 80px;
+  width: 100%;
+  height: 100px;
+}
+
+.textareaStyle {
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  resize: none;
+}
+
+
+/*   Submit Button   */
+.submitBtn {
+  width: 100%;
+  height: 45px;
+  border-radius: 12px;
+  background-color: var(--point-color);
+  color: #fff;
+  font-size: 16px;
+}
+
+
+
+
+/*   Show Review   */
+.reviewContainer {
+  width: 960px;
+  height: auto;
+  margin: 20px auto;
+  display: flex;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.reviewContainer > .headerTitle {
+  display: flex;
+  flex-direction: column;
+  border-style: none;
+  padding-bottom: 0;
+}
+
+.userProfile {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.userProfile > .imgContainer {
+  width: 72px;
+  height: 72px;
+  margin-right: 10px;
+}
+
+.userInfoItem > span {
+  color: var(--side-color);
+  font-size: 15px;
+}
+
+
+/*   Review Info   */
+.reviewInfo {
+  display: grid;
+  grid-template-columns: none;
+  grid-template-rows: 26px 57px 30px;
+  column-gap: 0;
+  row-gap: 20px;
+  justify-content: start;
+  margin: 0 0 0 50px;
+}
+
+.reviewInfo > .rateContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 5px;
+  margin-top: 0;
+}
+
+.rateImgContainer {
+  width: 18px;
+  height: 18px;
+}
+
+.rateImgContainer > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.rateContainer > strong {
+  font-size: 16px;
+  padding-left: 0;
+}
+
+.rateContainer > span {
+  font-size: 16px;
+  color: var(--side-color);
+  padding-left: 10px;
+}
+
+
+/*   Options Container   */
+.optionsContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 220px);
+  align-items: center;
+  place-items: center;
+  border: 2px dotted #cdcdcd;
+  border-radius: 12px;
+}
+
+.option {
+  font-size: 15px;
+}
+
+.option > span {
+  color: var(--review-color);
+}
+
+.option > strong {
+  color: var(--point-color);
+}
+
+.contentContainer {
+  font-size: 14px;
+}
