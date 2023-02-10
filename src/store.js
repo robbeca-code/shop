@@ -42,14 +42,35 @@ let login = createSlice({
   }
 });
 
+let cart = createSlice({
+  name: 'cart',
+  initialState: [],
+
+  reducers: {
+    inputCart(state, val) {
+      state.push(val.payload);
+    },
+
+    deleteCart(state, id) {
+      state.forEach((item, index) => {
+        if(item.id === id.payload) {
+          state.splice(index, 1);
+        }
+      })
+    }
+  }
+});
+
 
 export let { setNavMenu } = navMenu.actions;
 export let { setId, setPass, setMbti, setLogin, setLogout} = login.actions;
+export let {inputCart, deleteCart} = cart.actions;
 
 
 export default configureStore({
   reducer: {
     navMenu: navMenu.reducer,
-    login: login.reducer
+    login: login.reducer,
+    cart: cart.reducer
   }
 });

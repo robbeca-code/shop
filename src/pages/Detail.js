@@ -1,14 +1,15 @@
 import React, { useState, useMemo, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import { useSelector } from 'react-redux';
+import { useSelector, useDispatch } from 'react-redux';
 import {dress, jacket, coat, shirt, jeans, trouser, jogger, pullover} from './shop-data.js';
 import style from './Detail.module.css';
 import cn from 'classnames';
 import Sidebar from './Sidebar.js';
 import WriteReview from './Review.js';
+import { inputCart } from '../store.js';
 
 function Detail() {
-
+  const dispatch = useDispatch();
   const kind = [dress, jacket, coat, shirt, jeans, trouser, jogger, pullover];
   let item = '';
   let {id} = useParams();
@@ -76,7 +77,7 @@ function Detail() {
           }
           </ul>
           
-          <strong>{item.cost.concat('원')}</strong>
+          <strong>{item.cost.toLocaleString('ko-KR')}원</strong>
 
           <dl className={cn(style.infoItem)}>
             <dt>배송</dt>
@@ -97,7 +98,7 @@ function Detail() {
 
           <div className={cn(style.finalCostContainer)}>
             <span>총 상품금액: </span>
-            <strong>{item.cost}</strong>
+            <strong>{item.cost.toLocaleString('ko-KR')}</strong>
             <span>원</span>
           </div>
 
@@ -105,7 +106,9 @@ function Detail() {
             <button type="button" className={cn(style.likeBtn)}>
               <img src="/public-assets/icons/likeBtn.png" alt="The Like button" />
             </button>
-            <button type="button" className={cn(style.saveBtn)}>
+            <button type="button" className={cn(style.saveBtn)} onClick={() => {
+              dispatch(inputCart({id: item.id, title: item.title, mainImg: item.mainImg[0].img, cost: item.cost}))
+            }}>
               장바구니 담기
             </button>
           </div>

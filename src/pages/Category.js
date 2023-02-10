@@ -2,9 +2,12 @@ import React from 'react';
 import style from './Category.module.css';
 import cn from 'classnames';
 import { Link } from 'react-router-dom';
+import { useDispatch } from 'react-redux';
 import Sidebar from './Sidebar';
+import { inputCart } from '../store';
 
 function Category({data, id}) {
+  const dispatch = useDispatch();
   
   return(
     <section className={cn(style.container)}>
@@ -33,12 +36,14 @@ function Category({data, id}) {
                       {item.title}
                     </h2>
                     <h4 className={cn(style.prodCost)}>
-                      {item.cost.concat('원')}
+                      {item.cost.toLocaleString('ko-KR')}원
                     </h4>
                   </div>
                 </Link>
                 
-                <button type="button" className={cn(style.cartBtn)}>
+                <button type="button" className={cn(style.cartBtn)} onClick={() => {
+                  dispatch(inputCart({id: item.id, title: item.title, mainImg: item.mainImg[0].img, cost: item.cost}))
+                }}>
                   <img src="/public-assets/icons/cartBtn.png" alt="The cart button" />
                 </button>
               </article>

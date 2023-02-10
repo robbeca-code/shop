@@ -29,8 +29,16 @@ function Sidebar() {
             : <ShowMyPage />
           }
   
-          <article className={cn(style.container, style.view)}>
-            <span className={cn(style.title)}>최근 본 상품</span>
+          <article className={cn(style.container)}>
+            <div className={cn(style.recentContainer)}>
+              <span className={cn(style.title)}>최근 본 상품</span>
+              <div className={cn(style.grid)}></div>
+            </div>
+
+            <div className={cn(style.cartContainer)}>
+              <Link to="/cart" className={cn(style.title)}>장바구니</Link>
+              <div className={cn(style.grid)}></div>
+            </div>
           </article>
   
           <article className={cn(style.container, style.category)}>

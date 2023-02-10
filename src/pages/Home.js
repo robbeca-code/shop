@@ -149,7 +149,6 @@ function UserRecommend({mbti}) {
     list.push(jogger.find(g => g.mbti.indexOf(mbti) > -1));
     list.push(pullover.find(p => p.mbti.indexOf(mbti) > -1));
   }, [mbti]);
-  console.log(list);
   
   return(
     list.map((item) => {
@@ -166,7 +165,7 @@ function UserRecommend({mbti}) {
               {item.theme[1]}
             </span>
             <span>{item.title}</span>
-            <h4>{item.cost.concat('원')}</h4>
+            <h4>{item.cost.toLocaleString('ko-KR')}원</h4>
           </div>
         </Link>
       );
@@ -193,7 +192,7 @@ function ThemeRecommend({kind1, kind2, kind3, kind4, title}) {
               {title}
             </span>
             <span>{item.title}</span>
-            <h4>{item.cost.concat('원')}</h4>
+            <h4>{item.cost.toLocaleString('ko-KR')}원</h4>
           </div>
         </Link>
       );
