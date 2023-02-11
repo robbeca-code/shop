@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import style from './Cart.module.css';
 import cn from 'classnames';
 import Sidebar from './Sidebar';
@@ -8,34 +8,13 @@ import { deleteCart } from '../store';
 function Cart() {
   const cart = useSelector(state => (state.cart));
   const dispatch = useDispatch();
-  let reset = [];
-  reset.length = cart.length;
-  reset.fill(true);
-  let resultCost = 0;
-  cart.forEach(item => {
-    resultCost += item.cost;
-  })
-  let [click, setClick] = useState(reset);
-  let [shippingFee, setShippingFee] = useState(2500 * cart.length);
-  let [result, setResult] = useState(resultCost);
 
-  const handleClickBtn = (index) => {
-    let copyClick = [...click];
-    copyClick[index] = !copyClick[index];
-    setClick(copyClick);
+  let result = 0;
+  cart.forEach(element => {
+    result += element.cost;
+  });
 
-    handleResultCost();
-  }
-
-  const handleResultCost = () => {
-    let cost = 0;
-    cart.forEach((item, i) => {
-      if(!click[i]) {
-        cost += cart[i].cost;
-      }
-    });
-    setResult(cost);
-  }
+  let shippingFee = 2500 * cart.length;
 
   return(
     <section className={cn(style.container)}>
@@ -51,14 +30,7 @@ function Cart() {
           cart.map((item, index) => {
             return(
               <article className={cn(style.cartContainer)} key={index}>
-                <button type="button" className={cn(style.clickBtn)} onClick={() => {handleClickBtn(index)}}>
-                  {
-                    !click[index]
-                    ? <img src="/public-assets/icons/checkBtn.png" alt="Unclicked check button" />
-                    : <img src="/public-assets/icons/clickCheckBtn.png" alt="Clicked check button" />
-                  }
-                </button>
-                <header className={cn(style.cartHedaer)}>
+                <header className={cn(style.cartHeader)}>
                   <div className={cn(style.imgContainer)}>
                     <img src={item.mainImg} alt={item.title} />
                   </div>
@@ -81,26 +53,30 @@ function Cart() {
         </div>
 
         <ol className={cn(style.resultContainer)}>
-          <li>
+          <li className={cn(style.item)}>
             <span>상품금액</span>
-            <strong>{result.toLocaleString('ko-KR')}</strong>원
+            <span>
+              <strong>{result.toLocaleString('ko-KR')}</strong>
+              원
+            </span>
           </li>
-          <li>
+          <li className={cn(style.item)}>
             <span>할인금액</span>
-            <strong>0</strong>원
+            <span><strong>0</strong>원</span>
           </li>
-          <li>
+          <li className={cn(style.item)}>
             <span>배송비</span>
-            <strong>{shippingFee}</strong>원
+            <span><strong>{shippingFee}</strong>원</span>
           </li>
-          <li className={cn(style.result)}>
+          <li className={cn(style.resultItem)}>
             <span>결제예정금액</span>
-            <strong>{(result + shippingFee).toLocaleString('ko-KR')}</strong>원
+            <span>
+              <strong className={cn(style.result)}>{(result + shippingFee).toLocaleString('ko-KR')}</strong>
+              원
+            </span>
           </li>
         </ol>
       </div>
-
-
     </section>
   );
 }
