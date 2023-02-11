@@ -4,6 +4,7 @@ import cn from 'classnames';
 import Sidebar from './Sidebar';
 import { useDispatch, useSelector } from 'react-redux';
 import { deleteCart } from '../store';
+import { Link } from "react-router-dom";
 
 function Cart() {
   const cart = useSelector(state => (state.cart));
@@ -30,12 +31,12 @@ function Cart() {
           cart.map((item, index) => {
             return(
               <article className={cn(style.cartContainer)} key={index}>
-                <header className={cn(style.cartHeader)}>
+                <Link to={item.url} className={cn(style.cartHeader)}>
                   <div className={cn(style.imgContainer)}>
                     <img src={item.mainImg} alt={item.title} />
                   </div>
-                  <h3>{item.title}</h3>
-                </header>
+                  <h4>{item.title}</h4>
+                </Link>
                 
                 <span>1벌</span>
 

@@ -11,6 +11,7 @@ import { inputCart } from '../store.js';
 function Detail() {
   const dispatch = useDispatch();
   const kind = [dress, jacket, coat, shirt, jeans, trouser, jogger, pullover];
+  const userId = useSelector(state => (state.login.id));
   let item = '';
   let {id} = useParams();
   let [tab, setTab] = useState(0);
@@ -39,6 +40,16 @@ function Detail() {
         break;
     }
   }, [clickImg]);
+
+  const clickCartBtn = (item) => {
+    if(userId === '') {
+      alert('로그인을 해주세요.');
+      return;
+    }
+    else {
+      dispatch(inputCart({id: item.id, url: item.url, title: item.title, mainImg: item.mainImg[0].img, cost: item.cost}));
+    }
+  }
 
   return (
     <section className={cn(style.container)}>
@@ -106,9 +117,7 @@ function Detail() {
             <button type="button" className={cn(style.likeBtn)}>
               <img src="/public-assets/icons/likeBtn.png" alt="The Like button" />
             </button>
-            <button type="button" className={cn(style.saveBtn)} onClick={() => {
-              dispatch(inputCart({id: item.id, title: item.title, mainImg: item.mainImg[0].img, cost: item.cost}))
-            }}>
+            <button type="button" className={cn(style.saveBtn)} onClick={() => {clickCartBtn(item)}}>
               장바구니 담기
             </button>
           </div>

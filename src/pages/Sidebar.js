@@ -8,6 +8,7 @@ import { setNavMenu } from '../store';
 function Sidebar() {
   const login = useSelector(state => state.login.login);
   const navMenu = useSelector(state => state.navMenu);
+  const cart = useSelector(state => state.cart);
   const dispatch = useDispatch();
 
   if(!navMenu) {
@@ -29,15 +30,37 @@ function Sidebar() {
             : <ShowMyPage />
           }
   
-          <article className={cn(style.container)}>
+          <article className={cn(style.container, style.userRecord)}>
             <div className={cn(style.recentContainer)}>
               <span className={cn(style.title)}>최근 본 상품</span>
               <div className={cn(style.grid)}></div>
             </div>
 
             <div className={cn(style.cartContainer)}>
-              <Link to="/cart" className={cn(style.title)}>장바구니</Link>
-              <div className={cn(style.grid)}></div>
+              <Link to="/cart" className={cn(style.title)}>
+                <span>장바구니</span>
+                <div className={cn(style.moreBtn)}>
+                  <img src="/public-assets/icons/cartMoreBtn.png" alt="The cart more button" />
+                </div>
+              </Link>
+              <div className={cn(style.grid)}>
+                {
+                  cart.map(item => {
+                    return(
+                      <Link to={item.url} className={cn(style.cartItem)} key={item.id}>
+                        <div className={cn(style.imgContainer)}>
+                          <img src={item.mainImg} alt={item.title} />
+                        </div>
+                        <span>{
+                          item.title.length > 6
+                          ? item.title.slice(0, 6).concat('..')
+                          : item.title
+                        }</span>
+                      </Link>
+                    );
+                  })
+                }
+              </div>
             </div>
           </article>
   

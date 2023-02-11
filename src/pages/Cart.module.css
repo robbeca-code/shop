@@ -36,6 +36,7 @@
 .cartHeader {
   display: flex;
   align-items: center;
+  text-decoration: none;
 }
 
 .cartHeader > .imgContainer {
