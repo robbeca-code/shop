@@ -10,6 +10,8 @@ function Sidebar() {
   const navMenu = useSelector(state => state.navMenu);
   const cart = useSelector(state => state.cart);
   const dispatch = useDispatch();
+  const recent = JSON.parse(localStorage.getItem('recent'));
+  console.log(recent);
 
   if(!navMenu) {
     return null;
@@ -33,7 +35,19 @@ function Sidebar() {
           <article className={cn(style.container, style.userRecord)}>
             <div className={cn(style.recentContainer)}>
               <span className={cn(style.title)}>최근 본 상품</span>
-              <div className={cn(style.grid)}></div>
+              <div className={cn(style.grid)}>
+                {
+                  recent.map((item, i) => {
+                    return(
+                      <Link to={item.url} className={cn(style.recentItem)} key={i}>
+                        <div className={cn(style.imgContainer)}>
+                          <img src={item.img} alt="The recent product" />
+                        </div>
+                      </Link>
+                    );
+                  })
+                }
+              </div>
             </div>
 
             <div className={cn(style.cartContainer)}>
@@ -53,7 +67,7 @@ function Sidebar() {
                         </div>
                         <span>{
                           item.title.length > 6
-                          ? item.title.slice(0, 6).concat('..')
+                          ? item.title.slice(0, 5).concat('..')
                           : item.title
                         }</span>
                       </Link>

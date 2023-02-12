@@ -17,6 +17,7 @@ function Detail() {
   let [tab, setTab] = useState(0);
   let [clickImg, setClickImg] = useState(0);
 
+  // 현재 상품 정보 가져오기
   useMemo(() => {
     kind.forEach(k => {
       if(k.findIndex(k => k.id === id) > -1) {
@@ -25,8 +26,16 @@ function Detail() {
     });
   }, [kind]);
 
-  let [mainImg, setMainImg] = useState(item.mainImg[0].img);
+  // 현재 상품 정보 localStorage에 중복없이 저장하기
+  useMemo(() => {
+    let recent = JSON.parse(localStorage.getItem('recent'));
+    recent.push({img: item.mainImg[0].img, url: item.url});
+    let result = [...new Set(recent)];
+    localStorage.setItem('recent', JSON.stringify(result));
+    console.log(result);
+  }, [kind]);
 
+  // 메인 이미지를 클릭했을 때 보여줄 이미지 전달하기
   useEffect(() => {
     switch(clickImg) {
       case 0:
@@ -41,6 +50,10 @@ function Detail() {
     }
   }, [clickImg]);
 
+  // 처음 메인 이미지에 보여줄 이미지
+  let [mainImg, setMainImg] = useState(item.mainImg[0].img);
+
+  // 장바구니 버튼 눌렀을 때 실행될 내용
   const clickCartBtn = (item) => {
     if(userId === '') {
       alert('로그인을 해주세요.');

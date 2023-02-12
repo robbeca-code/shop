@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Routes, Route, Link } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { setNavMenu, setLogout } from './store';
@@ -13,6 +13,9 @@ import Cart from './pages/Cart';
 function App() {
   const login = useSelector(state => state.login.login);
   let dispatch = useDispatch();
+  useEffect(() => {
+    localStorage.setItem('recent', JSON.stringify([]));
+  }, []);
 
   return (
     <section className="relative">

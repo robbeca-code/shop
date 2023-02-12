@@ -41,7 +41,7 @@ function Category({data, id}) {
                   </div>
                   <div className={cn(style.prodInfo)}>
                     <span className={cn(style.theme)}>
-                      {item.theme[1]}
+                      {id}
                     </span>
                     <h2 className={cn(style.prodTitle)}>
                       {item.title}
