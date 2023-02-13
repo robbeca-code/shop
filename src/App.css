@@ -104,3 +104,71 @@ button {
 .sidebar {
   padding-top: 300px;
 }
+
+
+/*   Max-Width: 360px   */
+@media screen and (max-width:360px) {
+  .navContainer {
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    border-bottom: 1px solid rgb(239, 239, 239);
+    background-color: white;
+    z-index: 998;
+  }
+  
+  .navList {
+    padding: 0 17px;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 50px 7px;
+    align-items: center;
+  }
+  
+  .navItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navMenu {
+    width: 1.2rem;
+    height: 1.2rem;
+  }
+  
+  .navMenu > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  
+  .navLogo {
+    margin: 0 auto;
+    width: 100px;
+    height: auto;
+  }
+  
+  .navLogo > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  
+  .navSide {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navSide > .login {
+    padding-right: 0px;
+    display: inline-block;
+  }
+
+  .login > .link {
+    color: var(--themeInfo-color);
+  }
+  
+  .navSide > .category {
+    display: none;
+  }
+}

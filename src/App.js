@@ -43,27 +43,27 @@ function App() {
                 }
                 
               </li>
-              <li>
+              <li className="category">
                 <Link to="/shop/dress" className="link">
                   원피스
                 </Link>
               </li>
-              <li>
+              <li className="category">
                 <Link to="/shop/pullover" className="link">
                   맨투맨
                 </Link>
               </li>
-              <li>
+              <li className="category">
                 <Link to="/shop/shirt" className="link">
                   셔츠
                 </Link>
               </li>
-              <li>
+              <li className="category">
                 <Link to="/shop/entj" className="link">
                   ENTJ룩
                 </Link>
               </li>
-              <li>
+              <li className="category">
                 <Link to="/shop/home" className="link">
                   집콕룩
                 </Link>

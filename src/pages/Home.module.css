@@ -1,6 +1,6 @@
 :root {
   --point-color: #A38568;
-
+  --themeInfo-color: #5c5c5c;
 }
 
 .container {
@@ -166,4 +166,181 @@
 .cardInfo > h4 {
   font-size: 20px;
   margin-top: 5px;
+}
+
+
+/*   Max-Width: 360px   */
+@media screen and (max-width: 360px) {
+  /*   Slide   */
+  .container {
+    padding-top: 80px;
+  }
+  
+  
+  .slideContainer {
+    position: relative;
+    height: 200px;
+    overflow: hidden;
+  }
+  
+  .slideBtn {
+    width: 20px;
+    height: 25px;
+    overflow: hidden;
+    position: absolute;
+    z-index: 899;
+  }
+  
+  .slideBtn > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  
+  .prevBtn {
+    left: 17px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .nextBtn {
+    right: 17px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .slideImgContainer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .slideImgContainer > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+  /*   Banner   */
+  .banner {
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: 326px;
+    row-gap: 10px;
+    place-content: center;
+  }
+
+  .banner > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+
+  /*   Recommend   */
+  .recommend {
+    padding: 50px 17px 0;
+    margin: 0;
+    width: 360px;
+  }
+
+  .recommend > h1 {
+    font-size: 19px;
+    text-align: left;
+    font-weight: 400;
+  }
+
+  .recommend > .header {
+    display: flex;
+    padding-top: 25px;
+    justify-content: space-between;
+  }
+
+  .header > .imgContainer {
+    width: 600px;
+    height: auto;
+    overflow: hidden;
+    display: none;
+  }
+
+  .themeInfo {
+    font-size: 15px;
+    letter-spacing: 0.2px;
+    color: var(--themeInfo-color);
+    width: 300px;
+    margin-bottom: 7px;
+  }
+
+  .themeInfo > .title {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: var(--point-color);
+  }
+
+  .recommend > .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 147px);
+    column-gap: 8px;
+    row-gap: 30px;
+    place-content: start;
+    padding-top: 10px;
+  }
+
+  .moreBtn {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: #8d8d8d;
+    border-radius: 6px;
+    border: 1px solid #d8d8d8;
+    width: 159px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 13px;
+    margin: 50px auto 90px;
+  }
+
+
+  /*   Cart Container   */
+  .cardContainer {
+    text-decoration: none;
+  }
+  
+  .cardContainer > .imgContainer {
+    width: 100%;
+    height: 180px;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .imgContainer > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .cardInfo {
+    margin-top: 10px;
+  }
+  
+  .cardInfo > .kindInfo {
+    font-size: 13px;
+    height: 100%;
+    padding-bottom: 3px;
+    color: var(--point-color);
+  }
+  
+  .cardInfo > span {
+    font-size: 15px;
+    display: block;
+    height: 65px;
+  }
+  
+  .cardInfo > h4 {
+    font-size: 18px;
+    margin-top: 0px;
+  }
 }

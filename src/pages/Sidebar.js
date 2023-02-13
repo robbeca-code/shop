@@ -11,7 +11,6 @@ function Sidebar() {
   const cart = useSelector(state => state.cart);
   const dispatch = useDispatch();
   const recent = JSON.parse(localStorage.getItem('recent'));
-  console.log(recent);
 
   if(!navMenu) {
     return null;

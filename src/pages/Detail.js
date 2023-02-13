@@ -32,7 +32,6 @@ function Detail() {
     recent.push({img: item.mainImg[0].img, url: item.url});
     let result = [...new Set(recent)];
     localStorage.setItem('recent', JSON.stringify(result));
-    console.log(result);
   }, [kind]);
 
   // 메인 이미지를 클릭했을 때 보여줄 이미지 전달하기
