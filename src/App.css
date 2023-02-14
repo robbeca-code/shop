@@ -119,6 +119,7 @@ button {
   
   .navList {
     padding: 0 17px;
+    width: 360px;
     height: 100%;
     display: grid;
     grid-template-rows: 50px 7px;

@@ -44,7 +44,11 @@ function Category({data, id}) {
                       {id}
                     </span>
                     <h2 className={cn(style.prodTitle)}>
-                      {item.title}
+                    {
+                      item.title.length > 25
+                      ? item.title.slice(0, 25).concat('...')
+                      : item.title
+                    }
                     </h2>
                     <h4 className={cn(style.prodCost)}>
                       {item.cost.toLocaleString('ko-KR')}원
