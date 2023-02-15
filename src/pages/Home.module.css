@@ -171,12 +171,12 @@
 
 /*   Max-Width: 360px   */
 @media screen and (max-width: 360px) {
-  /*   Slide   */
   .container {
     padding-top: 80px;
   }
+
   
-  
+  /*   Slide   */
   .slideContainer {
     position: relative;
     height: 200px;
@@ -282,8 +282,8 @@
 
   .recommend > .grid {
     display: grid;
-    grid-template-columns: repeat(2, 147px);
-    column-gap: 8px;
+    grid-template-columns: repeat(2, 158px);
+    column-gap: 10px;
     row-gap: 30px;
     place-content: start;
     padding-top: 15px;

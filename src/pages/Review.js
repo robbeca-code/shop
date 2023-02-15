@@ -28,7 +28,7 @@ function WriteReview({setReviewBtn, item}) {
                   ? item.title.slice(0, 21).concat('...')
                   : item.title}
                 </h1>
-                <strong>{item.cost.concat('원')}</strong>
+                <strong>{item.cost.toLocaleString('ko-KR')}원</strong>
               </div>
               
               <button type="button" className={cn(style.closeBtn)} onClick={() => { setReviewBtn(false) }}>
@@ -37,7 +37,6 @@ function WriteReview({setReviewBtn, item}) {
             </header>
 
             <form className={cn(style.formStyle)}>
-              <h2></h2>
               <div className={cn(style.userInfo)}>
                 <input type="text" className={cn(style.inputStyle)} placeholder="키를 입력해주세요" onChange={(e) => {
                   setTall(e.target.value)
@@ -187,7 +186,7 @@ function ShowReview({tall, weight, color, size, rate, content}) {
           </div>
           <h3>{userId.length > 6 ? userId.slice(0, 7) : userId}</h3>
         </div>
-        <ol className={cn(style.userInfo)}>
+        <ol className={cn(style.userInfoList)}>
           <li className={cn(style.userInfoItem)}>
             <span>{tall}cm / </span>
           </li>
