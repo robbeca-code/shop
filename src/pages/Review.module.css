@@ -1,12 +1,3 @@
-:root {
-  --point-color: #A38568;
-  --border-color: #e1e1e1;
-  --before-click: #bdbdbd;
-  --side-color: #a1a1a1;
-  --h2-color: #424242;
-  --review-color: #666666;
-}
-
 /*   Input Review Style   */
 .container {
   width: 600px;

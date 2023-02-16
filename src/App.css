@@ -1,5 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
 
+:root {
+  --point-color: #A38568;
+  --dt-color: #666666;
+  --dd-color: #333333;
+  --tab-background-color: #FAFAFA;
+  --tab-border-color: #EEEEEE;
+  --prod-info-color: #595858;
+  --info-color: #b5b5b5;
+  --themeInfo-color: #5c5c5c;
+  --border-color: #e1e1e1;
+  --before-click: #bdbdbd;
+  --side-color: #a1a1a1;
+  --h2-color: #424242;
+  --review-color: #666666;
+  --background-color: #fff;
+  --menu-items-color: #555;
+}
+
 * {
   padding: 0;
   margin: 0;
