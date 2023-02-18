@@ -17,6 +17,13 @@ function Home() {
       </aside>
       <Slide />
 
+      <Link to="/search" className={cn(style.searchBox)}>
+        <h3>검색어를 입력해주세요.</h3>
+        <button type="button" className={cn(style.searchBtn)}>
+          <img src="/public-assets/icons/searchBtn.png" alt="The search button" />
+        </button>
+      </Link>
+
       <article className={cn(style.recommend)}>
         <h1>고객님<span className={cn(style.point)}>의 취향저격 상품</span></h1>
         <div className={cn(style.grid)}>

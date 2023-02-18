@@ -8,6 +8,7 @@ import Home from './pages/Home';
 import SelectCategory from './pages/SelectCategory';
 import Login from './pages/Login';
 import Cart from './pages/Cart';
+import Search from './pages/Search';
 
 
 function App() {
@@ -78,6 +79,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/cart" element={<Cart />} />
+        <Route path="/search" element={<Search />} />
         <Route path="/shop/:id" element={<SelectCategory />} />
         <Route path="/shop/view/:id" element={<Detail />} />
       </Routes>
