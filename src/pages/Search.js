@@ -56,16 +56,16 @@ function ShowResult({result}) {
     return(
       result.map((item) => {
         return(
-          <Link to={item.url} className={cn(style.item)} key={item.id}>
+          <Link to={item.url} className={cn(style.resultItem)} key={item.id}>
             <div className={cn(style.imgContainer)}>
               <img src={item.mainImg[0].img} alt={item.title} />
             </div>
             <div className={cn(style.itemInfo)}>
               <span className={cn(style.kindInfo)}>
-                {item.theme[1]}
+                {item.theme[0]}
               </span>
-              <span>{item.title}</span>
-              <h4>{item.cost.toLocaleString('ko-KR')}원</h4>
+              <span className={cn(style.title)}>{item.title}</span>
+              <h4 className={cn(style.cost)}>{item.cost.toLocaleString('ko-KR')}원</h4>
             </div>
           </Link>
         );

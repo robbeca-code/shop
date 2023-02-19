@@ -1,3 +1,105 @@
+.container {
+  width: 1030px;
+  height: auto;
+  padding: 150px 0 50px;
+  margin: 0 auto;
+}
+
+.inputContainer {
+  width: 100%;
+  height: 60px;
+  position: relative;
+}
+
+.search {
+  width: 100%;
+  height: 100%;
+  padding: 0 10px;
+  border-style: none;
+  background-color: #fff;
+  border: 1px solid var(--point-color);
+  border-radius: 8px;
+  font-size: 17px;
+}
+
+.searchBtn {
+  width: 33px;
+  height: 33px;
+  position: absolute;
+  top: 12px;
+  right: 10px;
+}
+
+.searchBtn > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.infoTitle {
+  margin-top: 50px;
+  text-align: center;
+  color: var(--side-color);
+  position: absolute;
+  top: 220px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+/*   Show Result   */
+.resultList {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 20px;
+  row-gap: 20px;
+  margin-top: 110px;
+}
+
+.resultItem {
+  width: 100%;
+  height: 400px;
+  text-decoration: none;
+}
+
+.imgContainer {
+  width: 100%;
+  height: 280px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.imgContainer > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.itemInfo {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4px;
+}
+
+.kindInfo {
+  font-size: 14px;
+  color: var(--point-color);
+}
+
+.title {
+  font-size: 16px;
+  display: block;
+  height: 50px;
+}
+
+.cost {
+  font-size: 20px;
+}
+
+
+/*   Max-Width: 360px   */
 @media screen and (max-width: 360px) {
   .container {
     width: 360px;
@@ -16,7 +118,6 @@
     height: 100%;
     padding: 0 10px;
     border-style: none;
-    /* background-color: var(--border-color); */
     background-color: #fff;
     border: 1px solid var(--point-color);
     border-radius: 8px;
@@ -40,6 +141,7 @@
   .infoTitle {
     margin-top: 50px;
     text-align: center;
+    color: var(--side-color);
     position: absolute;
     top: 120px;
     left: 50%;
@@ -54,8 +156,46 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 10px;
-    row-gap: 30px;
+    row-gap: 50px;
     margin-top: 50px;
-    position: static;
+  }
+
+  .resultItem {
+    width: 100%;
+    height: 280px;
+    text-decoration: none;
+  }
+
+  .imgContainer {
+    width: 100%;
+    height: 180px;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  .imgContainer > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .itemInfo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4px;
+  }
+
+  .kindInfo {
+    color: var(--point-color);
+  }
+
+  .title {
+    font-size: 16px;
+    display: block;
+    height: 70px;
+  }
+
+  .cost {
+    font-size: 18px;
   }
 }

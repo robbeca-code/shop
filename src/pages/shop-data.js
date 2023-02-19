@@ -232,7 +232,7 @@ let dress = [
         img: '/public-assets/dress/d41-3.png'
       }
     ],
-    title: '은은한 수채화 플라워패턴과 랩디자인의 언발셔링 요루쉬폰 A라인 미니 원피스',
+    title: '수채화 플라워패턴과 언발셔링 요루쉬폰 A라인 미니 원피스',
     cost: 52800,
     content: {
       md: `수채화처럼 곱게 물든 색감...♥
