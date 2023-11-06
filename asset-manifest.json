@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/robbeca-code/shop/static/css/main.d51ae306.css",
-    "main.js": "/robbeca-code/shop/static/js/main.50381cda.js",
+    "main.js": "/robbeca-code/shop/static/js/main.ad7b07a2.js",
     "static/js/787.23170c61.chunk.js": "/robbeca-code/shop/static/js/787.23170c61.chunk.js",
     "index.html": "/robbeca-code/shop/index.html",
     "main.d51ae306.css.map": "/robbeca-code/shop/static/css/main.d51ae306.css.map",
-    "main.50381cda.js.map": "/robbeca-code/shop/static/js/main.50381cda.js.map",
+    "main.ad7b07a2.js.map": "/robbeca-code/shop/static/js/main.ad7b07a2.js.map",
     "787.23170c61.chunk.js.map": "/robbeca-code/shop/static/js/787.23170c61.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d51ae306.css",
-    "static/js/main.50381cda.js"
+    "static/js/main.ad7b07a2.js"
   ]
 }
